@@ -4,10 +4,17 @@
 
 <div align="center">
 
+[![English](https://img.shields.io/badge/🇬🇧_English-7C3AED?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
+[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-1A1A38?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
+
+</div>
+
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
 [![Medium](https://img.shields.io/badge/Medium-6366F1?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@AysenurYldz)
-[![Email](https://img.shields.io/badge/Email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Location](https://img.shields.io/badge/Bursa,_Türkiye-22D3EE?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aysenuryldz.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=0A0918)](mailto:aysenur.yildiz.2905@gmail.com)
 
 </div>
 
@@ -15,9 +22,9 @@
 
 ## Hi, I'm Ayşenur 👋
 
-I am an **AI Engineer** who also builds the product around the model.
+**I train the model — and build the product around it.**
 
-Most of my day is spent on **computer vision, OCR and NLP** — but a model that never leaves the notebook is not a product, so I also write the **Next.js / Node.js** layer that serves it and the **Flutter** app that carries it to a phone. That full-stack half is deliberate: it is what lets me take a project from raw data all the way to something a citizen or a customer actually opens.
+Most of my day is spent on **computer vision, OCR and NLP**. But a model that never leaves the notebook is not a product, so I also write the **Next.js / Node.js** layer that serves it and the **Flutter** app that carries it to a phone. That full-stack half is deliberate: it is what lets me take a project from raw data all the way to something a citizen or a customer actually opens.
 
 Right now I lead the **AI team at Birsav Bilişim** and I am doing my **M.Sc. in Computer Engineering at Bursa Technical University**, focused on deep learning and computer vision.
 
@@ -29,6 +36,26 @@ building:  OCR document analysis · real-time detection · chatbots · anomaly d
 shipping:  Next.js · Node.js · Flutter · Docker · Triton · ONNX
 open_to:   AI engineering roles, research collaboration, open source
 ```
+
+---
+
+## 🔄 How a project actually reaches someone
+
+<div align="center">
+  <img src="./assets/pipeline.svg" alt="Data → Model → Service → Product" width="100%" />
+</div>
+
+Plenty of people can do one of these four boxes well. What I enjoy is owning the whole row — because the interesting problems usually live in the seams between them: the label schema that makes training tractable, the preprocessing that has to match at inference time, the latency budget that decides your architecture, the mobile screen that has to make a confidence score mean something to a human being.
+
+---
+
+## ⚡ Currently
+
+- 🧠 Leading the AI team at **Birsav Bilişim** — OCR document analysis, citizen-facing chatbots, anomaly detection and tracking
+- 🏛️ Technical lead on the AI side of **Biryerden**, a smart-municipality platform in production
+- 🎓 Researching deep learning and computer vision for my **M.Sc. at Bursa Technical University**
+- ✍️ Writing about AI on [Medium](https://medium.com/@AysenurYldz)
+- 💬 Happy to talk about **YOLO in production, OCR pipelines, LSTM sequence models, or serving models with Triton**
 
 ---
 
@@ -49,13 +76,17 @@ open_to:   AI engineering roles, research collaboration, open source
 
 **Team captain**, ForesighTech. A YOLO-based system that finds a **safe landing zone for a UAV in real time**, telling humans, animals and vehicles apart in the landing area.
 
+*Owned YOLO training and optimisation, plus project planning for the team.*
+
 </td>
 <td width="33%" valign="top">
 
 ### 🔬 TÜBİTAK 2209-A
 **Funded research project**
 
-An **LSTM model that reads sign language from video and turns it into text** — built end to end, from data collection through training to error analysis. Also my undergraduate thesis.
+An **LSTM model that reads sign language from video and translates it into text** — built to make everyday interaction easier for the hearing impaired.
+
+*Ran it end to end: data collection, preprocessing, training, error analysis. Also my undergraduate thesis.*
 
 </td>
 <td width="33%" valign="top">
@@ -63,7 +94,9 @@ An **LSTM model that reads sign language from video and turns it into text** —
 ### 🩺 Teknofest 2022
 **Finalist** — AI in Healthcare
 
-AI developer on a YOLO model that detects **6 different conditions from abdominal imaging**, covering model development, preprocessing and performance analysis.
+A YOLO model that automatically detects **six different conditions plus the healthy case from abdominal imaging**.
+
+*Worked on model development, data preprocessing and performance analysis.*
 
 </td>
 </tr>
@@ -173,7 +206,7 @@ The preprocessing toolbox behind the detection work: filtering, transforms, thre
 <td width="50%" valign="top">
 
 #### 🎮 [Deep Reinforcement Learning](https://github.com/AysenurYldz/Derin-Pekistirmeli-Ogrenme---Final)
-Deep RL agents, plus a [Q-learning taxi environment](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi) built from scratch to show the algorithm step by step.
+Deep RL agents, plus a [Q-learning taxi environment](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi) built from scratch to show the algorithm one step at a time.
 
 `Deep RL` `Q-Learning` `Gym`
 
@@ -215,72 +248,11 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 | | |
 |---|---|
 | **M.Sc. Computer Engineering** — Bursa Technical University | 2025 – present |
-| **B.Sc. Computer Engineering** — Sakarya University of Applied Sciences | 2020 – 2024 |
 | **AI Engineer & Team Lead** — Birsav Bilişim | 2025 – present |
+| **SEO Engineer** — Gini Talent | 2024 – 2025 |
 | **AI Engineer (R&D)** — Özdilek Ev Tekstil | 2024 |
+| **B.Sc. Computer Engineering** — Sakarya University of Applied Sciences | 2020 – 2024 |
 | **Intern Engineer** — Martur Fompak International · Novelty AI Technologies | 2022 – 2024 |
-
----
-
-<details>
-<summary><b>🇹🇷 Türkçe — hakkımda, projelerim ve deneyimim</b></summary>
-
-<br>
-
-## Merhaba, ben Ayşenur 👋
-
-Ürünün kendisini de kuran bir **Yapay Zekâ Mühendisiyim**.
-
-Günümün büyük bölümü **görüntü işleme, OCR ve doğal dil işleme** üzerinde geçiyor — ama not defterinden çıkmayan bir model ürün değildir. Bu yüzden modeli servis eden **Next.js / Node.js** katmanını ve onu telefona taşıyan **Flutter** uygulamasını da ben yazıyorum. Full stack tarafı bilinçli bir tercih: bir projeyi ham veriden, vatandaşın ya da müşterinin gerçekten açtığı bir ekrana kadar götürmemi sağlayan şey bu.
-
-Şu anda **Birsav Bilişim'de yapay zekâ ekibinin teknik liderliğini** yürütüyor, **Bursa Teknik Üniversitesi'nde Bilgisayar Mühendisliği yüksek lisansımı** derin öğrenme ve bilgisayarlı görü odağında sürdürüyorum.
-
-### 🏆 Öne çıkanlar
-
-- **Teknofest 2023 — Ulaşımda Yapay Zekâ, Türkiye 3.'sü.** ForesighTech takım kaptanı olarak, İHA'ların güvenli iniş alanını gerçek zamanlı belirleyen; iniş bölgesindeki insan, hayvan ve kara taşıtlarını anlık ayırt eden YOLO tabanlı sistemi geliştirdim.
-- **TÜBİTAK 2209-A destekli araştırma projesi.** İşaret dili hareketlerini videodan analiz edip metne çeviren LSTM tabanlı bir derin öğrenme modeli — veri toplamadan hata analizine kadar uçtan uca. Aynı zamanda lisans bitirme tezim.
-- **Teknofest 2022 — Sağlıkta Yapay Zekâ, Finalist.** Abdomen görüntülerinden 6 farklı hastalığı ve sağlıklı durumu tespit eden YOLO tabanlı modelde geliştirici olarak yer aldım.
-
-### 🧭 Çalıştığım alanlar
-
-| Alan | Neler yapıyorum |
-|---|---|
-| **Uygulamalı Yapay Zekâ** | Bilgisayarlı görü, OCR boru hatları, YOLO ile gerçek zamanlı nesne tespiti, NLP ve chatbot geliştirme, anomali tespiti, LSTM dizi modelleri |
-| **Full Stack Geliştirme** | Node.js ve Next.js ile uçtan uca web ürünleri, ön yüz ve arka uç, yapay zekâ servislerinin REST API entegrasyonları |
-| **Üretime Alma** | Docker ile konteynerleştirme, NVIDIA Triton / ONNX ile servisleştirme, Azure, Flutter ile iOS & Android'e taşıma |
-
-### 💼 Deneyim
-
-- **Yapay Zekâ Mühendisi & Ekip Lideri** — Birsav Bilişim *(2025 – devam ediyor)*
-  Proje planlama, teknik karar süreçleri ve müşteri sunumları; OCR tabanlı belge analizi, chatbot sistemleri, anomali tespiti; **Biryerden** akıllı belediyecilik platformunun yapay zekâ tarafının teknik liderliği.
-- **Yapay Zekâ Mühendisi (Ar-Ge)** — Özdilek Ev Tekstil *(2024)*
-  Tekstil sektörüne yönelik derin öğrenme ve görüntü işleme projeleri; veri etiketleme, model geliştirme, Docker ile servisleştirme.
-- **SEO Mühendisi** — Gini Talent *(2024 – 2025)*
-- **Stajyer Mühendis** — Martur Fompak International *(2024)* · Novelty Yapay Zekâ Teknolojileri *(2022)*
-
-### 🎓 Eğitim
-
-- **Bilgisayar Mühendisliği, Yüksek Lisans** — Bursa Teknik Üniversitesi *(2025 – devam ediyor)*
-- **Bilgisayar Mühendisliği, Lisans** — Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi *(2020 – 2024)*
-
-### 📌 Öne çıkan projeler
-
-| Proje | Açıklama |
-|---|---|
-| [CNN ile İşaret Dili Tanıma](https://github.com/AysenurYldz/CNN-ile-isaret-dili-tanima) | İşaret dili hareketlerinden metne çeviri — TÜBİTAK 2209-A araştırmamın uygulama tarafı |
-| [Meme Kanseri Sınıflandırma](https://github.com/AysenurYldz/Meme-Kanseri-Siniflandirma) | CNN, EfficientNet-B7, ResNet-50 ve VGG-19 mimarilerinin karşılaştırmalı analizi |
-| [Tarım Dronu — Pekiştirmeli Öğrenme](https://github.com/AysenurYldz/Drone-based-agricultural-field-observation---Reinforcement-Learning) | Tarla üzerinde rotasını kendi planlayan ve bitki sağlığını sınıflandıran drone simülasyonu |
-| [Triton Inference Server](https://github.com/AysenurYldz/Triton_Inference_Server) | Eğitilen modellerin üretim ortamında servisleştirilmesi |
-| [Kalp Atışı Anormallik Sınıflandırma](https://github.com/AysenurYldz/Kalp-Atislari-Anormalliklerin-Siniflandirilmasi) | Kalp atışı sinyalleri üzerinde anomali tespiti |
-| [Görüntü İşleme](https://github.com/AysenurYldz/GoruntuIsleme) | OpenCV ile filtreleme, dönüşümler, kenar ve kontur analizi |
-| [Derin Pekiştirmeli Öğrenme](https://github.com/AysenurYldz/Derin-Pekistirmeli-Ogrenme---Final) | Derin RL ajanları ve [Q-öğrenme taksi ortamı](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi) |
-| [RabbitMQ](https://github.com/AysenurYldz/RabbitMQ) | Python ile publisher/consumer mesajlaşma altyapısı |
-
-### 📫 İletişim
-
-[LinkedIn](https://linkedin.com/in/aysenuryildizz) · [Medium](https://medium.com/@AysenurYldz) · [aysenur.yildiz.2905@gmail.com](mailto:aysenur.yildiz.2905@gmail.com) · Bursa, Türkiye
-
-</details>
 
 ---
 
@@ -292,7 +264,7 @@ Open to AI engineering roles, research collaboration and open source.
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
 [![Email](https://img.shields.io/badge/Send_an_email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Medium](https://img.shields.io/badge/Read_on_Medium-22D3EE?style=for-the-badge&logo=medium&logoColor=0A0918)](https://medium.com/@AysenurYldz)
+[![Portfolio](https://img.shields.io/badge/See_the_portfolio-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=0A0918)](https://aysenuryldz.github.io/portfolio/)
 
 <br>
 
