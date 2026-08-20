@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Ayşenur Yıldız — AI Engineer and Full Stack Developer">
+  <title>Ayşenur Yıldız — AI Engineer &amp; Full Stack Developer</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0918"/>
+      <stop offset="52%" stop-color="#14113A"/>
+      <stop offset="100%" stop-color="#0A1030"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="55%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#8B7FE8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="340" rx="26"/>
+    </clipPath>
+
+    <style>
+      .n { animation: pulse 4.2s ease-in-out infinite; }
+      .n2 { animation-delay: .5s }  .n3 { animation-delay: 1s }
+      .n4 { animation-delay: 1.5s } .n5 { animation-delay: 2s }
+      .n6 { animation-delay: 2.5s } .n7 { animation-delay: 3s }
+      @keyframes pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+      .flow { stroke-dasharray: 5 9; animation: dash 3.6s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -56 } }
+      @media (prefers-reduced-motion: reduce) {
+        .n, .flow { animation: none }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <ellipse cx="1010" cy="60"  rx="380" ry="270" fill="url(#glowA)"/>
+    <ellipse cx="120"  cy="330" rx="360" ry="240" fill="url(#glowB)"/>
+    <ellipse cx="640"  cy="20"  rx="300" ry="170" fill="url(#glowC)"/>
+
+    <!-- neural graph -->
+    <g stroke-width="1.15" fill="none">
+      <g stroke="#7C6CE0" stroke-opacity="0.30">
+        <path d="M900 115 L1000 88"/>  <path d="M900 115 L1000 143"/> <path d="M900 115 L1000 198"/> <path d="M900 115 L1000 253"/>
+        <path d="M900 170 L1000 88"/>  <path d="M900 170 L1000 143"/> <path d="M900 170 L1000 198"/> <path d="M900 170 L1000 253"/>
+        <path d="M900 225 L1000 88"/>  <path d="M900 225 L1000 143"/> <path d="M900 225 L1000 198"/> <path d="M900 225 L1000 253"/>
+        <path d="M1000 88 L1100 115"/> <path d="M1000 88 L1100 170"/>  <path d="M1000 88 L1100 225"/>
+        <path d="M1000 143 L1100 115"/><path d="M1000 143 L1100 170"/> <path d="M1000 143 L1100 225"/>
+        <path d="M1000 198 L1100 115"/><path d="M1000 198 L1100 170"/> <path d="M1000 198 L1100 225"/>
+        <path d="M1000 253 L1100 115"/><path d="M1000 253 L1100 170"/> <path d="M1000 253 L1100 225"/>
+      </g>
+      <g stroke="url(#edge)" stroke-width="1.7" class="flow">
+        <path d="M900 170 L1000 143"/> <path d="M1000 143 L1100 115"/>
+        <path d="M900 225 L1000 198"/> <path d="M1000 198 L1100 170"/>
+        <path d="M900 115 L1000 253"/> <path d="M1000 253 L1100 225"/>
+      </g>
+    </g>
+
+    <g>
+      <g fill="#8B5CF6">
+        <circle class="n"    cx="900"  cy="115" r="7"/>
+        <circle class="n n2" cx="900"  cy="170" r="7"/>
+        <circle class="n n3" cx="900"  cy="225" r="7"/>
+      </g>
+      <g fill="#6366F1">
+        <circle class="n n4" cx="1000" cy="88"  r="6.5"/>
+        <circle class="n n5" cx="1000" cy="143" r="6.5"/>
+        <circle class="n n2" cx="1000" cy="198" r="6.5"/>
+        <circle class="n n6" cx="1000" cy="253" r="6.5"/>
+      </g>
+      <g fill="#38BDF8">
+        <circle class="n n3" cx="1100" cy="115" r="7"/>
+        <circle class="n n7" cx="1100" cy="170" r="7"/>
+        <circle class="n n5" cx="1100" cy="225" r="7"/>
+      </g>
+      <g fill="none" stroke="#C4B5FD" stroke-opacity="0.35" stroke-width="1">
+        <circle cx="900" cy="170" r="13"/>
+        <circle cx="1100" cy="170" r="13"/>
+      </g>
+    </g>
+
+    <!-- text block -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="64" y="86" font-size="13" font-weight="600" letter-spacing="3.4" fill="#8C86C9">
+        BURSA, TÜRKİYE &#160;·&#160; M.Sc. COMPUTER ENGINEERING
+      </text>
+
+      <text x="64" y="150" font-size="55" font-weight="700" letter-spacing="0.5" fill="#F6F4FF">
+        AYŞENUR YILDIZ
+      </text>
+
+      <rect x="64" y="168" width="124" height="4.5" rx="2.25" fill="url(#accent)"/>
+
+      <text x="64" y="212" font-size="21.5" font-weight="600" letter-spacing="1.6">
+        <tspan fill="#A78BFA">AI ENGINEER</tspan><tspan fill="#4E4B7A">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#60A5FA">FULL STACK DEVELOPER</tspan>
+      </text>
+
+      <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#9A97C8">
+        Computer Vision &#160;·&#160; NLP &#160;·&#160; Deep Learning &#160;·&#160; YOLO &#160;·&#160; Next.js &#160;·&#160; Flutter &#160;·&#160; Docker
+      </text>
+
+      <g>
+        <rect x="64" y="272" width="278" height="33" rx="16.5" fill="#8B5CF6" fill-opacity="0.13" stroke="#8B5CF6" stroke-opacity="0.45"/>
+        <circle cx="83" cy="288.5" r="3.5" fill="#C4B5FD"/>
+        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#CFC3FF">
+          TEKNOFEST 2023 &#160;·&#160; 3rd PLACE IN TÜRKİYE
+        </text>
+      </g>
+
+      <g>
+        <rect x="354" y="272" width="238" height="33" rx="16.5" fill="#3B82F6" fill-opacity="0.13" stroke="#3B82F6" stroke-opacity="0.45"/>
+        <circle cx="373" cy="288.5" r="3.5" fill="#93C5FD"/>
+        <text x="385" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#BBD5FF">
+          TÜBİTAK 2209-A RESEARCHER
+        </text>
+      </g>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#8B7FE8" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+</svg>
