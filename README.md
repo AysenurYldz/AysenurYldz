@@ -22,24 +22,22 @@
 
 ## Hi, I'm Ayşenur 👋
 
-**AI Engineer and Full Stack Developer — I do both, and the combination is the point.**
+I'm an **AI engineer** and a **full stack developer**. I work on both sides every week.
 
-I am one of the two team leads at **Birsav Bilişim**; every project in the company runs through one of us. I lead the **AI side of all of them** — computer vision, OCR, NLP, anomaly detection — and I lead our **private-sector projects end to end**, from the data model to the screen.
+I'm one of two team leads at **Birsav Bilişim**, and every project in the company goes through one of us. I run the AI side of all of them, and I take our private-sector projects end to end.
 
-The other half of my week has no model in it at all: **municipal mobile applications, sports and facility systems, HR platforms, community and entrepreneurship sites**, built with **Node.js and Next.js** on the web and **Flutter** on mobile.
+On the AI side I build OCR document analysis, real-time object detection with YOLO, chatbot systems and anomaly detection. On the product side I build municipal mobile apps with **Flutter**, and web platforms with **Node.js** and **Next.js** — sports and facility systems, HR systems, community sites. Most of that product work has no model in it.
 
-Knowing both halves is what lets me take a project from raw data — or from an empty repository — all the way to something a citizen or an employee actually opens on their phone.
-
-Alongside this I am doing my **M.Sc. in Computer Engineering at Bursa Technical University**, focused on deep learning and computer vision.
+I'm also doing an **M.Sc. in Computer Engineering at Bursa Technical University**, on deep learning and computer vision.
 
 ```yaml
 role:      AI Engineer  ·  Full Stack Developer
 team:      one of two team leads @ Birsav Bilişim
-scope:     the AI side of every company project · private-sector projects end to end
+scope:     AI on every company project · private-sector projects end to end
 studying:  M.Sc. Computer Engineering, Bursa Technical University
 ai_work:   OCR document analysis · real-time detection · chatbots · anomaly detection
 product:   municipal mobile apps · sports systems · HR platforms · community sites
-shipping:  Next.js · Node.js · Flutter · Docker · Triton · ONNX
+tools:     Next.js · Node.js · Flutter · Docker · Triton · ONNX
 open_to:   AI engineering roles, research collaboration, open source
 ```
 
@@ -47,7 +45,7 @@ open_to:   AI engineering roles, research collaboration, open source
 
 ## 🏗️ What I build at work
 
-Not all of it is AI. A large share of my week is product engineering for public- and private-sector clients, where I own the web and mobile side from schema to screen.
+Not all of my work is AI. A large part of it is product engineering for public- and private-sector clients, where I handle the web and mobile side myself.
 
 | | |
 |---|---|
@@ -56,29 +54,29 @@ Not all of it is AI. A large share of my week is product engineering for public-
 | 👥 **HR systems for the private sector** | Employee records, internal processes and reporting for company human-resources teams |
 | 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built on Next.js |
 
-*I do not name clients or products here — but the shape is consistent: real users, real deadlines, and a system that has to keep working long after launch.*
+*I don't name clients here. All of them are live systems with real users.*
 
 ---
 
-## 🔄 How a project actually reaches someone
+## 🔄 From data to product
 
 <div align="center">
   <img src="./assets/pipeline.svg" alt="Data → Model → Service → Product" width="100%" />
 </div>
 
-Plenty of people can do one of these four boxes well. What I enjoy is owning the whole row — because the interesting problems usually live in the seams between them: the label schema that makes training tractable, the preprocessing that has to match at inference time, the latency budget that decides your architecture, the mobile screen that has to make a confidence score mean something to a human being.
+I work across all four stages. In practice most of the difficulty sits between them: keeping preprocessing identical at training and inference time, fitting the model into a latency budget, and turning a confidence score into something a person can actually act on.
 
 ---
 
 ## ⚡ Currently
 
-- 🧭 Leading, as one of two team leads at **Birsav Bilişim**, the AI side of every project in the company and our private-sector work end to end
-- 🧠 Building OCR document analysis, citizen-facing chatbots, real-time detection and anomaly tracking
-- 📱 Shipping **municipal mobile apps in Flutter** and **web platforms in Next.js / Node.js** — sports and facility systems, HR systems, community sites
-- 🏛️ Among them **Biryerden**, our smart-municipality platform, in production
-- 🎓 Researching deep learning and computer vision for my **M.Sc. at Bursa Technical University**
+- 🧭 Team lead at **Birsav Bilişim** — one of two. I run the AI side of every project and take private-sector work end to end
+- 🧠 Building OCR document analysis, chatbots, real-time detection and anomaly tracking
+- 📱 Building municipal mobile apps in **Flutter**, and web platforms in **Next.js / Node.js**
+- 🏛️ **Biryerden**, our smart-municipality platform, is one of them
+- 🎓 M.Sc. research on deep learning and computer vision at **Bursa Technical University**
 - ✍️ Writing about AI on [Medium](https://medium.com/@AysenurYldz)
-- 💬 Happy to talk about **YOLO in production, OCR pipelines, Flutter–Node architecture, or serving models with Triton**
+- 💬 Ask me about YOLO in production, OCR pipelines, Flutter–Node architecture, or serving models with Triton
 
 ---
 
@@ -97,9 +95,7 @@ Plenty of people can do one of these four boxes well. What I enjoy is owning the
 ### 🥉 Teknofest 2023
 **3rd place in Türkiye** — AI in Transportation
 
-**Team captain**, ForesighTech. A YOLO-based system that finds a **safe landing zone for a UAV in real time**, telling humans, animals and vehicles apart in the landing area.
-
-*Owned YOLO training and optimisation, plus project planning for the team.*
+I was team captain of ForesighTech. We built a YOLO-based system that finds a safe landing zone for a UAV in real time, telling humans, animals and vehicles apart in the landing area. I trained and optimised the YOLO model and ran the project planning.
 
 </td>
 <td width="33%" valign="top">
@@ -107,9 +103,7 @@ Plenty of people can do one of these four boxes well. What I enjoy is owning the
 ### 🔬 TÜBİTAK 2209-A
 **Funded research project**
 
-An **LSTM model that reads sign language from video and translates it into text** — built to make everyday interaction easier for the hearing impaired.
-
-*Ran it end to end: data collection, preprocessing, training, error analysis. Also my undergraduate thesis.*
+An LSTM model that reads sign language from video and turns it into text, for hearing-impaired users. I ran the whole project: data collection, preprocessing, training and error analysis. It was also my undergraduate thesis.
 
 </td>
 <td width="33%" valign="top">
@@ -117,9 +111,7 @@ An **LSTM model that reads sign language from video and translates it into text*
 ### 🩺 Teknofest 2022
 **Finalist** — AI in Healthcare
 
-A YOLO model that automatically detects **six different conditions plus the healthy case from abdominal imaging**.
-
-*Worked on model development, data preprocessing and performance analysis.*
+A YOLO model that detects six different conditions plus the healthy case from abdominal imaging. I worked on model development, data preprocessing and performance analysis.
 
 </td>
 </tr>
@@ -177,7 +169,7 @@ A YOLO model that automatically detects **six different conditions plus the heal
 <td width="50%" valign="top">
 
 #### 🤟 [Sign Language Recognition — CNN](https://github.com/AysenurYldz/CNN-ile-isaret-dili-tanima)
-Gesture-to-text recognition from video. The applied side of my **TÜBİTAK 2209-A** research on accessibility for the hearing impaired.
+Sign language recognition from video, turning gestures into text. This is the applied part of my TÜBİTAK 2209-A research.
 
 `Python` `TensorFlow` `CNN` `LSTM` `OpenCV`
 
@@ -185,7 +177,7 @@ Gesture-to-text recognition from video. The applied side of my **TÜBİTAK 2209-
 <td width="50%" valign="top">
 
 #### 🩻 [Breast Cancer Classification](https://github.com/AysenurYldz/Meme-Kanseri-Siniflandirma)
-A benchmark of **CNN vs. EfficientNet-B7 vs. ResNet-50 vs. VGG-19** on medical imaging — architecture comparison, not just a single model.
+I compared CNN, EfficientNet-B7, ResNet-50 and VGG-19 on the same medical imaging dataset to see how the architectures differ.
 
 `PyTorch` `Transfer Learning` `Medical Imaging`
 
@@ -195,7 +187,7 @@ A benchmark of **CNN vs. EfficientNet-B7 vs. ResNet-50 vs. VGG-19** on medical i
 <td width="50%" valign="top">
 
 #### 🚁 [Agricultural Drone — Reinforcement Learning](https://github.com/AysenurYldz/Drone-based-agricultural-field-observation---Reinforcement-Learning)
-A simulated farming drone that plans its own route over a field and classifies plant health as it flies.
+A simulated farming drone that plans its own route over a field and classifies plant health while flying.
 
 `Python` `Reinforcement Learning` `Simulation`
 
@@ -203,7 +195,7 @@ A simulated farming drone that plans its own route over a field and classifies p
 <td width="50%" valign="top">
 
 #### ⚡ [Triton Inference Server](https://github.com/AysenurYldz/Triton_Inference_Server)
-Serving trained models as real production endpoints — the step between "it works on my machine" and "it works for users".
+Serving trained models as production endpoints, so they can be called by an application instead of run in a notebook.
 
 `Triton` `ONNX` `Docker` `MLOps`
 
@@ -213,7 +205,7 @@ Serving trained models as real production endpoints — the step between "it wor
 <td width="50%" valign="top">
 
 #### 💓 [Cardiac Arrhythmia Classification](https://github.com/AysenurYldz/Kalp-Atislari-Anormalliklerin-Siniflandirilmasi)
-Anomaly detection on heartbeat signals — spotting the irregular beat inside a long, mostly-normal series.
+Anomaly detection on heartbeat signals: finding the irregular beats in a long recording.
 
 `Python` `Anomaly Detection` `Signal Processing`
 
@@ -221,7 +213,7 @@ Anomaly detection on heartbeat signals — spotting the irregular beat inside a 
 <td width="50%" valign="top">
 
 #### 🖼️ [Image Processing with OpenCV](https://github.com/AysenurYldz/GoruntuIsleme)
-The preprocessing toolbox behind the detection work: filtering, transforms, thresholding, contour and edge analysis.
+Filtering, transforms, thresholding, contour and edge analysis — the preprocessing I use before detection work.
 
 `OpenCV` `Python` `Computer Vision`
 
@@ -231,7 +223,7 @@ The preprocessing toolbox behind the detection work: filtering, transforms, thre
 <td width="50%" valign="top">
 
 #### 🎮 [Deep Reinforcement Learning](https://github.com/AysenurYldz/Derin-Pekistirmeli-Ogrenme---Final)
-Deep RL agents, plus a [Q-learning taxi environment](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi) built from scratch to show the algorithm one step at a time.
+Deep RL agents, plus a [Q-learning taxi environment](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi) written from scratch.
 
 `Deep RL` `Q-Learning` `Gym`
 
@@ -239,7 +231,7 @@ Deep RL agents, plus a [Q-learning taxi environment](https://github.com/AysenurY
 <td width="50%" valign="top">
 
 #### 🐇 [RabbitMQ Messaging](https://github.com/AysenurYldz/RabbitMQ)
-Publisher/consumer messaging in Python — how asynchronous AI services actually talk to each other in production.
+Publisher and consumer messaging in Python, the pattern I use when services need to talk to each other asynchronously.
 
 `RabbitMQ` `Python` `Async`
 
@@ -249,7 +241,7 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 <div align="center">
 
-**Also in production, outside GitHub:** the AI side of every Birsav Bilişim project — OCR-based document analysis pipelines, citizen-facing chatbots, anomaly detection and tracking — together with our private-sector work and the **Biryerden** smart-municipality platform.
+**Also in production, outside GitHub:** OCR document analysis pipelines, citizen-facing chatbots, and anomaly detection and tracking systems — the AI side of every Birsav Bilişim project, plus our private-sector work and the **Biryerden** smart-municipality platform.
 
 </div>
 
@@ -292,9 +284,9 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 <div align="center">
 
-### 📫 Let's build something
+### 📫 Get in touch
 
-Open to AI engineering roles, research collaboration and open source.
+I'm open to AI engineering roles, research collaboration and open source work.
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
 [![Email](https://img.shields.io/badge/Send_an_email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
@@ -302,6 +294,6 @@ Open to AI engineering roles, research collaboration and open source.
 
 <br>
 
-<sub><i>From raw data to a screen someone actually opens.</i></sub>
+<sub><i>Bursa, Türkiye</i></sub>
 
 </div>

@@ -22,20 +22,18 @@
 
 ## Merhaba, ben Ayşenur 👋
 
-**Yapay Zekâ Mühendisi ve Full Stack Geliştirici — ikisini birden yapıyorum, mesele de tam olarak bu birleşim.**
+**Yapay zekâ mühendisiyim**, aynı zamanda **full stack geliştiriciyim**. İkisini de her hafta yapıyorum.
 
-**Birsav Bilişim**'deki iki ekip liderinden biriyim; şirketteki her proje ikimizden birinin üzerinden yürüyor. Hepsinin **yapay zekâ tarafını** ben yönetiyorum — bilgisayarlı görü, OCR, doğal dil işleme, anomali tespiti — ve **özel sektör projelerini uçtan uca**, veri modelinden ekrana kadar ben yürütüyorum.
+**Birsav Bilişim**'de iki ekip liderinden biriyim; şirketteki her proje ikimizden birinin üzerinden gidiyor. Hepsinin yapay zekâ tarafı bende, özel sektör projelerini de uçtan uca ben yürütüyorum.
 
-Haftamın diğer yarısında hiç model yok: **belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri** — web tarafında **Node.js ve Next.js**, mobilde **Flutter**.
+Yapay zekâ tarafında OCR ile belge analizi, YOLO ile gerçek zamanlı nesne tespiti, chatbot sistemleri ve anomali tespiti geliştiriyorum. Ürün tarafında **Flutter** ile belediye mobil uygulamaları, **Node.js** ve **Next.js** ile web platformları yazıyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri. Bu işlerin çoğunda model yok.
 
-İki tarafı da bilmek, bir projeyi ham veriden — ya da boş bir repodan — alıp vatandaşın veya bir çalışanın telefonunda gerçekten açtığı bir ekrana kadar götürmemi sağlıyor.
-
-Bunun yanında **Bursa Teknik Üniversitesi'nde Bilgisayar Mühendisliği yüksek lisansımı** derin öğrenme ve bilgisayarlı görü odağında sürdürüyorum.
+Bir yandan **Bursa Teknik Üniversitesi**'nde Bilgisayar Mühendisliği yüksek lisansı yapıyorum; derin öğrenme ve bilgisayarlı görü üzerine.
 
 ```yaml
 rol:       Yapay Zekâ Mühendisi  ·  Full Stack Geliştirici
 ekip:      İki ekip liderinden biri @ Birsav Bilişim
-kapsam:    Şirketteki her projenin yapay zekâ tarafı · özel sektör projeleri uçtan uca
+kapsam:    Her projenin yapay zekâ tarafı · özel sektör projeleri uçtan uca
 eğitim:    Bilgisayar Mühendisliği Yüksek Lisans, Bursa Teknik Üniversitesi
 yz_işi:    OCR belge analizi · gerçek zamanlı tespit · chatbot · anomali tespiti
 ürün_işi:  belediye mobil uygulamaları · spor sistemleri · İK platformları · topluluk siteleri
@@ -47,7 +45,7 @@ açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikl
 
 ## 🏗️ İş yerinde neler geliştiriyorum
 
-Hepsi yapay zekâ değil. Haftamın önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirmeyle geçiyor; buralarda web ve mobil tarafın tamamını veri şemasından ekrana kadar ben üstleniyorum.
+İşimin hepsi yapay zekâ değil. Önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirme; buralarda web ve mobil tarafı ben yürütüyorum.
 
 | | |
 |---|---|
@@ -56,29 +54,29 @@ Hepsi yapay zekâ değil. Haftamın önemli bir kısmı kamu ve özel sektör m�
 | 👥 **Özel sektör İK sistemleri** | Şirketlerin insan kaynakları ekipleri için personel kayıtları, iç süreçler ve raporlama |
 | 🌍 **Topluluk ve girişim platformları** | Next.js üzerine kurulu, Avrupa modeli kollektif girişim ve topluluk siteleri |
 
-*Burada müşteri veya ürün ismi vermiyorum — ama işin şekli hep aynı: gerçek kullanıcılar, gerçek teslim tarihleri ve yayına alındıktan çok sonra da çalışmaya devam etmesi gereken bir sistem.*
+*Müşteri ismi vermiyorum. Hepsi gerçek kullanıcısı olan, yayında sistemler.*
 
 ---
 
-## 🔄 Bir proje insana nasıl ulaşıyor
+## 🔄 Veriden ürüne
 
 <div align="center">
   <img src="./assets/pipeline-tr.svg" alt="Veri → Model → Servis → Ürün" width="100%" />
 </div>
 
-Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şey satırın tamamını üstlenmek — çünkü ilginç problemler genelde kutuların *arasındaki dikişlerde* yaşıyor: eğitimi mümkün kılan etiket şeması, çıkarım anında birebir eşleşmesi gereken ön işleme, mimariyi belirleyen gecikme bütçesi ve bir güven skorunu insan için anlamlı hale getirmek zorunda olan mobil ekran.
+Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarında kalıyor: ön işlemenin eğitimde ve çıkarımda birebir aynı olması, modelin gecikme bütçesine sığması, bir güven skorunun insanın karar verebileceği bir şeye dönüşmesi.
 
 ---
 
 ## ⚡ Şu anda
 
-- 🧭 **Birsav Bilişim**'deki iki ekip liderinden biri olarak şirketteki her projenin yapay zekâ tarafını, özel sektör projelerini ise uçtan uca yönetiyorum
-- 🧠 OCR belge analizi, vatandaşa yönelik chatbot'lar, gerçek zamanlı tespit ve anomali takibi geliştiriyorum
-- 📱 **Flutter ile belediye mobil uygulamaları** ve **Next.js / Node.js ile web platformları** çıkarıyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri
-- 🏛️ Bunların arasında üretimdeki akıllı belediyecilik platformumuz **Biryerden** de var
-- 🎓 **Bursa Teknik Üniversitesi** yüksek lisansımda derin öğrenme ve bilgisayarlı görü üzerine araştırma yapıyorum
+- 🧭 **Birsav Bilişim**'de ekip lideriyim — iki kişiden biri. Her projenin yapay zekâ tarafı bende, özel sektör işlerini uçtan uca yürütüyorum
+- 🧠 OCR belge analizi, chatbot, gerçek zamanlı tespit ve anomali takibi geliştiriyorum
+- 📱 **Flutter** ile belediye mobil uygulamaları, **Next.js / Node.js** ile web platformları yazıyorum
+- 🏛️ Akıllı belediyecilik platformumuz **Biryerden** bunlardan biri
+- 🎓 **Bursa Teknik Üniversitesi**'nde derin öğrenme ve bilgisayarlı görü üzerine yüksek lisans yapıyorum
 - ✍️ Yapay zekâ üzerine [Medium](https://medium.com/@AysenurYldz)'da yazıyorum
-- 💬 **Üretimde YOLO, OCR boru hatları, Flutter–Node mimarisi veya Triton ile model servisleştirme** konularını konuşmaktan keyif alırım
+- 💬 Üretimde YOLO, OCR boru hatları, Flutter–Node mimarisi, Triton ile model servisleştirme — bunları konuşalım
 
 ---
 
@@ -97,9 +95,7 @@ Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şe
 ### 🥉 Teknofest 2023
 **Türkiye 3.'sü** — Ulaşımda Yapay Zekâ
 
-**Takım kaptanı**, ForesighTech. İHA'ların **güvenli iniş alanını gerçek zamanlı belirleyen**; iniş bölgesindeki insan, hayvan ve kara taşıtlarını anlık ayırt eden YOLO tabanlı bir sistem.
-
-*YOLO mimarisinin eğitimi ve optimizasyonundan sorumluydum; ayrıca takımın proje planlamasını yürüttüm.*
+ForesighTech'te takım kaptanıydım. İHA'ların güvenli iniş alanını gerçek zamanlı bulan, iniş bölgesindeki insan, hayvan ve kara taşıtlarını ayırt eden YOLO tabanlı bir sistem geliştirdik. YOLO modelini ben eğittim ve optimize ettim, proje planlamasını da ben yürüttüm.
 
 </td>
 <td width="33%" valign="top">
@@ -107,9 +103,7 @@ Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şe
 ### 🔬 TÜBİTAK 2209-A
 **Destek almaya hak kazanan araştırma projesi**
 
-İşitme engellilerin günlük etkileşimini kolaylaştırmak için geliştirilen, **işaret dili hareketlerini videodan okuyup metne çeviren LSTM tabanlı bir model**.
-
-*Veri toplama, ön işleme, model eğitimi ve hata analizini uçtan uca yürüttüm. Aynı zamanda lisans bitirme tezim.*
+İşitme engelli kullanıcılar için, işaret dilini videodan okuyup metne çeviren LSTM tabanlı bir model. Projeyi baştan sona ben yürüttüm: veri toplama, ön işleme, eğitim ve hata analizi. Aynı zamanda lisans bitirme tezimdi.
 
 </td>
 <td width="33%" valign="top">
@@ -117,9 +111,7 @@ Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şe
 ### 🩺 Teknofest 2022
 **Finalist** — Sağlıkta Yapay Zekâ
 
-Abdomen görüntülerinden **altı farklı hastalığı ve sağlıklı durumu** otomatik tespit eden YOLO tabanlı bir model.
-
-*Model geliştirme, veri ön işleme ve performans analizi süreçlerinde çalıştım.*
+Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu tespit eden YOLO tabanlı bir model. Model geliştirme, veri ön işleme ve performans analizinde çalıştım.
 
 </td>
 </tr>
@@ -177,7 +169,7 @@ Abdomen görüntülerinden **altı farklı hastalığı ve sağlıklı durumu** 
 <td width="50%" valign="top">
 
 #### 🤟 [CNN ile İşaret Dili Tanıma](https://github.com/AysenurYldz/CNN-ile-isaret-dili-tanima)
-Videodan işaret dili hareketlerini metne çeviren tanıma sistemi. İşitme engelliler için erişilebilirlik üzerine **TÜBİTAK 2209-A** araştırmamın uygulama tarafı.
+Videodan işaret dilini okuyup metne çeviren tanıma sistemi. TÜBİTAK 2209-A araştırmamın uygulama tarafı.
 
 `Python` `TensorFlow` `CNN` `LSTM` `OpenCV`
 
@@ -185,7 +177,7 @@ Videodan işaret dili hareketlerini metne çeviren tanıma sistemi. İşitme eng
 <td width="50%" valign="top">
 
 #### 🩻 [Meme Kanseri Sınıflandırma](https://github.com/AysenurYldz/Meme-Kanseri-Siniflandirma)
-Tıbbi görüntüler üzerinde **CNN, EfficientNet-B7, ResNet-50 ve VGG-19** karşılaştırması — tek model demosu değil, mimari kıyaslaması.
+CNN, EfficientNet-B7, ResNet-50 ve VGG-19 mimarilerini aynı tıbbi görüntü veri seti üzerinde karşılaştırdım.
 
 `PyTorch` `Transfer Learning` `Tıbbi Görüntüleme`
 
@@ -195,7 +187,7 @@ Tıbbi görüntüler üzerinde **CNN, EfficientNet-B7, ResNet-50 ve VGG-19** kar
 <td width="50%" valign="top">
 
 #### 🚁 [Tarım Dronu — Pekiştirmeli Öğrenme](https://github.com/AysenurYldz/Drone-based-agricultural-field-observation---Reinforcement-Learning)
-Tarla üzerindeki rotasını kendi planlayan ve uçarken bitki sağlığını sınıflandıran drone simülasyonu.
+Tarla üzerindeki rotasını kendi planlayan, uçarken bitki sağlığını sınıflandıran drone simülasyonu.
 
 `Python` `Pekiştirmeli Öğrenme` `Simülasyon`
 
@@ -203,7 +195,7 @@ Tarla üzerindeki rotasını kendi planlayan ve uçarken bitki sağlığını s�
 <td width="50%" valign="top">
 
 #### ⚡ [Triton Inference Server](https://github.com/AysenurYldz/Triton_Inference_Server)
-Eğitilen modellerin gerçek üretim uç noktaları olarak servisleştirilmesi — "benim makinemde çalışıyor" ile "kullanıcıda çalışıyor" arasındaki adım.
+Eğitilen modelleri üretim uç noktası olarak servisleştirme; not defterinde çalıştırmak yerine uygulamadan çağrılabilir hale getirme.
 
 `Triton` `ONNX` `Docker` `MLOps`
 
@@ -213,7 +205,7 @@ Eğitilen modellerin gerçek üretim uç noktaları olarak servisleştirilmesi �
 <td width="50%" valign="top">
 
 #### 💓 [Kalp Atışı Anormallik Sınıflandırma](https://github.com/AysenurYldz/Kalp-Atislari-Anormalliklerin-Siniflandirilmasi)
-Uzun ve büyük ölçüde normal bir kalp atışı serisi içinde düzensiz atışı bulmak — anomali tespitinin klasik zor vakası.
+Kalp atışı sinyallerinde anomali tespiti: uzun bir kayıt içindeki düzensiz atışları bulma.
 
 `Python` `Anomali Tespiti` `Sinyal İşleme`
 
@@ -221,7 +213,7 @@ Uzun ve büyük ölçüde normal bir kalp atışı serisi içinde düzensiz atı
 <td width="50%" valign="top">
 
 #### 🖼️ [OpenCV ile Görüntü İşleme](https://github.com/AysenurYldz/GoruntuIsleme)
-Tespit çalışmalarının arkasındaki ön işleme araç kutusu: filtreleme, dönüşümler, eşikleme, kontur ve kenar analizi.
+Filtreleme, dönüşümler, eşikleme, kontur ve kenar analizi — tespit çalışmalarından önce kullandığım ön işleme adımları.
 
 `OpenCV` `Python` `Bilgisayarlı Görü`
 
@@ -231,7 +223,7 @@ Tespit çalışmalarının arkasındaki ön işleme araç kutusu: filtreleme, d�
 <td width="50%" valign="top">
 
 #### 🎮 [Derin Pekiştirmeli Öğrenme](https://github.com/AysenurYldz/Derin-Pekistirmeli-Ogrenme---Final)
-Derin RL ajanları ve algoritmayı adım adım gösteren, sıfırdan yazılmış bir [Q-öğrenme taksi ortamı](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi).
+Derin RL ajanları ve sıfırdan yazılmış bir [Q-öğrenme taksi ortamı](https://github.com/AysenurYldz/Taksi-Ortami-ile-Q-Ogrenme-Egitimi).
 
 `Derin RL` `Q-Learning` `Gym`
 
@@ -239,7 +231,7 @@ Derin RL ajanları ve algoritmayı adım adım gösteren, sıfırdan yazılmış
 <td width="50%" valign="top">
 
 #### 🐇 [RabbitMQ Mesajlaşma](https://github.com/AysenurYldz/RabbitMQ)
-Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin üretimde birbiriyle gerçekte nasıl konuştuğu.
+Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konuşması gerektiğinde kullandığım yapı.
 
 `RabbitMQ` `Python` `Async`
 
@@ -249,7 +241,7 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <div align="center">
 
-**GitHub dışında, üretimde:** Birsav Bilişim'deki her projenin yapay zekâ tarafı — OCR tabanlı belge analizi boru hatları, vatandaşa yönelik chatbot'lar, anomali tespiti ve takip sistemleri — bunun yanında özel sektör işlerimiz ve akıllı belediyecilik platformumuz **Biryerden**.
+**GitHub dışında, üretimde:** OCR belge analizi boru hatları, vatandaşa yönelik chatbot'lar, anomali tespiti ve takip sistemleri — Birsav Bilişim'deki her projenin yapay zekâ tarafı, özel sektör işlerimiz ve akıllı belediyecilik platformumuz **Biryerden**.
 
 </div>
 
@@ -292,7 +284,7 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <div align="center">
 
-### 📫 Birlikte bir şey kuralım
+### 📫 İletişim
 
 Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve açık kaynak projelere açığım.
 
@@ -302,6 +294,6 @@ Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve aç�
 
 <br>
 
-<sub><i>Ham veriden, birinin gerçekten açtığı bir ekrana.</i></sub>
+<sub><i>Bursa, Türkiye</i></sub>
 
 </div>
