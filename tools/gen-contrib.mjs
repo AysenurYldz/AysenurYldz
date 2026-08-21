@@ -25,11 +25,12 @@ const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
-// Profilin geri kalanıyla aynı koyu kart dili: koyu erik zemin, lila -> pudra rampa.
+// Beyaz kart, toz pembe ana renk. Rampa açıktan koyuya gider ki yoğunluk
+// sıralı bir ölçek olarak okunsun — beyaz zeminde ters yön işe yaramaz.
 const P = {
-  card: "#0F0A14", edge: "#3A2542", ink: "#F5EAF2", faint: "#8A7186",
-  accent: "#B18AE0", sheen: "#FFFFFF", sheenA: 0.075, rim: "#C09AD4", rimA: 0.16,
-  lv: ["#1E1428", "#5C3A70", "#9070C4", "#C58FC9", "#EFB6CC"],
+  card: "#FFFFFF", edge: "#EFE2E8", ink: "#2E2430", faint: "#9C8C96",
+  accent: "#C97B94", sheen: "#2E2430", sheenA: 0.035, rim: "#F7EBF0", rimA: 1,
+  lv: ["#F5EDF1", "#EBC9D8", "#DDA3BC", "#C97B94", "#A85A76"],
 };
 
 const L = {
@@ -157,7 +158,7 @@ const svg = (w, h, label, body, uid, extraDefs = "") =>
 /** Panellerin ortak üst şeridi: dört büyük sayı + altlarında küçük etiket.
  *  rhythm panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
  *  okunsun diye tipografi, sütun konumları ve renk sırası paylaşılıyor. */
-const STAT_COL = [P.accent, P.ink, "#D99BB0", "#EFC3D3"];
+const STAT_COL = ["#A85A76", "#2E2430", "#9B72C4", "#5B93C4"];
 const STAT_X = [26, 268, 510, 736];
 
 function statRow(vals, labels, W) {

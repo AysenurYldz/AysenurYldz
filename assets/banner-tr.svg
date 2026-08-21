@@ -3,33 +3,33 @@
 
   <defs>
     <linearGradient id="t-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F0A14"/>
-      <stop offset="52%" stop-color="#241531"/>
-      <stop offset="100%" stop-color="#1B1026"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="52%" stop-color="#FDF4F8"/>
+      <stop offset="100%" stop-color="#FBF6FC"/>
     </linearGradient>
     <radialGradient id="t-glowA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#A67CD8" stop-opacity="0.55"/><stop offset="100%" stop-color="#A67CD8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#F2D4DE" stop-opacity="0.85"/><stop offset="100%" stop-color="#F2D4DE" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="t-glowB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#CE8FA8" stop-opacity="0.42"/><stop offset="100%" stop-color="#CE8FA8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#D9E7F3" stop-opacity="0.9"/><stop offset="100%" stop-color="#D9E7F3" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="t-glowC" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E8B4C6" stop-opacity="0.30"/><stop offset="100%" stop-color="#E8B4C6" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#EADCF5" stop-opacity="0.8"/><stop offset="100%" stop-color="#EADCF5" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="t-accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C9AAF0"/><stop offset="55%" stop-color="#DDA6B8"/><stop offset="100%" stop-color="#E8B4C6"/>
+      <stop offset="0%" stop-color="#A85A76"/><stop offset="55%" stop-color="#5B93C4"/><stop offset="100%" stop-color="#A8CDEA"/>
     </linearGradient>
     <linearGradient id="t-edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C9AAF0" stop-opacity="0.85"/><stop offset="100%" stop-color="#E8B4C6" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#A85A76" stop-opacity="0.85"/><stop offset="100%" stop-color="#A8CDEA" stop-opacity="0.85"/>
     </linearGradient>
     <pattern id="t-grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0 L0 0 0 34" fill="none" stroke="#C09AD4" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#C97B94" stroke-opacity="0.10" stroke-width="1"/>
     </pattern>
     <clipPath id="t-card"><rect x="0" y="0" width="1200" height="340" rx="26"/></clipPath>
     <linearGradient id="t-sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.075"/>
-      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="45%" stop-color="#2E2430" stop-opacity="0.035"/>
+      <stop offset="55%" stop-color="#2E2430" stop-opacity="0.035"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
@@ -61,7 +61,7 @@
     <ellipse cx="640"  cy="20"  rx="300" ry="170" fill="url(#t-glowC)"/>
 
     <g stroke-width="1.15" fill="none">
-      <g stroke="#B48ACC" stroke-opacity="0.30">
+      <g stroke="#DDA3BC" stroke-opacity="0.55">
         <path d="M900 115 L1000 88"/>  <path d="M900 115 L1000 143"/> <path d="M900 115 L1000 198"/> <path d="M900 115 L1000 253"/>
         <path d="M900 170 L1000 88"/>  <path d="M900 170 L1000 143"/> <path d="M900 170 L1000 198"/> <path d="M900 170 L1000 253"/>
         <path d="M900 225 L1000 88"/>  <path d="M900 225 L1000 143"/> <path d="M900 225 L1000 198"/> <path d="M900 225 L1000 253"/>
@@ -78,58 +78,58 @@
     </g>
 
     <g>
-      <g fill="#A67CD8">
+      <g fill="#C97B94">
         <circle class="tn"     cx="900" cy="115" r="7"/>
         <circle class="tn tn2" cx="900" cy="170" r="7"/>
         <circle class="tn tn3" cx="900" cy="225" r="7"/>
       </g>
-      <g fill="#9B6FD6">
+      <g fill="#C9A8E8">
         <circle class="tn tn4" cx="1000" cy="88"  r="6.5"/>
         <circle class="tn tn5" cx="1000" cy="143" r="6.5"/>
         <circle class="tn tn2" cx="1000" cy="198" r="6.5"/>
         <circle class="tn tn6" cx="1000" cy="253" r="6.5"/>
       </g>
-      <g fill="#E3B0C4">
+      <g fill="#A8CDEA">
         <circle class="tn tn3" cx="1100" cy="115" r="7"/>
         <circle class="tn tn7" cx="1100" cy="170" r="7"/>
         <circle class="tn tn5" cx="1100" cy="225" r="7"/>
       </g>
-      <g fill="none" stroke="#DDC4EE" stroke-opacity="0.35" stroke-width="1">
+      <g fill="none" stroke="#C97B94" stroke-opacity="0.35" stroke-width="1">
         <circle cx="900" cy="170" r="13"/><circle cx="1100" cy="170" r="13"/>
       </g>
     </g>
 
     <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-      <text x="64" y="86" font-size="13" font-weight="600" letter-spacing="3.4" fill="#B79CAF">
+      <text x="64" y="86" font-size="13" font-weight="600" letter-spacing="3.4" fill="#9C8C96">
         BURSA, TÜRKİYE &#160;·&#160; BİLGİSAYAR MÜHENDİSLİĞİ YÜKSEK LİSANS
       </text>
 
-      <text x="64" y="150" font-size="55" font-weight="700" letter-spacing="0.5" fill="#FBF0F7">
+      <text x="64" y="150" font-size="55" font-weight="700" letter-spacing="0.5" fill="#2E2430">
         AYŞENUR YILDIZ
       </text>
 
       <rect x="64" y="168" width="124" height="4.5" rx="2.25" fill="url(#t-accent)"/>
 
       <text x="64" y="212" font-size="21.5" font-weight="600" letter-spacing="1.6">
-        <tspan fill="#C9AAF0">YAPAY ZEKÂ MÜHENDİSİ</tspan><tspan fill="#6B5570">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#DDA6B8">FULL STACK GELİŞTİRİCİ</tspan>
+        <tspan fill="#A85A76">YAPAY ZEKÂ MÜHENDİSİ</tspan><tspan fill="#CBBCC4">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#5B93C4">FULL STACK GELİŞTİRİCİ</tspan>
       </text>
 
-      <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#C0A5B8">
+      <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#6E5F6A">
         Bilgisayarlı Görü &#160;·&#160; NLP &#160;·&#160; Derin Öğrenme &#160;·&#160; YOLO &#160;·&#160; Next.js &#160;·&#160; Flutter &#160;·&#160; Docker
       </text>
 
       <g>
-        <rect x="64" y="272" width="272" height="33" rx="16.5" fill="#A67CD8" fill-opacity="0.13" stroke="#A67CD8" stroke-opacity="0.45"/>
-        <circle cx="83" cy="288.5" r="3.5" fill="#DDC4EE"/>
-        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#E4D4F5">
+        <rect x="64" y="272" width="272" height="33" rx="16.5" fill="#C97B94" fill-opacity="0.13" stroke="#C97B94" stroke-opacity="0.45"/>
+        <circle cx="83" cy="288.5" r="3.5" fill="#C97B94"/>
+        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#A85A76">
           TEKNOFEST 2023 &#160;·&#160; TÜRKİYE 3.'SÜ
         </text>
       </g>
 
       <g>
-        <rect x="348" y="272" width="254" height="33" rx="16.5" fill="#CE8FA8" fill-opacity="0.13" stroke="#CE8FA8" stroke-opacity="0.45"/>
-        <circle cx="367" cy="288.5" r="3.5" fill="#EBBECC"/>
-        <text x="379" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#F7D6E2">
+        <rect x="348" y="272" width="254" height="33" rx="16.5" fill="#5B93C4" fill-opacity="0.13" stroke="#5B93C4" stroke-opacity="0.45"/>
+        <circle cx="367" cy="288.5" r="3.5" fill="#5B93C4"/>
+        <text x="379" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#3E6E96">
           TÜBİTAK 2209-A ARAŞTIRMACISI
         </text>
       </g>
@@ -137,6 +137,6 @@
 
     <rect class="tsweep" x="0" y="-340" width="300" height="1020" fill="url(#t-sheen)"/>
 
-    <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#C09AD4" stroke-opacity="0.22" stroke-width="1.5"/>
+    <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#EFE2E8" stroke-opacity="1" stroke-width="1.5"/>
   </g>
 </svg>

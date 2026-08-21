@@ -73,9 +73,9 @@ const ME = [
 
 const MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";
 const P = {
-  card: "#0F0A14", edge: "#3A2542", ink: "#F5EAF2", faint: "#8A7186",
-  track: "#2A1B33", accent: "#B18AE0", blue: "#D99BB0", cyan: "#EFC3D3",
-  sheen: "#FFFFFF", sheenA: 0.075, rim: "#C09AD4", rimA: 0.16,
+  card: "#FFFFFF", edge: "#EFE2E8", ink: "#2E2430", faint: "#9C8C96",
+  track: "#F7EDF1", accent: "#C97B94", blue: "#9B72C4", cyan: "#5B93C4",
+  sheen: "#2E2430", sheenA: 0.035, rim: "#F7EBF0", rimA: 1,
 };
 
 const L = {
@@ -236,7 +236,7 @@ function build(t, { hours, wdays, commits, repos }, stamp) {
       o.push(`<rect x="${bx.toFixed(1)}" y="${BASE - MAXH}" width="${bw.toFixed(1)}" height="${MAXH}" rx="2" fill="${P.track}" opacity="0.5"/>`);
       o.push(`<g transform="translate(${bx.toFixed(1)},${BASE})"><g>${barAnim(i, n)}` +
         `<rect x="0" y="${(-h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="2" ` +
-        `fill="${i === top ? P.accent : P.blue}" opacity="${i === top ? 1 : 0.55}">` +
+        `fill="${i === top ? P.accent : P.blue}" opacity="${i === top ? 1 : 0.42}">` +
         `<title>${labels[i]}: ${v}</title></rect></g></g>`);
       if (!everyOther || i % everyOther === 0) {
         o.push(`<text x="${(bx + bw / 2).toFixed(1)}" y="${BASE + 15}" text-anchor="middle" ` +

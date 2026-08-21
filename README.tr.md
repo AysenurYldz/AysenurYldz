@@ -4,17 +4,17 @@
 
 <div align="center">
 
-[![English](https://img.shields.io/badge/🇬🇧_English-241631?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
-[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-8B5FBF?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
+[![English](https://img.shields.io/badge/🇬🇧_English-EFE2E8?style=for-the-badge&labelColor=EFE2E8)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
+[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-A85A76?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
 
 </div>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-8B5FBF?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![Medium](https://img.shields.io/badge/Medium-9B6FD6?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@AysenurYldz)
-[![Portfolyo](https://img.shields.io/badge/Portfolyo-CE8FA8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aysenuryldz.github.io/portfolio/)
-[![E-posta](https://img.shields.io/badge/E--posta-E8B4C6?style=for-the-badge&logo=gmail&logoColor=0F0A14)](mailto:aysenur.yildiz.2905@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-A85A76?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
+[![Medium](https://img.shields.io/badge/Medium-C97B94?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@AysenurYldz)
+[![Portfolyo](https://img.shields.io/badge/Portfolyo-9B72C4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aysenuryldz.github.io/portfolio/)
+[![E-posta](https://img.shields.io/badge/E--posta-5B93C4?style=for-the-badge&logo=gmail&logoColor=2E2430)](mailto:aysenur.yildiz.2905@gmail.com)
 
 </div>
 
@@ -125,40 +125,40 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu tesp
 
 **Diller**
 
-![Python](https://img.shields.io/badge/Python-8B5FBF?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-A67CD8?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C/C++-A87CC4?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-9B6FD6?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-7A4A9E?style=for-the-badge&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-A85A76?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-B3607C?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C/C++-BE6E88?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-C97B94?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-9E5170?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Yapay Zekâ / Makine Öğrenmesi**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-A67CD8?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-8B5FBF?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-A87CC4?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-9B6FD6?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-AE7ED0?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-9264C8?style=for-the-badge&logo=yolo&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-A0709E?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-8C5F86?style=for-the-badge&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-B3607C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-A85A76?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-BE6E88?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-C97B94?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-A85A76?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-8C5F9E?style=for-the-badge&logo=yolo&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-9B72C4?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-7E5C96?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Web ve Mobil**
 
-![Next.js](https://img.shields.io/badge/Next.js-CE8FA8?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-C4849E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-B87A94?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-E3B0C4?style=for-the-badge&logo=flutter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E0A8BC?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-D2A0B2?style=for-the-badge&logo=css3&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-9B72C4?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6E7FA8?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-5B93C4?style=for-the-badge&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-6E9FC4?style=for-the-badge&logo=flutter&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-7FAAD0?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-88A6C8?style=for-the-badge&logo=css3&logoColor=white)
 
 **Altyapı ve MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-E8B4C6?style=for-the-badge&logo=docker&logoColor=0F0A14)
-![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-DFAAC0?style=for-the-badge&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-D0A0B4?style=for-the-badge&logo=onnx&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-B98CA4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-A87C94?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Git](https://img.shields.io/badge/Git-966E84?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-5B93C4?style=for-the-badge&logo=docker&logoColor=2E2430)
+![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-6E9FC4?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-5B93C4?style=for-the-badge&logo=onnx&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-4F82AE?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-C97B94?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Git](https://img.shields.io/badge/Git-A85A76?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -260,9 +260,9 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 
 <div align="center">
 
-![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=8B5FBF&labelColor=150E1C&logo=github&logoColor=white&label=takip%C3%A7i)
-![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-CE8FA8?style=for-the-badge&labelColor=150E1C)
-![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-E8B4C6?style=for-the-badge&labelColor=150E1C)
+![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=A85A76&labelColor=FFFFFF&logo=github&logoColor=white&label=takip%C3%A7i)
+![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-9B72C4?style=for-the-badge&labelColor=FFFFFF)
+![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-5B93C4?style=for-the-badge&labelColor=FFFFFF)
 
 </div>
 
@@ -288,9 +288,9 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 
 Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve açık kaynak projelere açığım.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn'de_bağlan-8B5FBF?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![E-posta](https://img.shields.io/badge/E--posta_gönder-CE8FA8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Portfolyo](https://img.shields.io/badge/Portfolyoyu_gör-E8B4C6?style=for-the-badge&logo=googlechrome&logoColor=0F0A14)](https://aysenuryldz.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn'de_bağlan-A85A76?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
+[![E-posta](https://img.shields.io/badge/E--posta_gönder-9B72C4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
+[![Portfolyo](https://img.shields.io/badge/Portfolyoyu_gör-5B93C4?style=for-the-badge&logo=googlechrome&logoColor=2E2430)](https://aysenuryldz.github.io/portfolio/)
 
 <br>
 

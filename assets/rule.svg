@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 10" width="1000" height="10" role="presentation" aria-hidden="true">
   <defs>
     <linearGradient id="r-base" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B18AE0" stop-opacity="0"/>
-      <stop offset="14%" stop-color="#B18AE0" stop-opacity="0.30"/>
-      <stop offset="50%" stop-color="#D99BB0" stop-opacity="0.34"/>
-      <stop offset="86%" stop-color="#EFC3D3" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#EFC3D3" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C97B94" stop-opacity="0"/>
+      <stop offset="14%" stop-color="#C97B94" stop-opacity="0.30"/>
+      <stop offset="50%" stop-color="#9B72C4" stop-opacity="0.34"/>
+      <stop offset="86%" stop-color="#A8CDEA" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#A8CDEA" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="r-spark" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B18AE0" stop-opacity="0"/>
-      <stop offset="42%" stop-color="#C9AAF0" stop-opacity="0.95"/>
-      <stop offset="58%" stop-color="#EFC3D3" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#EFC3D3" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C97B94" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#A85A76" stop-opacity="0.95"/>
+      <stop offset="58%" stop-color="#A8CDEA" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#A8CDEA" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="r-clip"><rect y="4" width="1000" height="2" rx="1"/></clipPath>
     <style>
