@@ -22,21 +22,19 @@
 
 ## Hi, I'm Ayşenur 👋
 
-I'm an **AI engineer** and a **full stack developer**. I work on both sides every week.
+I'm an **AI and Computer Engineer** specialising in image processing, natural language processing and deep learning. I take responsibility as a **team lead** across the whole product lifecycle — from the idea to the moment it reaches the end user — and I stay hands-on in development throughout.
 
-I'm one of two team leads at **Birsav Bilişim**, and every project in the company goes through one of us. I run the AI side of all of them, and I take our private-sector projects end to end.
+I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am **one of the company's two team leads**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
 
-On the AI side I build OCR document analysis, real-time object detection with YOLO, chatbot systems and anomaly detection. On the product side I build municipal mobile apps with **Flutter**, and web platforms with **Node.js** and **Next.js** — sports and facility systems, HR systems, community sites. Most of that product work has no model in it.
-
-I'm also doing an **M.Sc. in Computer Engineering at Bursa Technical University**, on deep learning and computer vision.
+On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. In smart-municipality systems I have parts I actively work on, particularly the **Biryerden** platform. Alongside this I run AI solutions end to end — OCR-based document analysis, anomaly detection and chatbot systems.
 
 ```yaml
-role:      AI Engineer  ·  Full Stack Developer
+role:      AI & Computer Engineer  ·  Full Stack Developer
 team:      one of two team leads @ Birsav Bilişim
 scope:     AI on every company project · private-sector projects end to end
 studying:  M.Sc. Computer Engineering, Bursa Technical University
 ai_work:   OCR document analysis · real-time detection · chatbots · anomaly detection
-product:   municipal mobile apps · sports systems · HR platforms · community sites
+product:   municipal mobile apps · sports systems · HR platforms · BirStok · community sites
 tools:     Next.js · Node.js · Flutter · Docker · Triton · ONNX
 open_to:   AI engineering roles, research collaboration, open source
 ```
@@ -45,16 +43,22 @@ open_to:   AI engineering roles, research collaboration, open source
 
 ## 🏗️ What I build at work
 
-Not all of my work is AI. A large part of it is product engineering for public- and private-sector clients, where I handle the web and mobile side myself.
+I take an active role in software development for public- and private-sector clients. On these projects the whole web and mobile side is my responsibility: I build every layer myself, from database design to the user interface.
 
 | | |
 |---|---|
+| 📱 **Municipal mobile applications** | iOS and Android applications for city services, built with Flutter. They run on APIs written in Node.js. |
+| 🏟️ **Municipal sports & facility systems** | Systems that manage membership, booking and day-to-day operations for public sports facilities. |
+| 👥 **HR systems for the private sector** | Personnel records, internal process and reporting modules for company HR teams. |
+| 🏭 **BirStok — warehouse & inventory** | A real-time digital inventory and warehouse platform that digitises industrial plate and product tracking. Every warehouse process is managed live. |
+| 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built with Next.js. |
+
+---|---|
 | 📱 **Municipal mobile applications** | Cross-platform iOS and Android apps for city services, built with Flutter and backed by Node.js APIs |
 | 🏟️ **Municipal sports & facility systems** | Membership, booking and day-to-day operations for public sports facilities |
 | 👥 **HR systems for the private sector** | Employee records, internal processes and reporting for company human-resources teams |
 | 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built on Next.js |
 
-*I don't name clients here. All of them are live systems with real users.*
 
 ---
 
@@ -70,13 +74,12 @@ I work across all four stages. In practice most of the difficulty sits between t
 
 ## ⚡ Currently
 
-- 🧭 Team lead at **Birsav Bilişim** — one of two. I run the AI side of every project and take private-sector work end to end
-- 🧠 Building OCR document analysis, chatbots, real-time detection and anomaly tracking
-- 📱 Building municipal mobile apps in **Flutter**, and web platforms in **Next.js / Node.js**
-- 🏛️ **Biryerden**, our smart-municipality platform, is one of them
-- 🎓 M.Sc. research on deep learning and computer vision at **Bursa Technical University**
-- ✍️ Writing about AI on [Medium](https://medium.com/@AysenurYldz)
-- 💬 Ask me about YOLO in production, OCR pipelines, Flutter–Node architecture, or serving models with Triton
+- 🧭 One of the two team leads at **Birsav Bilişim**. Project planning, task allocation, technical decisions and client presentations are processes I run directly
+- 🧠 Leading the AI side of our projects end to end: OCR-based document analysis, citizen-facing chatbot systems, anomaly detection and tracking
+- 💻 Not only AI — I also do full stack development from start to finish on private- and public-sector projects
+- 🏛️ Among the platforms in production that I have worked on is **Biryerden**, a smart-municipality product
+- 🎓 Researching deep learning and computer vision in my M.Sc. at **Bursa Technical University**
+- ✍️ Publishing articles about AI on [Medium](https://medium.com/@AysenurYldz), to share what I run into in practice and in research
 
 ---
 
@@ -95,7 +98,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 ### 🥉 Teknofest 2023
 **3rd place in Türkiye** — AI in Transportation
 
-I was team captain of ForesighTech. We built a YOLO-based system that finds a safe landing zone for a UAV in real time, telling humans, animals and vehicles apart in the landing area. I trained and optimised the YOLO model and ran the project planning.
+I served as captain of the ForesighTech team. We built a YOLO-based system that detects safe landing zones for UAVs in real time, telling humans, animals and ground vehicles apart in the landing area. As captain I managed project planning and task allocation, and I trained and optimised the YOLO architecture myself.
 
 </td>
 <td width="33%" valign="top">
@@ -103,7 +106,7 @@ I was team captain of ForesighTech. We built a YOLO-based system that finds a sa
 ### 🔬 TÜBİTAK 2209-A
 **Funded research project**
 
-An LSTM model that reads sign language from video and turns it into text, for hearing-impaired users. I ran the whole project: data collection, preprocessing, training and error analysis. It was also my undergraduate thesis.
+To make everyday communication easier for hearing-impaired people, I built an LSTM-based deep learning model that reads sign language from video and converts it into text. It was also my undergraduate thesis and was funded by TÜBİTAK; I ran every step myself, from data collection through model training to error analysis.
 
 </td>
 <td width="33%" valign="top">
@@ -111,7 +114,7 @@ An LSTM model that reads sign language from video and turns it into text, for he
 ### 🩺 Teknofest 2022
 **Finalist** — AI in Healthcare
 
-A YOLO model that detects six different conditions plus the healthy case from abdominal imaging. I worked on model development, data preprocessing and performance analysis.
+I was the AI developer on a YOLO-based model that automatically detects six different conditions plus the healthy case from abdominal imaging. Across the project I handled model development, data preprocessing and performance analysis, contributing to our team reaching the final.
 
 </td>
 </tr>
@@ -269,6 +272,8 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 ---
 
 ## 🎓 Background
+
+Earlier in my career I worked as an SEO Engineer at **Gini Talent**, developing content strategies based on search-volume and competition analysis. At **Özdilek's R&D department** I worked on deep learning and image processing projects for the textile industry, covering everything from data labelling to deploying trained models as services with Docker. Internships at **Martur Fompak** and **Novelty AI** strengthened my practical skills in data analysis, machine learning and web application development.
 
 | | |
 |---|---|

@@ -22,21 +22,19 @@
 
 ## Merhaba, ben Ayşenur 👋
 
-**Yapay zekâ mühendisiyim**, aynı zamanda **full stack geliştiriciyim**. İkisini de her hafta yapıyorum.
+Görüntü işleme, doğal dil işleme ve derin öğrenme alanlarında uzmanlaşmış bir **Yapay Zekâ ve Bilgisayar Mühendisiyim**. Projelerin fikir aşamasından son kullanıcıya ulaştığı ana kadar olan ürün yaşam döngüsünde **ekip lideri** olarak sorumluluk alıyor, bizzat geliştirme süreçlerinde aktif rol oynuyorum.
 
-**Birsav Bilişim**'de iki ekip liderinden biriyim; şirketteki her proje ikimizden birinin üzerinden gidiyor. Hepsinin yapay zekâ tarafı bende, özel sektör projelerini de uçtan uca ben yürütüyorum.
+Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş zamanlı olarak **Birsav Bilişim**'de çalışmalarımı sürdürüyorum. Burada şirketteki **iki ekip liderinden biri** olarak görev yapıyorum; hem yapay zekâ tarafında hem de özel sektör tarafında liderlik üstlendiğim projelerim mevcut. Projelerin planlaması, iş bölümü, teknik kararları, müşteri sunumları ve yapay zekâ süreçlerini bizzat yürütüyorum.
 
-Yapay zekâ tarafında OCR ile belge analizi, YOLO ile gerçek zamanlı nesne tespiti, chatbot sistemleri ve anomali tespiti geliştiriyorum. Ürün tarafında **Flutter** ile belediye mobil uygulamaları, **Node.js** ve **Next.js** ile web platformları yazıyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri. Bu işlerin çoğunda model yok.
-
-Bir yandan **Bursa Teknik Üniversitesi**'nde Bilgisayar Mühendisliği yüksek lisansı yapıyorum; derin öğrenme ve bilgisayarlı görü üzerine.
+Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Node.js, Next.js ve Flutter** ile belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri üzerine çalışmalarım bulunuyor. Akıllı belediyecilik sistemlerinde, özellikle **Biryerden** platformunda aktif olarak çalıştığım bölümler mevcut. Bununla birlikte OCR tabanlı belge analizi, anomali tespiti ve chatbot sistemleri gibi yapay zekâ çözümlerini de uçtan uca yönetiyorum.
 
 ```yaml
-rol:       Yapay Zekâ Mühendisi  ·  Full Stack Geliştirici
+rol:       Yapay Zekâ ve Bilgisayar Mühendisi  ·  Full Stack Geliştirici
 ekip:      İki ekip liderinden biri @ Birsav Bilişim
 kapsam:    Her projenin yapay zekâ tarafı · özel sektör projeleri uçtan uca
 eğitim:    Bilgisayar Mühendisliği Yüksek Lisans, Bursa Teknik Üniversitesi
 yz_işi:    OCR belge analizi · gerçek zamanlı tespit · chatbot · anomali tespiti
-ürün_işi:  belediye mobil uygulamaları · spor sistemleri · İK platformları · topluluk siteleri
+ürün_işi:  belediye mobil uygulamaları · spor sistemleri · İK platformları · BirStok · topluluk siteleri
 yayınla:   Next.js · Node.js · Flutter · Docker · Triton · ONNX
 açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikleri, açık kaynak
 ```
@@ -45,16 +43,22 @@ açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikl
 
 ## 🏗️ İş yerinde neler geliştiriyorum
 
-İşimin hepsi yapay zekâ değil. Önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirme; buralarda web ve mobil tarafı ben yürütüyorum.
+Kamu ve özel sektör müşterileri için yazılım geliştirme süreçlerinde aktif rol alıyorum. Bu projelerde web ve mobil tarafın tamamı benim sorumluluğumda; veri tabanı tasarımından kullanıcı arayüzüne kadar tüm katmanları kendim geliştiriyorum.
 
 | | |
 |---|---|
+| 📱 **Belediye mobil uygulamaları** | Şehir hizmetleri için Flutter ile iOS ve Android uygulamaları geliştiriyorum. Uygulamalar Node.js ile yazılmış API'ler üzerinden çalışıyor. |
+| 🏟️ **Belediye spor ve tesis sistemleri** | Kamu spor tesislerinin üyelik, rezervasyon ve günlük işleyiş süreçlerini yöneten sistemler geliştiriyorum. |
+| 👥 **Özel sektör İK sistemleri** | Şirketlerin insan kaynakları ekipleri için personel kayıtları, iç süreçler ve raporlama modülleri geliştiriyorum. |
+| 🏭 **BirStok — depo ve envanter yönetimi** | Endüstriyel plaka ve ürün takip süreçlerini dijitalleştiren gerçek zamanlı envanter ve depo takip platformu. Tüm depo süreçleri dijital ortamda anlık yönetiliyor. |
+| 🌍 **Topluluk ve girişim platformları** | Avrupa modeli kolektif girişim ve topluluk sitelerini Next.js ile geliştiriyorum. |
+
+---|---|
 | 📱 **Belediye mobil uygulamaları** | Şehir hizmetleri için Flutter ile geliştirilen, Node.js API'leriyle beslenen çok platformlu iOS ve Android uygulamaları |
 | 🏟️ **Belediye spor ve tesis sistemleri** | Kamu spor tesisleri için üyelik, rezervasyon ve günlük işletme süreçleri |
 | 👥 **Özel sektör İK sistemleri** | Şirketlerin insan kaynakları ekipleri için personel kayıtları, iç süreçler ve raporlama |
 | 🌍 **Topluluk ve girişim platformları** | Next.js üzerine kurulu, Avrupa modeli kollektif girişim ve topluluk siteleri |
 
-*Müşteri ismi vermiyorum. Hepsi gerçek kullanıcısı olan, yayında sistemler.*
 
 ---
 
@@ -70,13 +74,12 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 
 ## ⚡ Şu anda
 
-- 🧭 **Birsav Bilişim**'de ekip lideriyim — iki kişiden biri. Her projenin yapay zekâ tarafı bende, özel sektör işlerini uçtan uca yürütüyorum
-- 🧠 OCR belge analizi, chatbot, gerçek zamanlı tespit ve anomali takibi geliştiriyorum
-- 📱 **Flutter** ile belediye mobil uygulamaları, **Next.js / Node.js** ile web platformları yazıyorum
-- 🏛️ Akıllı belediyecilik platformumuz **Biryerden** bunlardan biri
-- 🎓 **Bursa Teknik Üniversitesi**'nde derin öğrenme ve bilgisayarlı görü üzerine yüksek lisans yapıyorum
-- ✍️ Yapay zekâ üzerine [Medium](https://medium.com/@AysenurYldz)'da yazıyorum
-- 💬 Üretimde YOLO, OCR boru hatları, Flutter–Node mimarisi, Triton ile model servisleştirme — bunları konuşalım
+- 🧭 **Birsav Bilişim**'de şirketteki iki ekip liderinden biri olarak görev yapıyorum; proje planlaması, iş bölümü, teknik kararlar ve müşteri sunumları doğrudan benim yürüttüğüm süreçler
+- 🧠 Projelerimizin yapay zekâ tarafını yönetiyorum: OCR tabanlı belge analizi, vatandaşlara yönelik chatbot sistemleri, anomali tespiti ve takibi — uçtan uca
+- 💻 Sadece yapay zekâ odaklı kalmıyorum; özel sektör ve kamu projelerinde full stack geliştirici olarak baştan sona geliştirmeler yapıyorum
+- 🏛️ Geliştirme süreçlerinde yer aldığım ve şu an üretimde olan platformlar arasında akıllı belediyecilik ürünü **Biryerden** de bulunuyor
+- 🎓 **Bursa Teknik Üniversitesi**'ndeki yüksek lisans eğitimimde derin öğrenme ve bilgisayarlı görü üzerine araştırmalarımı sürdürüyorum
+- ✍️ Sektördeki pratiklerimi ve araştırmalarımı paylaşmak adına yapay zekâ üzerine [Medium](https://medium.com/@AysenurYldz)'da yazılar yayımlıyorum
 
 ---
 
@@ -95,7 +98,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 ### 🥉 Teknofest 2023
 **Türkiye 3.'sü** — Ulaşımda Yapay Zekâ
 
-ForesighTech'te takım kaptanıydım. İHA'ların güvenli iniş alanını gerçek zamanlı bulan, iniş bölgesindeki insan, hayvan ve kara taşıtlarını ayırt eden YOLO tabanlı bir sistem geliştirdik. YOLO modelini ben eğittim ve optimize ettim, proje planlamasını da ben yürüttüm.
+ForesighTech takımının kaptanı olarak görev aldım. İHA'ların güvenli iniş alanlarını gerçek zamanlı tespit eden; iniş bölgesindeki insan, hayvan ve kara taşıtlarını anlık ayırt edebilen YOLO tabanlı bir sistem geliştirdik. Takım kaptanı olarak proje planlaması ve iş bölümü süreçlerini yönetirken, YOLO mimarisinin eğitimini ve optimizasyonunu da bizzat gerçekleştirdim.
 
 </td>
 <td width="33%" valign="top">
@@ -103,7 +106,7 @@ ForesighTech'te takım kaptanıydım. İHA'ların güvenli iniş alanını gerç
 ### 🔬 TÜBİTAK 2209-A
 **Destek almaya hak kazanan araştırma projesi**
 
-İşitme engelli kullanıcılar için, işaret dilini videodan okuyup metne çeviren LSTM tabanlı bir model. Projeyi baştan sona ben yürüttüm: veri toplama, ön işleme, eğitim ve hata analizi. Aynı zamanda lisans bitirme tezimdi.
+İşitme engellilerin günlük iletişimini kolaylaştırmak amacıyla, işaret dili hareketlerini videolardan okuyarak metne çeviren LSTM tabanlı bir derin öğrenme modeli geliştirdim. Aynı zamanda lisans bitirme tezim olan ve TÜBİTAK tarafından desteklenen bu projede; veri toplama aşamasından model eğitimine ve hata analizine kadar tüm adımları uçtan uca kendim yürüttüm.
 
 </td>
 <td width="33%" valign="top">
@@ -111,7 +114,7 @@ ForesighTech'te takım kaptanıydım. İHA'ların güvenli iniş alanını gerç
 ### 🩺 Teknofest 2022
 **Finalist** — Sağlıkta Yapay Zekâ
 
-Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu tespit eden YOLO tabanlı bir model. Model geliştirme, veri ön işleme ve performans analizinde çalıştım.
+Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otomatik tespit eden YOLO tabanlı bir modelin yapay zekâ geliştiricisi olarak görev aldım. Proje süresince model geliştirme, veri ön işleme ve performans analizi çalışmalarını yürüterek takımımızın finalist olmasına katkı sağladım.
 
 </td>
 </tr>
@@ -269,6 +272,8 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 ---
 
 ## 🎓 Eğitim ve deneyim
+
+Önceki profesyonel deneyimlerim arasında **Gini Talent** bünyesinde SEO Mühendisi olarak görev aldığım ve arama hacmi ile rekabet analizlerine dayalı içerik stratejileri geliştirdiğim çalışmalarım yer alıyor. **Özdilek Ar-Ge** departmanında tekstil sektörüne yönelik derin öğrenme ve görüntü işleme projelerinde bulundum; veri etiketleme süreçlerinden eğitilen modellerin Docker ile servisleştirilmesine kadar olan aşamalarda görev aldım. **Martur Fompak** ve **Novelty Yapay Zekâ**'da gerçekleştirdiğim stajlarla veri analizi, makine öğrenmesi ve web uygulamaları geliştirme konularındaki pratik yetkinliklerimi pekiştirdim.
 
 | | |
 |---|---|
