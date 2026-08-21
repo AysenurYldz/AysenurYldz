@@ -50,6 +50,12 @@ open_to:   AI engineering roles, research collaboration, open source
 
 ---
 
+<div align="center">
+  <img src="./assets/console.svg" alt="Code editor, browser preview and a document-reading AI agent running its steps" width="100%" />
+</div>
+
+---
+
 ## 🏗️ What I build at work
 
 <div align="justify">

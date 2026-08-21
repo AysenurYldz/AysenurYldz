@@ -50,6 +50,12 @@ açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikl
 
 ---
 
+<div align="center">
+  <img src="./assets/console-tr.svg" alt="Kod düzenleyici, tarayıcı önizlemesi ve adımlarını işleyen bir belge okuma yapay zekâ ajanı" width="100%" />
+</div>
+
+---
+
 ## 🏗️ İş yerinde neler geliştiriyorum
 
 <div align="justify">

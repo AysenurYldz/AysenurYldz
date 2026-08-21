@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Çalışma masası: kod düzenleyici, tarayıcı önizlemesi ve bir belge okuma yapay zekâ ajanının adım adım çalışması">
+  <title>Ayşenur Yıldız — çalışma masası ve belge okuma ajanı</title>
+
+  <defs>
+    <clipPath id="cs-clip"><rect width="1000" height="400" rx="12"/></clipPath>
+    <clipPath id="cs-shot"><rect x="60" y="256" width="388" height="80" rx="4"/></clipPath>
+    <clipPath id="cs-stream"><rect x="516" y="286" width="330" height="10" rx="5"/></clipPath>
+
+    <linearGradient id="cs-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E2430" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#2E2430" stop-opacity="0.035"/>
+      <stop offset="55%" stop-color="#2E2430" stop-opacity="0.035"/>
+      <stop offset="100%" stop-color="#2E2430" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cs-shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C97B94" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C97B94" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#C97B94" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cs-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A8E8"/>
+      <stop offset="60%" stop-color="#C97B94"/>
+      <stop offset="100%" stop-color="#A8CDEA"/>
+    </linearGradient>
+
+    <style>
+      /* Ajan adımları sırayla beliriyor; hepsi aynı 12 sn'lik döngüde,
+         yalnızca gecikmeleri farklı — böylece desen her tur birebir tekrarlıyor. */
+      .step { opacity: 0; animation: cs-step 12s ease-out infinite; }
+      @keyframes cs-step {
+        0%   { opacity: 0; transform: translateY(5px) }
+        4%   { opacity: 1; transform: none }
+        74%  { opacity: 1 }
+        82%  { opacity: 0 }
+        100% { opacity: 0 }
+      }
+      .s1{animation-delay:.2s} .s2{animation-delay:1.4s} .s3{animation-delay:2.6s}
+      .s4{animation-delay:3.9s} .s5{animation-delay:5.2s} .s6{animation-delay:6.6s}
+      .s7{animation-delay:7.8s}
+
+      .dot  { animation: cs-blink 1.4s ease-in-out infinite }
+      .dot2 { animation-delay: .18s } .dot3 { animation-delay: .36s }
+      @keyframes cs-blink { 0%,100%{opacity:.25} 50%{opacity:1} }
+
+      .node { animation: cs-pulse 3.4s ease-in-out infinite }
+      .nb{animation-delay:.5s} .nc{animation-delay:1s} .nd{animation-delay:1.5s}
+      @keyframes cs-pulse { 0%,100%{opacity:.45} 50%{opacity:1} }
+
+      .caret { animation: cs-caret 1.1s steps(1) infinite }
+      @keyframes cs-caret { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+      .shim { animation: cs-shim 3.2s linear infinite }
+      @keyframes cs-shim { from{transform:translateX(-200px)} to{transform:translateX(420px)} }
+
+      .steam { animation: cs-steam 3.6s ease-in-out infinite }
+      .st2{animation-delay:.7s} .st3{animation-delay:1.4s}
+      @keyframes cs-steam {
+        0%   { opacity: 0; transform: translateY(0) }
+        30%  { opacity: .6 }
+        100% { opacity: 0; transform: translateY(-13px) }
+      }
+
+      .sweep { animation: cs-sweep 21s ease-in-out infinite }
+      @keyframes cs-sweep {
+        0%,18%   { transform: translateX(-420px) skewX(-16deg) }
+        68%,100% { transform: translateX(1320px) skewX(-16deg) }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .step,.dot,.node,.caret,.shim,.steam,.sweep { animation: none }
+        .step { opacity: 1 }
+        .sweep { opacity: 0 }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cs-clip)" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
+    <rect width="1000" height="400" rx="12" fill="#FFFFFF"/>
+
+    <!-- ══ kod düzenleyici ══════════════════════════════════════════ -->
+    <g>
+      <rect x="44" y="36" width="420" height="180" rx="8" fill="#FFFFFF" stroke="#EFE2E8" stroke-width="1.4"/>
+      <path d="M44 62 H464" stroke="#EFE2E8" stroke-width="1.2"/>
+      <circle cx="62" cy="49" r="3.6" fill="#E8A0B4"/>
+      <circle cx="75" cy="49" r="3.6" fill="#C9A8E8"/>
+      <circle cx="88" cy="49" r="3.6" fill="#A8CDEA"/>
+      <text x="104" y="52.5" font-size="8.5" letter-spacing=".6" fill="#9C8C96">src/pipeline/extract.py</text>
+      <text x="448" y="52.5" font-size="8" letter-spacing="1.4" text-anchor="end" fill="#C4B4BC">IDE</text>
+
+      <!-- dosya ağacı -->
+      <path d="M126 62 V216" stroke="#F4E8ED" stroke-width="1.2"/>
+      <g font-size="7.6" fill="#9C8C96">
+        <text x="58" y="80">pipeline</text>
+        <text x="64" y="95" fill="#C97B94">extract.py</text>
+        <text x="64" y="110">detect.py</text>
+        <text x="58" y="125">models</text>
+        <text x="64" y="140">yolo.pt</text>
+        <text x="58" y="155">tests</text>
+      </g>
+
+      <!-- kod -->
+      <g font-size="8.4">
+        <g fill="#D8C8D0" font-size="7.4">
+          <text x="140" y="82">31</text><text x="140" y="97">32</text><text x="140" y="112">33</text>
+          <text x="140" y="127">34</text><text x="140" y="142">35</text><text x="140" y="157">36</text>
+          <text x="140" y="172">37</text><text x="140" y="187">38</text>
+        </g>
+        <text x="162" y="82"><tspan fill="#A85A76">from</tspan><tspan fill="#2E2430"> vision </tspan><tspan fill="#A85A76">import</tspan><tspan fill="#2E2430"> detect</tspan></text>
+        <text x="162" y="97"><tspan fill="#A85A76">from</tspan><tspan fill="#2E2430"> ocr </tspan><tspan fill="#A85A76">import</tspan><tspan fill="#2E2430"> read_fields</tspan></text>
+        <text x="162" y="127"><tspan fill="#9B72C4">def</tspan><tspan fill="#2E2430"> extract(</tspan><tspan fill="#5B93C4">page</tspan><tspan fill="#2E2430">):</tspan></text>
+        <text x="162" y="142"><tspan fill="#2E2430">    boxes = detect(page, </tspan><tspan fill="#5B93C4">0.35</tspan><tspan fill="#2E2430">)</tspan></text>
+        <text x="162" y="157"><tspan fill="#2E2430">    fields = read_fields(boxes)</tspan></text>
+        <text x="162" y="172"><tspan fill="#9C8C96">    # düşük güvenli alanlar ajana</tspan></text>
+        <text x="162" y="187"><tspan fill="#9B72C4">    return</tspan><tspan fill="#2E2430"> fields.review()</tspan></text>
+        <rect class="caret" x="330" y="180.5" width="1.4" height="9" fill="#C97B94"/>
+      </g>
+
+      <path d="M44 200 H464" stroke="#F4E8ED" stroke-width="1.2"/>
+      <g font-size="7.2" fill="#9C8C96">
+        <text x="58" y="211">main</text>
+        <text x="104" y="211" fill="#5B93C4">0 hata</text>
+        <text x="148" y="211" fill="#C97B94">2 uyarı</text>
+        <text x="448" y="211" text-anchor="end">Python · UTF-8</text>
+      </g>
+    </g>
+
+    <!-- ══ tarayıcı önizlemesi ═══════════════════════════════════════ -->
+    <g>
+      <rect x="44" y="230" width="420" height="118" rx="8" fill="#FFFFFF" stroke="#EFE2E8" stroke-width="1.4"/>
+      <path d="M44 252 H464" stroke="#EFE2E8" stroke-width="1.2"/>
+      <circle cx="60" cy="241" r="3" fill="#E8A0B4"/>
+      <circle cx="71" cy="241" r="3" fill="#C9A8E8"/>
+      <circle cx="82" cy="241" r="3" fill="#A8CDEA"/>
+      <rect x="96" y="235.5" width="150" height="11" rx="5.5" fill="#FDF7F9"/>
+      <text x="104" y="243.5" font-size="7" fill="#9C8C96">localhost:3000/belge</text>
+
+      <g clip-path="url(#cs-shot)">
+        <rect x="60" y="262" width="120" height="8" rx="4" fill="#F2E4EA"/>
+        <rect x="60" y="278" width="220" height="6" rx="3" fill="#F7EDF1"/>
+        <rect x="60" y="290" width="180" height="6" rx="3" fill="#F7EDF1"/>
+        <rect x="60" y="302" width="200" height="6" rx="3" fill="#F7EDF1"/>
+        <rect x="60" y="314" width="140" height="6" rx="3" fill="#F7EDF1"/>
+        <!-- çıkarılan alan kartları -->
+        <rect x="300" y="262" width="140" height="26" rx="4" fill="#FDF7F9" stroke="#EFE2E8"/>
+        <text x="308" y="272" font-size="6.4" fill="#9C8C96">TOPLAM</text>
+        <text x="308" y="283" font-size="8.6" font-weight="700" fill="#A85A76">14.280,00</text>
+        <rect x="300" y="296" width="140" height="26" rx="4" fill="#FDF7F9" stroke="#EFE2E8"/>
+        <text x="308" y="306" font-size="6.4" fill="#9C8C96">TARİH</text>
+        <text x="308" y="317" font-size="8.6" font-weight="700" fill="#5B93C4">21.08.2026</text>
+        <rect class="shim" x="0" y="256" width="120" height="80" fill="url(#cs-shimmer)"/>
+      </g>
+    </g>
+
+    <!-- ══ YAPAY ZEKÂ AJANI ═════════════════════════════════════════ -->
+    <g>
+      <rect x="490" y="36" width="466" height="312" rx="8" fill="#FFFFFF" stroke="#EFE2E8" stroke-width="1.4"/>
+      <path d="M490 62 H956" stroke="#EFE2E8" stroke-width="1.2"/>
+      <circle cx="508" cy="49" r="3.6" fill="#E8A0B4"/>
+      <circle cx="521" cy="49" r="3.6" fill="#C9A8E8"/>
+      <circle cx="534" cy="49" r="3.6" fill="#A8CDEA"/>
+      <text x="550" y="52.5" font-size="8.5" letter-spacing=".6" fill="#9C8C96">agent · belge-okuma</text>
+      <g>
+        <circle cx="930" cy="49" r="3.2" class="dot" fill="#C97B94"/>
+        <text x="922" y="52.5" font-size="7.4" text-anchor="end" fill="#C4B4BC">çalışıyor</text>
+      </g>
+
+      <!-- ajan rozeti: küçük sinir ağı -->
+      <g transform="translate(516,80)">
+        <g stroke="#E4CFDB" stroke-width="1.1" fill="none">
+          <path d="M6 6 L22 2 M6 6 L22 12 M6 18 L22 12 M6 18 L22 22 M22 2 L38 12 M22 12 L38 12 M22 22 L38 12"/>
+        </g>
+        <circle class="node" cx="6" cy="6" r="2.8" fill="#C97B94"/>
+        <circle class="node nb" cx="6" cy="18" r="2.8" fill="#C97B94"/>
+        <circle class="node nc" cx="22" cy="2" r="2.4" fill="#C9A8E8"/>
+        <circle class="node" cx="22" cy="12" r="2.4" fill="#C9A8E8"/>
+        <circle class="node nd" cx="22" cy="22" r="2.4" fill="#C9A8E8"/>
+        <circle class="node nb" cx="38" cy="12" r="3.2" fill="#5B93C4"/>
+      </g>
+      <text x="566" y="93" font-size="8" letter-spacing="1.2" fill="#C4B4BC">YOLO + OCR + LLM</text>
+
+      <path d="M516 106 H930" stroke="#F7EDF1" stroke-width="1.2"/>
+
+      <!-- adım adım çalışma -->
+      <g font-size="8.6">
+        <g class="step s1">
+          <text x="516" y="130"><tspan fill="#C97B94">▸</tspan><tspan fill="#2E2430">  fatura_2481.pdf çözümle</tspan></text>
+        </g>
+
+        <g class="step s2">
+          <text x="516" y="154" fill="#9C8C96">planlanıyor</text>
+          <circle class="dot" cx="592" cy="151" r="1.9" fill="#C9A8E8"/>
+          <circle class="dot dot2" cx="600" cy="151" r="1.9" fill="#C9A8E8"/>
+          <circle class="dot dot3" cx="608" cy="151" r="1.9" fill="#C9A8E8"/>
+        </g>
+
+        <g class="step s3">
+          <rect x="516" y="166" width="146" height="20" rx="10" fill="#FDF7F9" stroke="#EFE2E8"/>
+          <circle cx="529" cy="176" r="2.6" fill="#C97B94"/>
+          <text x="539" y="179" font-size="7.8" fill="#6E5F6A">layout.detect()</text>
+          <text x="672" y="179" font-size="7.4" fill="#C4B4BC">8 blok</text>
+        </g>
+
+        <g class="step s4">
+          <rect x="516" y="192" width="146" height="20" rx="10" fill="#FDF7F9" stroke="#EFE2E8"/>
+          <circle cx="529" cy="202" r="2.6" fill="#C9A8E8"/>
+          <text x="539" y="205" font-size="7.8" fill="#6E5F6A">ocr.read()</text>
+          <text x="672" y="205" font-size="7.4" fill="#C4B4BC">tr + en</text>
+        </g>
+
+        <g class="step s5">
+          <rect x="516" y="218" width="146" height="20" rx="10" fill="#FDF7F9" stroke="#EFE2E8"/>
+          <circle cx="529" cy="228" r="2.6" fill="#A8CDEA"/>
+          <text x="539" y="231" font-size="7.8" fill="#6E5F6A">fields.validate()</text>
+          <text x="672" y="231" font-size="7.4" fill="#C4B4BC">şema ok</text>
+        </g>
+
+        <g class="step s6">
+          <text x="516" y="262"><tspan fill="#5B93C4">✓</tspan><tspan fill="#2E2430">  14 alan çıkarıldı</tspan></text>
+          <text x="930" y="262" font-size="9" font-weight="700" text-anchor="end" fill="#A85A76">0.97</text>
+        </g>
+
+        <g class="step s7">
+          <text x="516" y="280" font-size="7.6" fill="#9C8C96">2 alan düşük güvenli — insan onayına gönderildi</text>
+        </g>
+      </g>
+
+      <!-- akan çıktı + ilerleme -->
+      <g clip-path="url(#cs-stream)">
+        <rect x="516" y="286" width="330" height="10" rx="5" fill="#F7EDF1"/>
+        <rect x="516" y="286" width="0" height="10" rx="5" fill="url(#cs-bar)">
+          <animate attributeName="width" values="0;0;330;330;0" keyTimes="0;0.05;0.62;0.82;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <text x="930" y="294" font-size="7.4" text-anchor="end" fill="#C4B4BC">1.8 sn</text>
+
+      <path d="M516 312 H930" stroke="#F7EDF1" stroke-width="1.2"/>
+      <g font-size="7.4" fill="#C4B4BC">
+        <text x="516" y="330">triton · onnx</text>
+        <text x="640" y="330">gpu %38</text>
+        <text x="740" y="330">kuyruk 0</text>
+        <text x="930" y="330" text-anchor="end" fill="#5B93C4">sağlıklı</text>
+      </g>
+    </g>
+
+    <!-- ══ klavye ve fincan ═════════════════════════════════════════ -->
+    <g>
+      <rect x="120" y="364" width="286" height="24" rx="5" fill="#FDF7F9" stroke="#EFE2E8" stroke-width="1.2"/>
+      <g fill="#F2E4EA">
+        <rect x="130" y="371" width="14" height="4" rx="2"/><rect x="148" y="371" width="14" height="4" rx="2"/>
+        <rect x="166" y="371" width="14" height="4" rx="2"/><rect x="184" y="371" width="14" height="4" rx="2"/>
+        <rect x="202" y="371" width="14" height="4" rx="2"/><rect x="220" y="371" width="14" height="4" rx="2"/>
+        <rect x="238" y="371" width="14" height="4" rx="2"/><rect x="256" y="371" width="14" height="4" rx="2"/>
+        <rect x="274" y="371" width="14" height="4" rx="2"/><rect x="292" y="371" width="14" height="4" rx="2"/>
+        <rect x="310" y="371" width="14" height="4" rx="2"/><rect x="328" y="371" width="14" height="4" rx="2"/>
+        <rect x="346" y="371" width="14" height="4" rx="2"/><rect x="364" y="371" width="14" height="4" rx="2"/>
+        <rect x="382" y="371" width="14" height="4" rx="2"/>
+        <rect x="188" y="379" width="150" height="4" rx="2"/>
+      </g>
+    </g>
+
+    <g>
+      <path class="steam"     d="M436 358 q4 -5 0 -10" stroke="#E4CFDB" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+      <path class="steam st2" d="M444 358 q4 -5 0 -10" stroke="#E4CFDB" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+      <path class="steam st3" d="M452 358 q4 -5 0 -10" stroke="#E4CFDB" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+      <path d="M428 362 h28 v16 a8 8 0 0 1 -8 8 h-12 a8 8 0 0 1 -8 -8 z" fill="#FDF7F9" stroke="#EFE2E8" stroke-width="1.2"/>
+      <path d="M456 366 a6 6 0 0 1 0 12" fill="none" stroke="#EFE2E8" stroke-width="1.2"/>
+      <path d="M428 368 h28" stroke="#F2D4DE" stroke-width="2"/>
+    </g>
+
+    <!-- ══ süpürme ve çerçeve ═══════════════════════════════════════ -->
+    <rect class="sweep" x="0" y="-400" width="300" height="1200" fill="url(#cs-sheen)"/>
+    <rect x="0.7" y="0.7" width="998.6" height="398.6" rx="12" fill="none" stroke="#EFE2E8" stroke-width="1.4"/>
+  </g>
+</svg>
