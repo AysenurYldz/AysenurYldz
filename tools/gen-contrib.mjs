@@ -36,7 +36,8 @@ const L = {
   en: {
     cal: "CONTRIBUTION CALENDAR", dens: "DENSITY", bar: "one bar per day",
     less: "less", more: "more", day: "d", sep: ",",
-    stats: ["in the last year", "longest streak", "current streak"],
+    statsCal: ["in the last year", "longest streak", "current streak", "active days"],
+    statsIso: ["busiest day", "avg / active day", "weekend share", "busiest month"],
     months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     wd: [[1, "Mon"], [3, "Wed"], [5, "Fri"]],
     altCal: (t, l, n) => `${t} contributions in the last year, longest streak ${l} days, current streak ${n} days`,
@@ -46,7 +47,8 @@ const L = {
   tr: {
     cal: "KATKI TAKVİMİ", dens: "YOĞUNLUK", bar: "her çubuk bir gün",
     less: "az", more: "çok", day: "gün", sep: ".",
-    stats: ["son 1 yıl", "en uzun seri", "güncel seri"],
+    statsCal: ["son 1 yıl", "en uzun seri", "güncel seri", "aktif gün"],
+    statsIso: ["en yoğun gün", "aktif gün ort.", "hafta sonu payı", "en yoğun ay"],
     months: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
     wd: [[1, "Pzt"], [3, "Çar"], [5, "Cum"]],
     altCal: (t, l, n) => `Son bir yılda ${t} katkı, en uzun seri ${l} gün, güncel seri ${n} gün`,
@@ -152,6 +154,22 @@ const svg = (w, h, label, body, uid, extraDefs = "") =>
   `role="img" aria-label="${esc(label)}">` +
   `<defs>${defs(uid, w, h)}${extraDefs}</defs>${body.join("")}</svg>\n`;
 
+/** Panellerin ortak üst şeridi: dört büyük sayı + altlarında küçük etiket.
+ *  rhythm panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
+ *  okunsun diye tipografi, sütun konumları ve renk sırası paylaşılıyor. */
+const STAT_COL = [P.accent, P.ink, P.blue, P.cyan];
+const STAT_X = [26, 268, 510, 736];
+
+function statRow(vals, labels, W) {
+  const o = [];
+  vals.forEach((v, i) => {
+    o.push(`<text x="${STAT_X[i]}" y="70" font-family="${MONO}" font-size="30" font-weight="700" fill="${STAT_COL[i]}">${v}</text>`);
+    o.push(`<text x="${STAT_X[i] + 2}" y="88" font-family="${MONO}" font-size="9.5" letter-spacing="1.1" fill="${P.faint}">${labels[i]}</text>`);
+  });
+  o.push(`<line x1="24" y1="104" x2="${W - 24}" y2="104" stroke="${P.edge}"/>`);
+  return o;
+}
+
 // yılın hızlandırılmış tekrarı: hücreler tarih sırasıyla parlar, sonra tam kalır
 const REPLAY = 9.0, HOLD = 7.0, CYC = 17.0;
 const r5 = (n) => Number(n.toFixed(5));
@@ -166,11 +184,16 @@ function wave(wi, n) {
     `dur="${CYC}s" repeatCount="indefinite"/>`;
 }
 
-function buildCalendar(t, weeks, total, longest, now) {
-  const W = 1000, H = 176, CELL = 11, PITCH = 13, GX = 78, GY = 46;
+function buildCalendar(t, weeks, total, longest, now, days) {
+  const W = 1000, H = 262, CELL = 11, PITCH = 13, GX = 78, GY = 134;
   const n = weeks.length;
   const o = frame(W, H);
   o.push(`<text x="24" y="28" font-family="${MONO}" font-size="9.5" letter-spacing="2" fill="${P.faint}">${t.cal}</text>`);
+
+  const active = days.filter((d) => d.count > 0).length;
+  o.push(...statRow(
+    [num(total, t.sep), `${longest} ${t.day}`, `${now} ${t.day}`, num(active, t.sep)],
+    t.statsCal, W));
 
   const seen = new Set();
   weeks.forEach((wk, wi) => {
@@ -201,33 +224,44 @@ function buildCalendar(t, weeks, total, longest, now) {
     `<animate attributeName="x" values="${GX};${GX};${endX};${endX}" keyTimes="0;0.001;${r5(REPLAY / CYC)};1" dur="${CYC}s" repeatCount="indefinite"/>` +
     `<animate attributeName="opacity" values="0;0.9;0.9;0;0" keyTimes="0;0.01;${r5(REPLAY / CYC)};${r5((REPLAY + 0.4) / CYC)};1" dur="${CYC}s" repeatCount="indefinite"/></rect>`);
 
-  const ly = GY + 7 * PITCH + 14;
+  const ly = GY + 7 * PITCH + 18;
   o.push(`<text x="${GX}" y="${ly}" font-family="${MONO}" font-size="8.5" fill="${P.faint}">${t.less}</text>`);
   P.lv.forEach((c, i) => o.push(`<rect x="${GX + 30 + i * 14}" y="${ly - 8}" width="10" height="10" rx="2" fill="${c}"/>`));
   o.push(`<text x="${GX + 30 + P.lv.length * 14 + 6}" y="${ly}" font-family="${MONO}" font-size="8.5" fill="${P.faint}">${t.more}</text>`);
-
-  const SX = 790;
-  o.push(`<line x1="${SX - 24}" y1="24" x2="${SX - 24}" y2="${H - 24}" stroke="${P.edge}"/>`);
-  const vals = [num(total, t.sep), `${num(longest, t.sep)} ${t.day}`, `${num(now, t.sep)} ${t.day}`];
-  vals.forEach((val, i) => {
-    const y = 52 + i * 40;
-    o.push(`<text x="${SX}" y="${y}" font-family="${MONO}" font-size="19" font-weight="700" fill="${P.ink}">${val}</text>`);
-    o.push(`<text x="${SX + 2}" y="${y + 16}" font-family="${MONO}" font-size="9.5" letter-spacing="1.1" fill="${P.faint}">${t.stats[i]}</text>`);
-  });
 
   o.push(sweep("ct", W, H, 25), border(W, H));
   return svg(W, H, t.altCal(num(total, t.sep), longest, now), o, "ct");
 }
 
 /** Oblik (2.5B) takvim: her günün yüksekliği o günkü katkı yoğunluğu */
-function buildIso(t, weeks) {
-  const W = 1000, H = 182, PX = 17, SK = 5.2, PY = 11.6, TW = 15.0, OX = 52, OY = 60;
+function buildIso(t, weeks, days) {
+  const W = 1000, H = 262, PX = 17, SK = 5.2, PY = 11.6, TW = 15.0, OX = 52, OY = 152;
   const RISE = [0, 6, 12, 19, 27];
   const n = weeks.length;
   const f = (v) => v.toFixed(1);
   const o = frame(W, H);
   o.push(`<text x="24" y="28" font-family="${MONO}" font-size="9.5" letter-spacing="2" fill="${P.faint}">${t.dens}</text>`);
   o.push(`<text x="${W - 24}" y="28" text-anchor="end" font-family="${MONO}" font-size="9.5" letter-spacing="1.2" fill="${P.faint}">${t.bar}</text>`);
+
+  // Aynı veriden, takvim panelininkilerle çakışmayan dört ölçü.
+  const total = days.reduce((s, d) => s + d.count, 0);
+  const activeDays = days.filter((d) => d.count > 0).length;
+  const busiest = Math.max(0, ...days.map((d) => d.count));
+  const avg = activeDays ? (total / activeDays).toFixed(1) : "0";
+  // GitHub takviminde 0 = Pazar, 6 = Cumartesi
+  const weekend = days.reduce((s, d) => (d.weekday === 0 || d.weekday === 6 ? s + d.count : s), 0);
+  const weekendPct = total ? Math.round((weekend / total) * 100) : 0;
+  const byMonth = new Map();
+  for (const d of days) {
+    const m = Number(d.date.slice(5, 7));
+    byMonth.set(m, (byMonth.get(m) || 0) + d.count);
+  }
+  let topMonth = 1, topVal = -1;
+  for (const [m, v] of byMonth) if (v > topVal) { topVal = v; topMonth = m; }
+
+  o.push(...statRow(
+    [num(busiest, t.sep), String(avg).replace(".", t.sep === "." ? "," : "."), `%${weekendPct}`, t.months[topMonth - 1]],
+    t.statsIso, W));
 
   weeks.forEach((wk, wi) => {
     o.push(`<g opacity="0.5">${wave(wi, n)}`);
@@ -306,8 +340,8 @@ const { longest, now } = streaks(days);
 const out = join(ROOT, "assets");
 await mkdir(out, { recursive: true });
 for (const [lang, t] of Object.entries(L)) {
-  await writeFile(join(out, `contrib-${lang}.svg`), buildCalendar(t, weeks, total, longest, now), "utf8");
-  await writeFile(join(out, `iso-${lang}.svg`), buildIso(t, weeks), "utf8");
+  await writeFile(join(out, `contrib-${lang}.svg`), buildCalendar(t, weeks, total, longest, now, days), "utf8");
+  await writeFile(join(out, `iso-${lang}.svg`), buildIso(t, weeks, days), "utf8");
   await writeFile(join(out, `landscape-${lang}.svg`), buildLandscape(t, days), "utf8");
 }
 
