@@ -255,7 +255,12 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 <img src="./assets/iso-en.svg" width="100%" alt="Daily contribution density, drawn in 2.5D" />
 
-<sub>These panels are generated from GitHub's own public contribution data by a script in this repository (<code>tools/gen-contrib.mjs</code>). No third-party stats service is involved — nothing here can go down on someone else's server.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="A snake eating its way across the contribution grid" />
+</picture>
+
+<sub>These panels are generated from GitHub's own public contribution data by a script in this repository (<code>tools/gen-contrib.mjs</code>), refreshed every morning by a GitHub Action. No third-party stats service is involved — nothing here can go down on someone else's server.</sub>
 
 <img src="./assets/landscape-en.svg" width="100%" alt="" />
 

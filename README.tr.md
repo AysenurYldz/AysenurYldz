@@ -255,7 +255,12 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <img src="./assets/iso-tr.svg" width="100%" alt="Günlük katkı yoğunluğunun 2.5B görünümü" />
 
-<sub>Bu paneller GitHub'ın kendi açık katkı verisinden, bu depodaki bir script (<code>tools/gen-contrib.mjs</code>) tarafından üretiliyor. Üçüncü parti bir istatistik servisi kullanılmıyor — buradaki hiçbir şey başkasının sunucusunda çökemez.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="Katkı ızgarasında dolaşan yılan" />
+</picture>
+
+<sub>Bu paneller GitHub'ın kendi açık katkı verisinden, bu depodaki bir script (<code>tools/gen-contrib.mjs</code>) tarafından üretiliyor ve her sabah bir GitHub Action ile yenileniyor. Üçüncü parti bir istatistik servisi kullanılmıyor — buradaki hiçbir şey başkasının sunucusunda çökemez.</sub>
 
 <img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
