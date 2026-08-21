@@ -260,7 +260,9 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
   <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="Katkı ızgarasında dolaşan yılan" />
 </picture>
 
-<sub>Bu paneller GitHub'ın kendi açık katkı verisinden, bu depodaki bir script (<code>tools/gen-contrib.mjs</code>) tarafından üretiliyor ve her sabah bir GitHub Action ile yenileniyor. Üçüncü parti bir istatistik servisi kullanılmıyor — buradaki hiçbir şey başkasının sunucusunda çökemez.</sub>
+<img src="./assets/rhythm-tr.svg" width="100%" alt="Çalışma ritmi: saate ve haftanın gününe göre commit dağılımı" />
+
+<sub>Takvim, yoğunluk ve yılan GitHub'ın açık katkı verisinden geliyor; <code>tools/gen-contrib.mjs</code> üretiyor, bu depodaki bir Action her sabah yeniliyor — üçüncü parti istatistik servisi yok, buradaki hiçbir şey başkasının sunucusunda çökemez. Çalışma ritmi paneli ise <b>yerel git geçmişinden</b> okunuyor; böylece GitHub'a hiç gitmemiş müşteri işleri de sayılıyor. Elle yenileniyor, ölçüm tarihi panelin altında yazılı.</sub>
 
 <img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
