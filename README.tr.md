@@ -251,6 +251,10 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 ## 📊 Aktivite
 
+<img src="./assets/rhythm-tr.svg" width="100%" alt="Çalışma ritmi: saate ve haftanın gününe göre commit dağılımı" />
+
+<sub><b>Yerel git geçmişinden</b> okunuyor; böylece özel depolarda duran müşteri işleri de sayılıyor — belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk siteleri. Elle yenileniyor, ölçüm tarihi panelin altında yazılı.</sub>
+
 <img src="./assets/contrib-tr.svg" width="100%" alt="Katkı takvimi ve seri sayaçları" />
 
 <img src="./assets/iso-tr.svg" width="100%" alt="Günlük katkı yoğunluğunun 2.5B görünümü" />
@@ -260,9 +264,7 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
   <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="Katkı ızgarasında dolaşan yılan" />
 </picture>
 
-<img src="./assets/rhythm-tr.svg" width="100%" alt="Çalışma ritmi: saate ve haftanın gününe göre commit dağılımı" />
-
-<sub>Takvim, yoğunluk ve yılan GitHub'ın açık katkı verisinden geliyor; <code>tools/gen-contrib.mjs</code> üretiyor, bu depodaki bir Action her sabah yeniliyor — üçüncü parti istatistik servisi yok, buradaki hiçbir şey başkasının sunucusunda çökemez. Çalışma ritmi paneli ise <b>yerel git geçmişinden</b> okunuyor; böylece GitHub'a hiç gitmemiş müşteri işleri de sayılıyor. Elle yenileniyor, ölçüm tarihi panelin altında yazılı.</sub>
+<sub>GitHub'ın kendi katkı grafiği; <code>tools/gen-contrib.mjs</code> üretiyor, bu depodaki bir Action her sabah yeniliyor — üçüncü parti istatistik servisi yok, buradaki hiçbir şey başkasının sunucusunda çökemez. Üstteki panelden çok daha düşük görünmesinin sebebi teknik: GitHub bir commit'i ancak yazar e-postası hesaba bağlıysa sayıyor, işimin büyük kısmı ise kendi git kimliğini taşıyan paylaşılan müşteri makinelerinden commit'lenmiş.</sub>
 
 <img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
