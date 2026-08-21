@@ -1,0 +1,39 @@
+name: Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Purple/blue ramp matching the rest of the profile.
+      # Light and dark variants; the README picks one with <picture>.
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=%235B3FD6&color_dots=%23E7E4F7,%23C9BEF5,%239B8CFF,%236D9BFF,%234CC9F0
+            dist/snake-dark.svg?color_snake=%237C5CFF&color_dots=%2315132E,%2333277F,%235B3FD6,%233D8BFF,%234CC9F0
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
