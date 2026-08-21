@@ -22,20 +22,38 @@
 
 ## Merhaba, ben Ayşenur 👋
 
-**Modeli ben eğitiyorum — etrafındaki ürünü de ben kuruyorum.**
+**Modeli ben eğitiyorum — ürünleri de ben kuruyorum, model olsun ya da olmasın.**
 
-Günümün büyük bölümü **bilgisayarlı görü, OCR ve doğal dil işleme** üzerinde geçiyor. Ama not defterinden çıkmayan bir model ürün değildir; bu yüzden onu servis eden **Next.js / Node.js** katmanını ve telefona taşıyan **Flutter** uygulamasını da ben yazıyorum. Full stack tarafı bilinçli bir tercih: bir projeyi ham veriden, vatandaşın ya da müşterinin gerçekten açtığı bir ekrana kadar götürmemi sağlayan şey bu.
+Uzmanlık alanım **bilgisayarlı görü, OCR ve doğal dil işleme**; **Birsav Bilişim**'de yapay zekâ ekibini yönetiyorum. Ama gerçek bir hafta bundan daha geniş: önemli bir kısmı doğrudan ürün geliştirme — **belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri** — web tarafında **Node.js ve Next.js**, mobilde **Flutter** ile; ve bunların çoğunda hiç model yok.
 
-Şu anda **Birsav Bilişim'de yapay zekâ ekibinin teknik liderliğini** yürütüyor, **Bursa Teknik Üniversitesi'nde Bilgisayar Mühendisliği yüksek lisansımı** derin öğrenme ve bilgisayarlı görü odağında sürdürüyorum.
+Böyle olması hoşuma gidiyor. İki tarafı da bilmek, bir projeyi ham veriden ya da boş bir repodan alıp vatandaşın veya bir çalışanın telefonunda gerçekten açtığı bir ekrana kadar götürmemi sağlıyor.
+
+Bunun yanında **Bursa Teknik Üniversitesi'nde Bilgisayar Mühendisliği yüksek lisansımı** derin öğrenme ve bilgisayarlı görü odağında sürdürüyorum.
 
 ```yaml
 rol:       Yapay Zekâ Mühendisi  ·  Full Stack Geliştirici
 ekip:      Yapay Zekâ Ekip Lideri @ Birsav Bilişim
 eğitim:    Bilgisayar Mühendisliği Yüksek Lisans, Bursa Teknik Üniversitesi
-geliştir:  OCR belge analizi · gerçek zamanlı tespit · chatbot · anomali tespiti
+yz_işi:    OCR belge analizi · gerçek zamanlı tespit · chatbot · anomali tespiti
+ürün_işi:  belediye mobil uygulamaları · spor sistemleri · İK platformları · topluluk siteleri
 yayınla:   Next.js · Node.js · Flutter · Docker · Triton · ONNX
 açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikleri, açık kaynak
 ```
+
+---
+
+## 🏗️ İş yerinde neler geliştiriyorum
+
+Hepsi yapay zekâ değil. Haftamın önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirmeyle geçiyor — web ve mobil tarafın tamamı bende, veri şemasından ekrana kadar.
+
+| | |
+|---|---|
+| 📱 **Belediye mobil uygulamaları** | Şehir hizmetleri için Flutter ile geliştirilen, Node.js API'leriyle beslenen çok platformlu iOS ve Android uygulamaları |
+| 🏟️ **Belediye spor ve tesis sistemleri** | Kamu spor tesisleri için üyelik, rezervasyon ve günlük işletme süreçleri |
+| 👥 **Özel sektör İK sistemleri** | Şirketlerin insan kaynakları ekipleri için personel kayıtları, iç süreçler ve raporlama |
+| 🌍 **Topluluk ve girişim platformları** | Next.js üzerine kurulu, Avrupa modeli kollektif girişim ve topluluk siteleri |
+
+*Burada müşteri veya ürün ismi vermiyorum — ama işin şekli hep aynı: gerçek kullanıcılar, gerçek teslim tarihleri ve yayına alındıktan çok sonra da çalışmaya devam etmesi gereken bir sistem.*
 
 ---
 
@@ -52,10 +70,11 @@ Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şe
 ## ⚡ Şu anda
 
 - 🧠 **Birsav Bilişim**'de yapay zekâ ekibini yönetiyorum — OCR belge analizi, vatandaşa yönelik chatbot'lar, anomali tespiti ve takibi
+- 📱 **Flutter ile belediye mobil uygulamaları** ve **Next.js / Node.js ile web platformları** geliştiriyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri
 - 🏛️ Üretimdeki akıllı belediyecilik platformu **Biryerden**'in yapay zekâ tarafında teknik liderlik yapıyorum
 - 🎓 **Bursa Teknik Üniversitesi** yüksek lisansımda derin öğrenme ve bilgisayarlı görü üzerine araştırma yapıyorum
 - ✍️ Yapay zekâ üzerine [Medium](https://medium.com/@AysenurYldz)'da yazıyorum
-- 💬 **Üretimde YOLO, OCR boru hatları, LSTM dizi modelleri veya Triton ile model servisleştirme** konularını konuşmaktan keyif alırım
+- 💬 **Üretimde YOLO, OCR boru hatları, Flutter–Node mimarisi veya Triton ile model servisleştirme** konularını konuşmaktan keyif alırım
 
 ---
 
@@ -234,10 +253,11 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AysenurYldz&show_icons=true&hide_border=true&count_private=true&locale=tr&bg_color=0D0B1E&title_color=A78BFA&text_color=B9B3E6&icon_color=60A5FA" alt="GitHub istatistikleri" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AysenurYldz&layout=compact&hide_border=true&langs_count=8&locale=tr&bg_color=0D0B1E&title_color=A78BFA&text_color=B9B3E6" alt="En çok kullanılan diller" />
+![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7C3AED&labelColor=0D0B1E&logo=github&logoColor=white&label=takip%C3%A7i)
+![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-3B82F6?style=for-the-badge&labelColor=0D0B1E)
+![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-22D3EE?style=for-the-badge&labelColor=0D0B1E)
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=AysenurYldz&hide_border=true&locale=tr&background=0D0B1E&stroke=8B5CF6&ring=A78BFA&fire=22D3EE&currStreakLabel=60A5FA&sideLabels=B9B3E6&currStreakNum=F6F4FF&sideNums=F6F4FF&dates=8C86C9" alt="Seri" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AysenurYldz&bg_color=0D0B1E&color=A78BFA&line=7C5CFF&point=22D3EE&area=true&area_color=3B82F6&hide_border=true&custom_title=Katk%C4%B1%20Aktivitesi" alt="Katkı aktivitesi" width="100%" />
 
 </div>
 

@@ -22,20 +22,38 @@
 
 ## Hi, I'm Ayşenur 👋
 
-**I train the model — and build the product around it.**
+**I train the model — and I build the products, model or no model.**
 
-Most of my day is spent on **computer vision, OCR and NLP**. But a model that never leaves the notebook is not a product, so I also write the **Next.js / Node.js** layer that serves it and the **Flutter** app that carries it to a phone. That full-stack half is deliberate: it is what lets me take a project from raw data all the way to something a citizen or a customer actually opens.
+My specialism is **computer vision, OCR and NLP**, and I lead the AI team at **Birsav Bilişim**. But a real week is wider than that: a good part of it is straight product engineering — **municipal mobile apps, sports and facility systems, HR platforms, community and entrepreneurship sites** — built with **Node.js and Next.js** on the web and **Flutter** on mobile, most of which has no model in it at all.
 
-Right now I lead the **AI team at Birsav Bilişim** and I am doing my **M.Sc. in Computer Engineering at Bursa Technical University**, focused on deep learning and computer vision.
+I like it that way. Knowing both halves is what lets me take a project from raw data, or from an empty repository, all the way to something a citizen or an employee actually opens on their phone.
+
+Alongside this I am doing my **M.Sc. in Computer Engineering at Bursa Technical University**, focused on deep learning and computer vision.
 
 ```yaml
 role:      AI Engineer  ·  Full Stack Developer
 team:      AI Team Lead @ Birsav Bilişim
 studying:  M.Sc. Computer Engineering, Bursa Technical University
-building:  OCR document analysis · real-time detection · chatbots · anomaly detection
+ai_work:   OCR document analysis · real-time detection · chatbots · anomaly detection
+product:   municipal mobile apps · sports systems · HR platforms · community sites
 shipping:  Next.js · Node.js · Flutter · Docker · Triton · ONNX
 open_to:   AI engineering roles, research collaboration, open source
 ```
+
+---
+
+## 🏗️ What I build at work
+
+Not all of it is AI. A large share of my week is product engineering for public- and private-sector clients — full ownership of the web and mobile side, from schema to screen.
+
+| | |
+|---|---|
+| 📱 **Municipal mobile applications** | Cross-platform iOS and Android apps for city services, built with Flutter and backed by Node.js APIs |
+| 🏟️ **Municipal sports & facility systems** | Membership, booking and day-to-day operations for public sports facilities |
+| 👥 **HR systems for the private sector** | Employee records, internal processes and reporting for company human-resources teams |
+| 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built on Next.js |
+
+*I do not name clients or products here — but the shape is consistent: real users, real deadlines, and a system that has to keep working long after launch.*
 
 ---
 
@@ -52,10 +70,11 @@ Plenty of people can do one of these four boxes well. What I enjoy is owning the
 ## ⚡ Currently
 
 - 🧠 Leading the AI team at **Birsav Bilişim** — OCR document analysis, citizen-facing chatbots, anomaly detection and tracking
+- 📱 Shipping **municipal mobile apps in Flutter** and **web platforms in Next.js / Node.js** — sports and facility systems, HR systems, community sites
 - 🏛️ Technical lead on the AI side of **Biryerden**, a smart-municipality platform in production
 - 🎓 Researching deep learning and computer vision for my **M.Sc. at Bursa Technical University**
 - ✍️ Writing about AI on [Medium](https://medium.com/@AysenurYldz)
-- 💬 Happy to talk about **YOLO in production, OCR pipelines, LSTM sequence models, or serving models with Triton**
+- 💬 Happy to talk about **YOLO in production, OCR pipelines, Flutter–Node architecture, or serving models with Triton**
 
 ---
 
@@ -234,10 +253,11 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AysenurYldz&show_icons=true&hide_border=true&count_private=true&bg_color=0D0B1E&title_color=A78BFA&text_color=B9B3E6&icon_color=60A5FA" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AysenurYldz&layout=compact&hide_border=true&langs_count=8&bg_color=0D0B1E&title_color=A78BFA&text_color=B9B3E6" alt="Top languages" />
+![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7C3AED&labelColor=0D0B1E&logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-3B82F6?style=for-the-badge&labelColor=0D0B1E)
+![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-22D3EE?style=for-the-badge&labelColor=0D0B1E)
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=AysenurYldz&hide_border=true&background=0D0B1E&stroke=8B5CF6&ring=A78BFA&fire=22D3EE&currStreakLabel=60A5FA&sideLabels=B9B3E6&currStreakNum=F6F4FF&sideNums=F6F4FF&dates=8C86C9" alt="Streak" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AysenurYldz&bg_color=0D0B1E&color=A78BFA&line=7C5CFF&point=22D3EE&area=true&area_color=3B82F6&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity" width="100%" />
 
 </div>
 
