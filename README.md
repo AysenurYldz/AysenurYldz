@@ -249,15 +249,21 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 ---
 
-## 📊 GitHub Activity
+## 📊 Activity
+
+<img src="./assets/contrib-en.svg" width="100%" alt="Contribution calendar with streak counters" />
+
+<img src="./assets/iso-en.svg" width="100%" alt="Daily contribution density, drawn in 2.5D" />
+
+<sub>These panels are generated from GitHub's own public contribution data by a script in this repository (<code>tools/gen-contrib.mjs</code>). No third-party stats service is involved — nothing here can go down on someone else's server.</sub>
+
+<img src="./assets/landscape-en.svg" width="100%" alt="" />
 
 <div align="center">
 
 ![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7C3AED&labelColor=0D0B1E&logo=github&logoColor=white)
 ![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-3B82F6?style=for-the-badge&labelColor=0D0B1E)
 ![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-22D3EE?style=for-the-badge&labelColor=0D0B1E)
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AysenurYldz&bg_color=0D0B1E&color=A78BFA&line=7C5CFF&point=22D3EE&area=true&area_color=3B82F6&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity" width="100%" />
 
 </div>
 

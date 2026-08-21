@@ -249,15 +249,21 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 ---
 
-## 📊 GitHub Aktivitesi
+## 📊 Aktivite
+
+<img src="./assets/contrib-tr.svg" width="100%" alt="Katkı takvimi ve seri sayaçları" />
+
+<img src="./assets/iso-tr.svg" width="100%" alt="Günlük katkı yoğunluğunun 2.5B görünümü" />
+
+<sub>Bu paneller GitHub'ın kendi açık katkı verisinden, bu depodaki bir script (<code>tools/gen-contrib.mjs</code>) tarafından üretiliyor. Üçüncü parti bir istatistik servisi kullanılmıyor — buradaki hiçbir şey başkasının sunucusunda çökemez.</sub>
+
+<img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
 <div align="center">
 
 ![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7C3AED&labelColor=0D0B1E&logo=github&logoColor=white&label=takip%C3%A7i)
 ![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-3B82F6?style=for-the-badge&labelColor=0D0B1E)
 ![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-22D3EE?style=for-the-badge&labelColor=0D0B1E)
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AysenurYldz&bg_color=0D0B1E&color=A78BFA&line=7C5CFF&point=22D3EE&area=true&area_color=3B82F6&hide_border=true&custom_title=Katk%C4%B1%20Aktivitesi" alt="Katkı aktivitesi" width="100%" />
 
 </div>
 

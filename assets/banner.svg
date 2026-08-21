@@ -42,6 +42,13 @@
       <rect x="0" y="0" width="1200" height="340" rx="26"/>
     </clipPath>
 
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
     <style>
       .n { animation: pulse 4.2s ease-in-out infinite; }
       .n2 { animation-delay: .5s }  .n3 { animation-delay: 1s }
@@ -50,8 +57,14 @@
       @keyframes pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
       .flow { stroke-dasharray: 5 9; animation: dash 3.6s linear infinite; }
       @keyframes dash { to { stroke-dashoffset: -56 } }
+      .sweep { animation: glide 24s ease-in-out infinite; }
+      @keyframes glide {
+        0%, 20%  { transform: translateX(-460px) skewX(-16deg) }
+        70%,100% { transform: translateX(1520px) skewX(-16deg) }
+      }
       @media (prefers-reduced-motion: reduce) {
-        .n, .flow { animation: none }
+        .n, .flow, .sweep { animation: none }
+        .sweep { opacity: 0 }
       }
     </style>
   </defs>
@@ -141,6 +154,8 @@
         </text>
       </g>
     </g>
+
+    <rect class="sweep" x="0" y="-340" width="300" height="1020" fill="url(#sheen)"/>
 
     <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#8B7FE8" stroke-opacity="0.22" stroke-width="1.5"/>
   </g>
