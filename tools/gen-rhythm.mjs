@@ -38,9 +38,23 @@ const MINE = [
   /belediyespor/i,
   /kollektif/i,
   /biryap[iı]/i,
-  /birsuit/i,
+  /birstok/i,
   /(^|[-_/])ik([-_]|$)|insan[-_]?kaynak|(^|[-_/])hr([-_]|$)/i,
 ];
+
+// Baştan sona Ayşenur'un yazdığı depolar: burada YAZARA BAKILMAZ, tüm commit'ler
+// sayılır. Bu depolar paylaşılan geliştirme makinelerinde yazıldığı için git
+// config'i başka bir meslektaşın adına ayarlı kalmış; commit'lerdeki ad gerçek
+// yazarı göstermiyor. Ayşenur 2026-08-21'de bu beş deponun tamamen kendisine ait
+// olduğunu teyit etti.
+const OURS = [
+  /birstok-(frontend|backend|mobile)/i,
+  /insan-kaynaklari/i,
+  /gursubelediyespor-web/i,
+];
+
+// OURS depolarında bile otomasyon commit'leri sayılmaz.
+const BOTS = /\[bot\]|dependabot|github-actions|noreply@anthropic\.com/i;
 
 // Sayılacak kimlikler. `repos` verilirse o kimlik sadece eşleşen depolarda sayılır;
 // verilmezse tüm depolarda sayılır. name "*" ise o e-postanın tamamı sayılır.
@@ -138,10 +152,13 @@ async function scan() {
       const parts = line.split("|");
       if (parts.length !== 5) continue;
       const [sha, name, email, h, d] = parts;
-      const mine = ME.some((m) =>
-        m.email === email &&
-        (m.name === "*" || m.name === name) &&
-        (!m.repos || m.repos.some((re) => re.test(tag))));
+      const wholeRepo = OURS.some((re) => re.test(tag));
+      const mine = wholeRepo
+        ? !BOTS.test(`${name} ${email}`)
+        : ME.some((m) =>
+            m.email === email &&
+            (m.name === "*" || m.name === name) &&
+            (!m.repos || m.repos.some((re) => re.test(tag))));
       if (!mine) continue;
       // aynı commit birden fazla depoda (fork/klon) görünebilir — bir kez say
       if (seen.has(sha)) continue;
