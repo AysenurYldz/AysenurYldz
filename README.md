@@ -22,17 +22,20 @@
 
 ## Hi, I'm Ayşenur 👋
 
-**I train the model — and I build the products, model or no model.**
+**AI Engineer and Full Stack Developer — I do both, and the combination is the point.**
 
-My specialism is **computer vision, OCR and NLP**, and I lead the AI team at **Birsav Bilişim**. But a real week is wider than that: a good part of it is straight product engineering — **municipal mobile apps, sports and facility systems, HR platforms, community and entrepreneurship sites** — built with **Node.js and Next.js** on the web and **Flutter** on mobile, most of which has no model in it at all.
+I am one of the two team leads at **Birsav Bilişim**; every project in the company runs through one of us. I lead the **AI side of all of them** — computer vision, OCR, NLP, anomaly detection — and I lead our **private-sector projects end to end**, from the data model to the screen.
 
-I like it that way. Knowing both halves is what lets me take a project from raw data, or from an empty repository, all the way to something a citizen or an employee actually opens on their phone.
+The other half of my week has no model in it at all: **municipal mobile applications, sports and facility systems, HR platforms, community and entrepreneurship sites**, built with **Node.js and Next.js** on the web and **Flutter** on mobile.
+
+Knowing both halves is what lets me take a project from raw data — or from an empty repository — all the way to something a citizen or an employee actually opens on their phone.
 
 Alongside this I am doing my **M.Sc. in Computer Engineering at Bursa Technical University**, focused on deep learning and computer vision.
 
 ```yaml
 role:      AI Engineer  ·  Full Stack Developer
-team:      AI Team Lead @ Birsav Bilişim
+team:      one of two team leads @ Birsav Bilişim
+scope:     the AI side of every company project · private-sector projects end to end
 studying:  M.Sc. Computer Engineering, Bursa Technical University
 ai_work:   OCR document analysis · real-time detection · chatbots · anomaly detection
 product:   municipal mobile apps · sports systems · HR platforms · community sites
@@ -44,7 +47,7 @@ open_to:   AI engineering roles, research collaboration, open source
 
 ## 🏗️ What I build at work
 
-Not all of it is AI. A large share of my week is product engineering for public- and private-sector clients — full ownership of the web and mobile side, from schema to screen.
+Not all of it is AI. A large share of my week is product engineering for public- and private-sector clients, where I own the web and mobile side from schema to screen.
 
 | | |
 |---|---|
@@ -69,9 +72,10 @@ Plenty of people can do one of these four boxes well. What I enjoy is owning the
 
 ## ⚡ Currently
 
-- 🧠 Leading the AI team at **Birsav Bilişim** — OCR document analysis, citizen-facing chatbots, anomaly detection and tracking
+- 🧭 Leading, as one of two team leads at **Birsav Bilişim**, the AI side of every project in the company and our private-sector work end to end
+- 🧠 Building OCR document analysis, citizen-facing chatbots, real-time detection and anomaly tracking
 - 📱 Shipping **municipal mobile apps in Flutter** and **web platforms in Next.js / Node.js** — sports and facility systems, HR systems, community sites
-- 🏛️ Technical lead on the AI side of **Biryerden**, a smart-municipality platform in production
+- 🏛️ Among them **Biryerden**, our smart-municipality platform, in production
 - 🎓 Researching deep learning and computer vision for my **M.Sc. at Bursa Technical University**
 - ✍️ Writing about AI on [Medium](https://medium.com/@AysenurYldz)
 - 💬 Happy to talk about **YOLO in production, OCR pipelines, Flutter–Node architecture, or serving models with Triton**
@@ -243,7 +247,7 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 <div align="center">
 
-**Also in production, outside GitHub:** OCR-based document analysis pipelines · citizen-facing chatbots · anomaly detection & tracking systems · the AI side of the **Biryerden** smart-municipality platform, all at Birsav Bilişim.
+**Also in production, outside GitHub:** the AI side of every Birsav Bilişim project — OCR-based document analysis pipelines, citizen-facing chatbots, anomaly detection and tracking — together with our private-sector work and the **Biryerden** smart-municipality platform.
 
 </div>
 
@@ -282,12 +286,13 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 
 | | |
 |---|---|
-| **M.Sc. Computer Engineering** — Bursa Technical University | 2025 – present |
-| **AI Engineer & Team Lead** — Birsav Bilişim | 2025 – present |
-| **SEO Engineer** — Gini Talent | 2024 – 2025 |
-| **In-company vocational training, AI** — Özdilek Ev Tekstil, R&D | 2024 |
-| **B.Sc. Computer Engineering** — Sakarya University of Applied Sciences | 2020 – 2024 |
-| **Intern Engineer** — Martur Fompak International · Novelty AI Technologies | 2022 – 2024 |
+| **Team Lead — AI & Full Stack** · Birsav Bilişim | Dec 2025 – present |
+| **M.Sc. Computer Engineering** · Bursa Technical University | Feb 2025 – present |
+| **SEO Engineer** · Gini Talent, remote | Oct 2024 – Jan 2025 |
+| **In-company vocational training, AI** · Özdilek Ev Tekstil, R&D | Feb – Jun 2024 |
+| **Intern Engineer** · Martur Fompak International, IT | Jan – Feb 2024 |
+| **Intern Engineer** · Novelty AI Technologies | Aug – Sep 2022 |
+| **B.Sc. Computer Engineering** · Sakarya University of Applied Sciences | Sep 2020 – Sep 2024 |
 
 ---
 

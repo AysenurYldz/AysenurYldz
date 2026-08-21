@@ -22,17 +22,20 @@
 
 ## Merhaba, ben Ayşenur 👋
 
-**Modeli ben eğitiyorum — ürünleri de ben kuruyorum, model olsun ya da olmasın.**
+**Yapay Zekâ Mühendisi ve Full Stack Geliştirici — ikisini birden yapıyorum, mesele de tam olarak bu birleşim.**
 
-Uzmanlık alanım **bilgisayarlı görü, OCR ve doğal dil işleme**; **Birsav Bilişim**'de yapay zekâ ekibini yönetiyorum. Ama gerçek bir hafta bundan daha geniş: önemli bir kısmı doğrudan ürün geliştirme — **belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri** — web tarafında **Node.js ve Next.js**, mobilde **Flutter** ile; ve bunların çoğunda hiç model yok.
+**Birsav Bilişim**'deki iki ekip liderinden biriyim; şirketteki her proje ikimizden birinin üzerinden yürüyor. Hepsinin **yapay zekâ tarafını** ben yönetiyorum — bilgisayarlı görü, OCR, doğal dil işleme, anomali tespiti — ve **özel sektör projelerini uçtan uca**, veri modelinden ekrana kadar ben yürütüyorum.
 
-Böyle olması hoşuma gidiyor. İki tarafı da bilmek, bir projeyi ham veriden ya da boş bir repodan alıp vatandaşın veya bir çalışanın telefonunda gerçekten açtığı bir ekrana kadar götürmemi sağlıyor.
+Haftamın diğer yarısında hiç model yok: **belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri** — web tarafında **Node.js ve Next.js**, mobilde **Flutter**.
+
+İki tarafı da bilmek, bir projeyi ham veriden — ya da boş bir repodan — alıp vatandaşın veya bir çalışanın telefonunda gerçekten açtığı bir ekrana kadar götürmemi sağlıyor.
 
 Bunun yanında **Bursa Teknik Üniversitesi'nde Bilgisayar Mühendisliği yüksek lisansımı** derin öğrenme ve bilgisayarlı görü odağında sürdürüyorum.
 
 ```yaml
 rol:       Yapay Zekâ Mühendisi  ·  Full Stack Geliştirici
-ekip:      Yapay Zekâ Ekip Lideri @ Birsav Bilişim
+ekip:      İki ekip liderinden biri @ Birsav Bilişim
+kapsam:    Şirketteki her projenin yapay zekâ tarafı · özel sektör projeleri uçtan uca
 eğitim:    Bilgisayar Mühendisliği Yüksek Lisans, Bursa Teknik Üniversitesi
 yz_işi:    OCR belge analizi · gerçek zamanlı tespit · chatbot · anomali tespiti
 ürün_işi:  belediye mobil uygulamaları · spor sistemleri · İK platformları · topluluk siteleri
@@ -44,7 +47,7 @@ açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikl
 
 ## 🏗️ İş yerinde neler geliştiriyorum
 
-Hepsi yapay zekâ değil. Haftamın önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirmeyle geçiyor — web ve mobil tarafın tamamı bende, veri şemasından ekrana kadar.
+Hepsi yapay zekâ değil. Haftamın önemli bir kısmı kamu ve özel sektör müşterileri için ürün geliştirmeyle geçiyor; buralarda web ve mobil tarafın tamamını veri şemasından ekrana kadar ben üstleniyorum.
 
 | | |
 |---|---|
@@ -69,9 +72,10 @@ Bu dört kutudan birini iyi yapabilen çok kişi var. Benim keyif aldığım şe
 
 ## ⚡ Şu anda
 
-- 🧠 **Birsav Bilişim**'de yapay zekâ ekibini yönetiyorum — OCR belge analizi, vatandaşa yönelik chatbot'lar, anomali tespiti ve takibi
-- 📱 **Flutter ile belediye mobil uygulamaları** ve **Next.js / Node.js ile web platformları** geliştiriyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri
-- 🏛️ Üretimdeki akıllı belediyecilik platformu **Biryerden**'in yapay zekâ tarafında teknik liderlik yapıyorum
+- 🧭 **Birsav Bilişim**'deki iki ekip liderinden biri olarak şirketteki her projenin yapay zekâ tarafını, özel sektör projelerini ise uçtan uca yönetiyorum
+- 🧠 OCR belge analizi, vatandaşa yönelik chatbot'lar, gerçek zamanlı tespit ve anomali takibi geliştiriyorum
+- 📱 **Flutter ile belediye mobil uygulamaları** ve **Next.js / Node.js ile web platformları** çıkarıyorum — spor ve tesis sistemleri, İK sistemleri, topluluk siteleri
+- 🏛️ Bunların arasında üretimdeki akıllı belediyecilik platformumuz **Biryerden** de var
 - 🎓 **Bursa Teknik Üniversitesi** yüksek lisansımda derin öğrenme ve bilgisayarlı görü üzerine araştırma yapıyorum
 - ✍️ Yapay zekâ üzerine [Medium](https://medium.com/@AysenurYldz)'da yazıyorum
 - 💬 **Üretimde YOLO, OCR boru hatları, Flutter–Node mimarisi veya Triton ile model servisleştirme** konularını konuşmaktan keyif alırım
@@ -243,7 +247,7 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <div align="center">
 
-**GitHub dışında, üretimde:** OCR tabanlı belge analizi boru hatları · vatandaşa yönelik chatbot'lar · anomali tespiti ve takip sistemleri · akıllı belediyecilik platformu **Biryerden**'in yapay zekâ tarafı — tümü Birsav Bilişim'de.
+**GitHub dışında, üretimde:** Birsav Bilişim'deki her projenin yapay zekâ tarafı — OCR tabanlı belge analizi boru hatları, vatandaşa yönelik chatbot'lar, anomali tespiti ve takip sistemleri — bunun yanında özel sektör işlerimiz ve akıllı belediyecilik platformumuz **Biryerden**.
 
 </div>
 
@@ -282,12 +286,13 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 | | |
 |---|---|
-| **Bilgisayar Mühendisliği, Yüksek Lisans** — Bursa Teknik Üniversitesi | 2025 – devam ediyor |
-| **Yapay Zekâ Mühendisi & Ekip Lideri** — Birsav Bilişim | 2025 – devam ediyor |
-| **SEO Mühendisi** — Gini Talent | 2024 – 2025 |
-| **İşletmede Mesleki Eğitim, Yapay Zekâ** — Özdilek Ev Tekstil, Ar-Ge | 2024 |
-| **Bilgisayar Mühendisliği, Lisans** — Sakarya Uygulamalı Bilimler Üniversitesi | 2020 – 2024 |
-| **Stajyer Mühendis** — Martur Fompak International · Novelty Yapay Zekâ Teknolojileri | 2022 – 2024 |
+| **Ekip Lideri — Yapay Zekâ & Full Stack** · Birsav Bilişim | Ara 2025 – devam |
+| **Bilgisayar Mühendisliği, Yüksek Lisans** · Bursa Teknik Üniversitesi | Şub 2025 – devam |
+| **SEO Mühendisi** · Gini Talent, uzaktan | Eki 2024 – Oca 2025 |
+| **İşletmede Mesleki Eğitim, Yapay Zekâ** · Özdilek Ev Tekstil, Ar-Ge | Şub – Haz 2024 |
+| **Stajyer Mühendis** · Martur Fompak International, BT | Oca – Şub 2024 |
+| **Stajyer Mühendis** · Novelty Yapay Zekâ Teknolojileri | Ağu – Eyl 2022 |
+| **Bilgisayar Mühendisliği, Lisans** · Sakarya Uygulamalı Bilimler Üniversitesi | Eyl 2020 – Eyl 2024 |
 
 ---
 
