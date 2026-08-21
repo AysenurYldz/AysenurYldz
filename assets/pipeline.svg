@@ -2,20 +2,20 @@
   <title>From raw data to a screen someone opens</title>
   <defs>
     <linearGradient id="p-flow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B5CF6"/><stop offset="34%" stop-color="#6366F1"/>
-      <stop offset="67%" stop-color="#3B82F6"/><stop offset="100%" stop-color="#22D3EE"/>
+      <stop offset="0%" stop-color="#A67CD8"/><stop offset="34%" stop-color="#9B6FD6"/>
+      <stop offset="67%" stop-color="#CE8FA8"/><stop offset="100%" stop-color="#E8B4C6"/>
     </linearGradient>
     <linearGradient id="p-b1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.16"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#A67CD8" stop-opacity="0.16"/><stop offset="100%" stop-color="#A67CD8" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="p-b2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.16"/><stop offset="100%" stop-color="#6366F1" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#9B6FD6" stop-opacity="0.16"/><stop offset="100%" stop-color="#9B6FD6" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="p-b3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.16"/><stop offset="100%" stop-color="#3B82F6" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#CE8FA8" stop-opacity="0.16"/><stop offset="100%" stop-color="#CE8FA8" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="p-b4" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#E8B4C6" stop-opacity="0.16"/><stop offset="100%" stop-color="#E8B4C6" stop-opacity="0.03"/>
     </linearGradient>
     <style>
       .p-flw{stroke-dasharray:6 10; animation:p-dash 4s linear infinite}
@@ -27,44 +27,44 @@
     </style>
   </defs>
 
-  <rect width="1200" height="210" rx="14" fill="#0A0918"/>
-  <rect width="1200" height="210" rx="14" fill="none" stroke="#8B7FE8" stroke-opacity="0.18"/>
+  <rect width="1200" height="210" rx="14" fill="#0F0A14"/>
+  <rect width="1200" height="210" rx="14" fill="none" stroke="#C09AD4" stroke-opacity="0.18"/>
 
   <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
-    <text x="24" y="30" font-size="11.5" font-weight="600" letter-spacing="2.8" fill="#6E6A9B">
+    <text x="24" y="30" font-size="11.5" font-weight="600" letter-spacing="2.8" fill="#8A7186">
       END TO END &#160;·&#160; ONE ENGINEER ACROSS THE WHOLE PIPELINE
     </text>
 
     <!-- 01 DATA -->
     <g>
-      <rect x="24" y="46" width="264" height="132" rx="14" fill="url(#p-b1)" stroke="#8B5CF6" stroke-opacity="0.34"/>
-      <text x="264" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8B5CF6" fill-opacity="0.55">01</text>
-      <g transform="translate(48,64)" fill="#C4B5FD">
+      <rect x="24" y="46" width="264" height="132" rx="14" fill="url(#p-b1)" stroke="#A67CD8" stroke-opacity="0.34"/>
+      <text x="264" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#A67CD8" fill-opacity="0.55">01</text>
+      <g transform="translate(48,64)" fill="#DDC4EE">
         <rect width="6" height="6" rx="1"/><rect x="9" width="6" height="6" rx="1" fill-opacity=".45"/><rect x="18" width="6" height="6" rx="1"/>
         <rect y="9" width="6" height="6" rx="1" fill-opacity=".45"/><rect x="9" y="9" width="6" height="6" rx="1"/><rect x="18" y="9" width="6" height="6" rx="1" fill-opacity=".45"/>
         <rect y="18" width="6" height="6" rx="1"/><rect x="9" y="18" width="6" height="6" rx="1" fill-opacity=".45"/><rect x="18" y="18" width="6" height="6" rx="1"/>
       </g>
       <text x="48" y="122" font-size="19" font-weight="700" letter-spacing="0.3" fill="#EDE9FE">Data</text>
-      <text x="48" y="146" font-size="12.5" fill="#B9B3E6">collect &#160;·&#160; label &#160;·&#160; preprocess</text>
-      <text x="48" y="166" font-size="10.5" font-weight="600" letter-spacing="1.3" fill="#7E76C4">PANDAS · NUMPY · OPENCV</text>
+      <text x="48" y="146" font-size="12.5" fill="#D9BFCF">collect &#160;·&#160; label &#160;·&#160; preprocess</text>
+      <text x="48" y="166" font-size="10.5" font-weight="600" letter-spacing="1.3" fill="#A88BB8">PANDAS · NUMPY · OPENCV</text>
     </g>
 
-    <g class="p-ar" stroke="#8B5CF6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g class="p-ar" stroke="#A67CD8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M298 104 L306 112 L298 120"/>
     </g>
 
     <!-- 02 MODEL -->
     <g>
-      <rect x="320" y="46" width="264" height="132" rx="14" fill="url(#p-b2)" stroke="#6366F1" stroke-opacity="0.34"/>
-      <text x="560" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#6366F1" fill-opacity="0.6">02</text>
+      <rect x="320" y="46" width="264" height="132" rx="14" fill="url(#p-b2)" stroke="#9B6FD6" stroke-opacity="0.34"/>
+      <text x="560" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#9B6FD6" fill-opacity="0.6">02</text>
       <g transform="translate(344,64)">
-        <g stroke="#A5B4FC" stroke-width="1.3" stroke-opacity=".7" fill="none">
+        <g stroke="#D6B4E4" stroke-width="1.3" stroke-opacity=".7" fill="none">
           <path d="M4 5 L14 3 M4 5 L14 12 M4 19 L14 12 M4 19 L14 21 M14 3 L23 12 M14 12 L23 12 M14 21 L23 12"/>
         </g>
-        <g fill="#A5B4FC">
+        <g fill="#D6B4E4">
           <circle cx="4" cy="5" r="2.6"/><circle cx="4" cy="19" r="2.6"/>
           <circle cx="14" cy="3" r="2.4"/><circle cx="14" cy="12" r="2.4"/><circle cx="14" cy="21" r="2.4"/>
-          <circle cx="23" cy="12" r="2.8" fill="#818CF8"/>
+          <circle cx="23" cy="12" r="2.8" fill="#BE8FD4"/>
         </g>
       </g>
       <text x="344" y="122" font-size="19" font-weight="700" letter-spacing="0.3" fill="#E7E9FE">Model</text>
@@ -72,36 +72,36 @@
       <text x="344" y="166" font-size="10.5" font-weight="600" letter-spacing="1.3" fill="#7A83CC">PYTORCH · TENSORFLOW · YOLO</text>
     </g>
 
-    <g class="p-ar p-ar2" stroke="#6366F1" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g class="p-ar p-ar2" stroke="#9B6FD6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M594 104 L602 112 L594 120"/>
     </g>
 
     <!-- 03 SERVICE -->
     <g>
-      <rect x="616" y="46" width="264" height="132" rx="14" fill="url(#p-b3)" stroke="#3B82F6" stroke-opacity="0.34"/>
-      <text x="856" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#3B82F6" fill-opacity="0.6">03</text>
+      <rect x="616" y="46" width="264" height="132" rx="14" fill="url(#p-b3)" stroke="#CE8FA8" stroke-opacity="0.34"/>
+      <text x="856" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#CE8FA8" fill-opacity="0.6">03</text>
       <g transform="translate(640,64)">
-        <g fill="none" stroke="#93C5FD" stroke-width="1.5">
+        <g fill="none" stroke="#EBBECC" stroke-width="1.5">
           <rect x="0" y="0" width="25" height="7" rx="2"/>
           <rect x="0" y="9.5" width="25" height="7" rx="2"/>
           <rect x="0" y="19" width="25" height="7" rx="2"/>
         </g>
-        <g fill="#60A5FA"><circle cx="4.5" cy="3.5" r="1.5"/><circle cx="4.5" cy="13" r="1.5"/><circle cx="4.5" cy="22.5" r="1.5"/></g>
+        <g fill="#DDA6B8"><circle cx="4.5" cy="3.5" r="1.5"/><circle cx="4.5" cy="13" r="1.5"/><circle cx="4.5" cy="22.5" r="1.5"/></g>
       </g>
       <text x="640" y="122" font-size="19" font-weight="700" letter-spacing="0.3" fill="#E4EEFE">Service</text>
       <text x="640" y="146" font-size="12.5" fill="#AFC5EC">containerise &#160;·&#160; serve &#160;·&#160; scale</text>
       <text x="640" y="166" font-size="10.5" font-weight="600" letter-spacing="1.3" fill="#7295CC">DOCKER · TRITON · ONNX · REST</text>
     </g>
 
-    <g class="p-ar p-ar3" stroke="#3B82F6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g class="p-ar p-ar3" stroke="#CE8FA8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M890 104 L898 112 L890 120"/>
     </g>
 
     <!-- 04 PRODUCT -->
     <g>
-      <rect x="912" y="46" width="264" height="132" rx="14" fill="url(#p-b4)" stroke="#22D3EE" stroke-opacity="0.32"/>
-      <text x="1152" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#22D3EE" fill-opacity="0.6">04</text>
-      <g transform="translate(936,64)" fill="none" stroke="#67E8F9" stroke-width="1.5" stroke-linejoin="round">
+      <rect x="912" y="46" width="264" height="132" rx="14" fill="url(#p-b4)" stroke="#E8B4C6" stroke-opacity="0.32"/>
+      <text x="1152" y="72" text-anchor="end" font-size="11" font-weight="700" letter-spacing="1.4" fill="#E8B4C6" fill-opacity="0.6">04</text>
+      <g transform="translate(936,64)" fill="none" stroke="#F2CEDC" stroke-width="1.5" stroke-linejoin="round">
         <rect x="0" y="3" width="16" height="13" rx="2"/>
         <path d="M0 7.5 L16 7.5"/>
         <rect x="19" y="0" width="9" height="20" rx="2"/>

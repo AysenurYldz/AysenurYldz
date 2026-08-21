@@ -73,9 +73,9 @@ const ME = [
 
 const MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";
 const P = {
-  card: "#0A0918", edge: "#242352", ink: "#EDEBFA", faint: "#6E6A9B",
-  track: "#1B1840", accent: "#7C5CFF", blue: "#3D8BFF", cyan: "#4CC9F0",
-  sheen: "#FFFFFF", sheenA: 0.075, rim: "#8B7FE8", rimA: 0.16,
+  card: "#0F0A14", edge: "#3A2542", ink: "#F5EAF2", faint: "#8A7186",
+  track: "#2A1B33", accent: "#B18AE0", blue: "#D99BB0", cyan: "#EFC3D3",
+  sheen: "#FFFFFF", sheenA: 0.075, rim: "#C09AD4", rimA: 0.16,
 };
 
 const L = {

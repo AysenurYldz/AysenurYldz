@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * GitHub katkı takvimini profilin mor/mavi diline uygun SVG'ler olarak üretir.
+ * GitHub katkı takvimini profilin lila/toz pembe diline uygun SVG'ler olarak üretir.
  *
  * Veri kaynağı: https://github.com/users/<login>/contributions — GitHub'ın profil
  * sayfasında kullandığı genel uç nokta. Token istemez ve tam olarak bir
@@ -25,11 +25,11 @@ const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
-// Profilin geri kalanıyla aynı koyu kart dili: mürekkep zemin, mor -> camgöbeği rampa.
+// Profilin geri kalanıyla aynı koyu kart dili: koyu erik zemin, lila -> pudra rampa.
 const P = {
-  card: "#0A0918", edge: "#242352", ink: "#EDEBFA", faint: "#6E6A9B",
-  accent: "#7C5CFF", sheen: "#FFFFFF", sheenA: 0.075, rim: "#8B7FE8", rimA: 0.16,
-  lv: ["#15132E", "#33277F", "#5B3FD6", "#3D8BFF", "#4CC9F0"],
+  card: "#0F0A14", edge: "#3A2542", ink: "#F5EAF2", faint: "#8A7186",
+  accent: "#B18AE0", sheen: "#FFFFFF", sheenA: 0.075, rim: "#C09AD4", rimA: 0.16,
+  lv: ["#1E1428", "#5C3A70", "#9070C4", "#C58FC9", "#EFB6CC"],
 };
 
 const L = {
@@ -157,7 +157,7 @@ const svg = (w, h, label, body, uid, extraDefs = "") =>
 /** Panellerin ortak üst şeridi: dört büyük sayı + altlarında küçük etiket.
  *  rhythm panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
  *  okunsun diye tipografi, sütun konumları ve renk sırası paylaşılıyor. */
-const STAT_COL = [P.accent, P.ink, P.blue, P.cyan];
+const STAT_COL = [P.accent, P.ink, "#D99BB0", "#EFC3D3"];
 const STAT_X = [26, 268, 510, 736];
 
 function statRow(vals, labels, W) {

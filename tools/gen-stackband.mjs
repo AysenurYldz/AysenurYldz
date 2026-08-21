@@ -45,7 +45,7 @@ const ICONS = [
 
 // Açık zemin: logolar kendi resmî renklerinde durduğu için kart aydınlık olmalı,
 // koyu zeminde çoğu marka rengi (Next.js ve Flask siyah, Git koyu turuncu) kayboluyor.
-const CARD = "#F7F6FC", EDGE = "#E2DDF5", RIM = "#FFFFFF";
+const CARD = "#FBF5F8", EDGE = "#EDDCE6", RIM = "#FFFFFF";
 
 const W = 1000, H = 72, SIZE = 26, GAP = 60, SPEED = 30; // px/saniye
 
@@ -104,8 +104,8 @@ ${defs.join("\n")}
 </linearGradient>
 <mask id="sb-mask"><rect width="${W}" height="${H}" fill="url(#sb-fade)"/></mask>
 <linearGradient id="sb-sheen" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#15132D" stop-opacity="0"/><stop offset="45%" stop-color="#15132D" stop-opacity="0.045"/>
-<stop offset="55%" stop-color="#15132D" stop-opacity="0.045"/><stop offset="100%" stop-color="#15132D" stop-opacity="0"/>
+<stop offset="0%" stop-color="#2B1A2B" stop-opacity="0"/><stop offset="45%" stop-color="#2B1A2B" stop-opacity="0.045"/>
+<stop offset="55%" stop-color="#2B1A2B" stop-opacity="0.045"/><stop offset="100%" stop-color="#2B1A2B" stop-opacity="0"/>
 </linearGradient>
 <style>
 .sb-run{animation:sb-slide ${dur}s linear infinite}

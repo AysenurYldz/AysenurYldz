@@ -19,7 +19,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Purple/blue ramp matching the rest of the profile.
+      # Lilac / dusty-pink ramp matching the rest of the profile.
       # Light and dark variants; the README picks one with <picture>.
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -27,8 +27,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg?color_snake=%235B3FD6&color_dots=%23E7E4F7,%23C9BEF5,%239B8CFF,%236D9BFF,%234CC9F0
-            dist/snake-dark.svg?color_snake=%237C5CFF&color_dots=%2315132E,%2333277F,%235B3FD6,%233D8BFF,%234CC9F0
+            dist/snake-light.svg?color_snake=%237B4FC0&color_dots=%23F6EDF4,%23E6CFE4,%23C9A2DC,%23D993AC,%23C9738F
+            dist/snake-dark.svg?color_snake=%23C3A0F0&color_dots=%231E1428,%235C3A70,%239070C4,%23C58FC9,%23EFB6CC
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
