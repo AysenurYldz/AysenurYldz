@@ -129,6 +129,8 @@ Abdomen görüntülerinden **altı farklı hastalığı ve sağlıklı durumu** 
 
 ## 🧰 Teknolojiler
 
+<img src="./assets/stackband.svg" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
+
 **Diller**
 
 ![Python](https://img.shields.io/badge/Python-7C3AED?style=for-the-badge&logo=python&logoColor=white)
@@ -257,18 +259,10 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 
 <img src="./assets/rhythm-tr.svg" width="100%" alt="Çalışma ritmi: saate ve haftanın gününe göre commit dağılımı" />
 
-<sub><b>Yerel git geçmişinden</b> okunuyor; böylece özel depolarda duran müşteri işleri de sayılıyor — belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk siteleri. Elle yenileniyor, ölçüm tarihi panelin altında yazılı.</sub>
-
-<img src="./assets/contrib-tr.svg" width="100%" alt="Katkı takvimi ve seri sayaçları" />
-
-<img src="./assets/iso-tr.svg" width="100%" alt="Günlük katkı yoğunluğunun 2.5B görünümü" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
   <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="Katkı ızgarasında dolaşan yılan" />
 </picture>
-
-<sub>GitHub'ın kendi katkı grafiği; <code>tools/gen-contrib.mjs</code> üretiyor, bu depodaki bir Action her sabah yeniliyor — üçüncü parti istatistik servisi yok, buradaki hiçbir şey başkasının sunucusunda çökemez. Üstteki panelden çok daha düşük görünmesinin sebebi teknik: GitHub bir commit'i ancak yazar e-postası hesaba bağlıysa sayıyor, işimin büyük kısmı ise kendi git kimliğini taşıyan paylaşılan müşteri makinelerinden commit'lenmiş.</sub>
 
 <img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
