@@ -283,7 +283,7 @@ Publisher/consumer messaging in Python — how asynchronous AI services actually
 | **M.Sc. Computer Engineering** — Bursa Technical University | 2025 – present |
 | **AI Engineer & Team Lead** — Birsav Bilişim | 2025 – present |
 | **SEO Engineer** — Gini Talent | 2024 – 2025 |
-| **AI Engineer (R&D)** — Özdilek Ev Tekstil | 2024 |
+| **In-company vocational training, AI** — Özdilek Ev Tekstil, R&D | 2024 |
 | **B.Sc. Computer Engineering** — Sakarya University of Applied Sciences | 2020 – 2024 |
 | **Intern Engineer** — Martur Fompak International · Novelty AI Technologies | 2022 – 2024 |
 

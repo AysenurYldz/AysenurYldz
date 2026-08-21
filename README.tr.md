@@ -283,7 +283,7 @@ Python ile publisher/consumer mesajlaşma — asenkron yapay zekâ servislerinin
 | **Bilgisayar Mühendisliği, Yüksek Lisans** — Bursa Teknik Üniversitesi | 2025 – devam ediyor |
 | **Yapay Zekâ Mühendisi & Ekip Lideri** — Birsav Bilişim | 2025 – devam ediyor |
 | **SEO Mühendisi** — Gini Talent | 2024 – 2025 |
-| **Yapay Zekâ Mühendisi (Ar-Ge)** — Özdilek Ev Tekstil | 2024 |
+| **İşletmede Mesleki Eğitim, Yapay Zekâ** — Özdilek Ev Tekstil, Ar-Ge | 2024 |
 | **Bilgisayar Mühendisliği, Lisans** — Sakarya Uygulamalı Bilimler Üniversitesi | 2020 – 2024 |
 | **Stajyer Mühendis** — Martur Fompak International · Novelty Yapay Zekâ Teknolojileri | 2022 – 2024 |
 
