@@ -2,6 +2,8 @@
   <img src="./assets/banner.svg" alt="Ayşenur Yıldız — AI Engineer & Full Stack Developer" width="100%" />
 </div>
 
+<div align="justify">
+
 <div align="center">
 
 [![English](https://img.shields.io/badge/🇬🇧_English-A85A76?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
@@ -18,15 +20,22 @@
 
 </div>
 
+</div>
+
+
 ---
 
 ## Hi, I'm Ayşenur 👋
+
+<div align="justify">
 
 I'm an **AI and Computer Engineer** specialising in image processing, natural language processing and deep learning. I take responsibility as a **team lead** across the whole product lifecycle — from the idea to the moment it reaches the end user — and I stay hands-on in development throughout.
 
 I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am **one of the company's two team leads**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
 
 On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. In smart-municipality systems I have parts I actively work on, particularly the **Biryerden** platform. Alongside this I run AI solutions end to end — OCR-based document analysis, anomaly detection and chatbot systems.
+
+</div>
 
 ```yaml
 role:      AI & Computer Engineer  ·  Full Stack Developer
@@ -43,7 +52,11 @@ open_to:   AI engineering roles, research collaboration, open source
 
 ## 🏗️ What I build at work
 
+<div align="justify">
+
 I take an active role in software development for public- and private-sector clients. On these projects the whole web and mobile side is my responsibility: I build every layer myself, from database design to the user interface.
+
+</div>
 
 | | |
 |---|---|
@@ -93,7 +106,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🥉 Teknofest 2023
 **3rd place in Türkiye** — AI in Transportation
@@ -101,7 +114,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 I served as captain of the ForesighTech team. We built a YOLO-based system that detects safe landing zones for UAVs in real time, telling humans, animals and ground vehicles apart in the landing area. As captain I managed project planning and task allocation, and I trained and optimised the YOLO architecture myself.
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🔬 TÜBİTAK 2209-A
 **Funded research project**
@@ -109,7 +122,7 @@ I served as captain of the ForesighTech team. We built a YOLO-based system that 
 To make everyday communication easier for hearing-impaired people, I built an LSTM-based deep learning model that reads sign language from video and converts it into text. It was also my undergraduate thesis and was funded by TÜBİTAK; I ran every step myself, from data collection through model training to error analysis.
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🩺 Teknofest 2022
 **Finalist** — AI in Healthcare
@@ -273,7 +286,11 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 
 ## 🎓 Background
 
+<div align="justify">
+
 Earlier in my career I worked as an SEO Engineer at **Gini Talent**, developing content strategies based on search-volume and competition analysis. At **Özdilek's R&D department** I worked on deep learning and image processing projects for the textile industry, covering everything from data labelling to deploying trained models as services with Docker. Internships at **Martur Fompak** and **Novelty AI** strengthened my practical skills in data analysis, machine learning and web application development.
+
+</div>
 
 | | |
 |---|---|

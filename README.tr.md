@@ -2,6 +2,8 @@
   <img src="./assets/banner-tr.svg" alt="Ayşenur Yıldız — Yapay Zekâ Mühendisi & Full Stack Geliştirici" width="100%" />
 </div>
 
+<div align="justify">
+
 <div align="center">
 
 [![English](https://img.shields.io/badge/🇬🇧_English-EFE2E8?style=for-the-badge&labelColor=EFE2E8)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
@@ -18,15 +20,22 @@
 
 </div>
 
+</div>
+
+
 ---
 
 ## Merhaba, ben Ayşenur 👋
+
+<div align="justify">
 
 Görüntü işleme, doğal dil işleme ve derin öğrenme alanlarında uzmanlaşmış bir **Yapay Zekâ ve Bilgisayar Mühendisiyim**. Projelerin fikir aşamasından son kullanıcıya ulaştığı ana kadar olan ürün yaşam döngüsünde **ekip lideri** olarak sorumluluk alıyor, bizzat geliştirme süreçlerinde aktif rol oynuyorum.
 
 Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş zamanlı olarak **Birsav Bilişim**'de çalışmalarımı sürdürüyorum. Burada şirketteki **iki ekip liderinden biri** olarak görev yapıyorum; hem yapay zekâ tarafında hem de özel sektör tarafında liderlik üstlendiğim projelerim mevcut. Projelerin planlaması, iş bölümü, teknik kararları, müşteri sunumları ve yapay zekâ süreçlerini bizzat yürütüyorum.
 
 Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Node.js, Next.js ve Flutter** ile belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri üzerine çalışmalarım bulunuyor. Akıllı belediyecilik sistemlerinde, özellikle **Biryerden** platformunda aktif olarak çalıştığım bölümler mevcut. Bununla birlikte OCR tabanlı belge analizi, anomali tespiti ve chatbot sistemleri gibi yapay zekâ çözümlerini de uçtan uca yönetiyorum.
+
+</div>
 
 ```yaml
 rol:       Yapay Zekâ ve Bilgisayar Mühendisi  ·  Full Stack Geliştirici
@@ -43,7 +52,11 @@ açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikl
 
 ## 🏗️ İş yerinde neler geliştiriyorum
 
+<div align="justify">
+
 Kamu ve özel sektör müşterileri için yazılım geliştirme süreçlerinde aktif rol alıyorum. Bu projelerde web ve mobil tarafın tamamı benim sorumluluğumda; veri tabanı tasarımından kullanıcı arayüzüne kadar tüm katmanları kendim geliştiriyorum.
+
+</div>
 
 | | |
 |---|---|
@@ -93,7 +106,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🥉 Teknofest 2023
 **Türkiye 3.'sü** — Ulaşımda Yapay Zekâ
@@ -101,7 +114,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 ForesighTech takımının kaptanı olarak görev aldım. İHA'ların güvenli iniş alanlarını gerçek zamanlı tespit eden; iniş bölgesindeki insan, hayvan ve kara taşıtlarını anlık ayırt edebilen YOLO tabanlı bir sistem geliştirdik. Takım kaptanı olarak proje planlaması ve iş bölümü süreçlerini yönetirken, YOLO mimarisinin eğitimini ve optimizasyonunu da bizzat gerçekleştirdim.
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🔬 TÜBİTAK 2209-A
 **Destek almaya hak kazanan araştırma projesi**
@@ -109,7 +122,7 @@ ForesighTech takımının kaptanı olarak görev aldım. İHA'ların güvenli in
 İşitme engellilerin günlük iletişimini kolaylaştırmak amacıyla, işaret dili hareketlerini videolardan okuyarak metne çeviren LSTM tabanlı bir derin öğrenme modeli geliştirdim. Aynı zamanda lisans bitirme tezim olan ve TÜBİTAK tarafından desteklenen bu projede; veri toplama aşamasından model eğitimine ve hata analizine kadar tüm adımları uçtan uca kendim yürüttüm.
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="justify">
 
 ### 🩺 Teknofest 2022
 **Finalist** — Sağlıkta Yapay Zekâ
@@ -273,7 +286,11 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 
 ## 🎓 Eğitim ve deneyim
 
+<div align="justify">
+
 Önceki profesyonel deneyimlerim arasında **Gini Talent** bünyesinde SEO Mühendisi olarak görev aldığım ve arama hacmi ile rekabet analizlerine dayalı içerik stratejileri geliştirdiğim çalışmalarım yer alıyor. **Özdilek Ar-Ge** departmanında tekstil sektörüne yönelik derin öğrenme ve görüntü işleme projelerinde bulundum; veri etiketleme süreçlerinden eğitilen modellerin Docker ile servisleştirilmesine kadar olan aşamalarda görev aldım. **Martur Fompak** ve **Novelty Yapay Zekâ**'da gerçekleştirdiğim stajlarla veri analizi, makine öğrenmesi ve web uygulamaları geliştirme konularındaki pratik yetkinliklerimi pekiştirdim.
+
+</div>
 
 | | |
 |---|---|
