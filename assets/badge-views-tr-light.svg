@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="202" height="34" viewBox="0 0 202 34" role="img" aria-label="görüntülenme 4">
+<svg xmlns="http://www.w3.org/2000/svg" width="202" height="34" viewBox="0 0 202 34" role="img" aria-label="görüntülenme 7">
   <rect x="0.75" y="0.75" width="200.5" height="32.5" rx="9" fill="#FFFFFF" stroke="#DCE3EC" stroke-width="1.5"/>
   <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#E6E5EF"/>
   <line x1="44" y1="1" x2="44" y2="33" stroke="#DCE3EC" stroke-width="1.2"/>
   <g transform="translate(12 7)"><path d="M1.8 10C4 5.8 7 4.2 10 4.2S16 5.8 18.2 10C16 14.2 13 15.8 10 15.8S4 14.2 1.8 10Z" fill="none" stroke="#7A78A0" stroke-width="1.7"/><circle cx="10" cy="10" r="2.8" fill="#7A78A0"/></g>
   <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#8E99A8">görüntülenme</text>
-  <text x="173" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#2F3A4A">4</text>
+  <text x="173" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" font-weight="700" fill="#2F3A4A">7</text>
 </svg>
