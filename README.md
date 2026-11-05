@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Ayşenur Yıldız — AI Engineer & Full Stack Developer" width="100%" />
+  <img src="./assets/banner.svg?v=20261105c" alt="Ayşenur Yıldız — AI Engineer & Full Stack Developer" width="100%" />
 </div>
 
 <div align="justify">
@@ -13,11 +13,11 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-en-dark.svg" /><img src="./assets/badge-linkedin-en-light.svg" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
-<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-en-dark.svg" /><img src="./assets/badge-medium-en-light.svg" alt="Medium — @AysenurYldz" height="34" /></picture></a>
-<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-en-dark.svg" /><img src="./assets/badge-mail-en-light.svg" alt="Email" height="34" /></picture></a>
-<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-en-dark.svg" /><img src="./assets/badge-portfolio-en-light.svg" alt="Portfolio" height="34" /></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-en-dark.svg" /><img src="./assets/badge-views-en-light.svg" alt="profile views" height="34" /></picture>
+<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-en-dark.svg?v=20261105c" /><img src="./assets/badge-linkedin-en-light.svg?v=20261105c" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
+<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-en-dark.svg?v=20261105c" /><img src="./assets/badge-medium-en-light.svg?v=20261105c" alt="Medium — @AysenurYldz" height="34" /></picture></a>
+<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-en-dark.svg?v=20261105c" /><img src="./assets/badge-mail-en-light.svg?v=20261105c" alt="Email" height="34" /></picture></a>
+<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-en-dark.svg?v=20261105c" /><img src="./assets/badge-portfolio-en-light.svg?v=20261105c" alt="Portfolio" height="34" /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-en-dark.svg?v=20261105c" /><img src="./assets/badge-views-en-light.svg?v=20261105c" alt="profile views" height="34" /></picture>
 
 <!-- The counter increases when a visitor loads this 1 px image; the badge number is refreshed daily by the workflow. -->
 <img src="https://komarev.com/ghpvc/?username=AysenurYldz&label=views" width="1" height="1" alt="" />
@@ -45,14 +45,14 @@ On private- and public-sector projects I work as a **full stack developer**, bui
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-en-dark.svg" />
-  <img src="./assets/data-en-light.svg" width="100%" alt="Real git data: languages, lines added and removed in the last year, commits, hour of day and day of week" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-en-dark.svg?v=20261105c" />
+  <img src="./assets/data-en-light.svg?v=20261105c" width="100%" alt="Real git data: languages, lines added and removed in the last year, commits, hour of day and day of week" />
 </picture>
 
 ---
 
 <div align="center">
-  <img src="./assets/console.svg" alt="Code editor, browser preview and a document-reading AI agent running its steps" width="100%" />
+  <img src="./assets/console.svg?v=20261105c" alt="Code editor, browser preview and a document-reading AI agent running its steps" width="100%" />
 </div>
 
 ---
@@ -78,7 +78,7 @@ I take an active role in software development for public- and private-sector cli
 ## 🔄 From data to product
 
 <div align="center">
-  <img src="./assets/pipeline.svg" alt="Data → Model → Service → Product" width="100%" />
+  <img src="./assets/pipeline.svg?v=20261105c" alt="Data → Model → Service → Product" width="100%" />
 </div>
 
 I work across all four stages. In practice most of the difficulty sits between them: keeping preprocessing identical at training and inference time, fitting the model into a latency budget, and turning a confidence score into something a person can actually act on.
@@ -97,7 +97,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 ---
 
 <div align="center">
-  <img src="./assets/focus.svg" alt="Focus areas: Applied AI, Full Stack Engineering, Ship to Production" width="100%" />
+  <img src="./assets/focus.svg?v=20261105c" alt="Focus areas: Applied AI, Full Stack Engineering, Ship to Production" width="100%" />
 </div>
 
 
@@ -138,7 +138,7 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 
 ## 🧰 Tech Stack
 
-<img src="./assets/stackband.svg" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
+<img src="./assets/stackband.svg?v=20261105c" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
 
 **Languages**
 
@@ -266,14 +266,14 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 
 ## 📊 Activity
 
-<img src="./assets/contrib-en.svg" width="100%" alt="Contribution calendar: last year, longest and current streak, active days" />
+<img src="./assets/contrib-en.svg?v=20261105c" width="100%" alt="Contribution calendar: last year, longest and current streak, active days" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-en-dark.svg" />
-  <img src="./assets/cat-en-light.svg" width="100%" alt="A black cat collects the squares of the contribution grid into its basket" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-en-dark.svg?v=20261105c" />
+  <img src="./assets/cat-en-light.svg?v=20261105c" width="100%" alt="A black cat collects the squares of the contribution grid into its basket" />
 </picture>
 
-<img src="./assets/landscape-en.svg" width="100%" alt="" />
+<img src="./assets/landscape-en.svg?v=20261105c" width="100%" alt="" />
 
 <div align="center">
 
@@ -322,6 +322,6 @@ I'm open to AI engineering roles, research collaboration and open source work.
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg" />
-  <img src="./assets/cozy-en-light.svg" width="100%" alt="A small cat silhouette and a cup" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg?v=20261105c" />
+  <img src="./assets/cozy-en-light.svg?v=20261105c" width="100%" alt="A small cat silhouette and a cup" />
 </picture>
