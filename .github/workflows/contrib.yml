@@ -2,7 +2,8 @@ name: Contribution Panels
 
 on:
   schedule:
-    - cron: "23 3 * * *"
+    # Katkı paneli commit attıkça güncel kalsın diye iki saatte bir.
+    - cron: "23 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]

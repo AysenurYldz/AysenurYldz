@@ -338,6 +338,7 @@ function buildLandscape(t, days) {
 const { weeks, total } = await fetchCalendar();
 const days = weeks.flat().sort((a, b) => a.date.localeCompare(b.date));
 const { longest, now } = streaks(days);
+const active = days.filter((d) => d.count > 0).length;
 
 const out = join(ROOT, "assets");
 await mkdir(out, { recursive: true });
@@ -347,7 +348,7 @@ for (const [lang, t] of Object.entries(L)) {
   await writeFile(join(out, `landscape-${lang}.svg`), buildLandscape(t, days), "utf8");
   // Yılanın yerine: kareleri sepetine toplayan siyah kedi (açık / koyu).
   for (const mode of ["light", "dark"]) {
-    await writeFile(join(out, `cat-${lang}-${mode}.svg`), buildCat(weeks, total, mode, lang), "utf8");
+    await writeFile(join(out, `cat-${lang}-${mode}.svg`), buildCat(weeks, total, mode, t, { longest, now, active }), "utf8");
   }
 }
 

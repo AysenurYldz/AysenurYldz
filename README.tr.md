@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner-tr.svg?v=20261105c" alt="Ayşenur Yıldız — Yapay Zekâ Mühendisi & Full Stack Geliştirici" width="100%" />
+  <img src="./assets/banner-tr.svg?v=20261105d" alt="Ayşenur Yıldız — Yapay Zekâ Mühendisi & Full Stack Geliştirici" width="100%" />
 </div>
 
 <div align="justify">
@@ -13,11 +13,11 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-tr-dark.svg?v=20261105c" /><img src="./assets/badge-linkedin-tr-light.svg?v=20261105c" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
-<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-tr-dark.svg?v=20261105c" /><img src="./assets/badge-medium-tr-light.svg?v=20261105c" alt="Medium — @AysenurYldz" height="34" /></picture></a>
-<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-tr-dark.svg?v=20261105c" /><img src="./assets/badge-mail-tr-light.svg?v=20261105c" alt="E-posta" height="34" /></picture></a>
-<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-tr-dark.svg?v=20261105c" /><img src="./assets/badge-portfolio-tr-light.svg?v=20261105c" alt="Portfolyo" height="34" /></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-tr-dark.svg?v=20261105c" /><img src="./assets/badge-views-tr-light.svg?v=20261105c" alt="görüntülenme" height="34" /></picture>
+<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-tr-dark.svg?v=20261105d" /><img src="./assets/badge-linkedin-tr-light.svg?v=20261105d" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
+<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-tr-dark.svg?v=20261105d" /><img src="./assets/badge-medium-tr-light.svg?v=20261105d" alt="Medium — @AysenurYldz" height="34" /></picture></a>
+<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-tr-dark.svg?v=20261105d" /><img src="./assets/badge-mail-tr-light.svg?v=20261105d" alt="E-posta" height="34" /></picture></a>
+<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-tr-dark.svg?v=20261105d" /><img src="./assets/badge-portfolio-tr-light.svg?v=20261105d" alt="Portfolyo" height="34" /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-tr-dark.svg?v=20261105d" /><img src="./assets/badge-views-tr-light.svg?v=20261105d" alt="görüntülenme" height="34" /></picture>
 
 <!-- Sayaç ziyaretçi bu 1 px'lik görseli çektikçe artar; rozetteki sayı her gün iş akışıyla yenilenir. -->
 <img src="https://komarev.com/ghpvc/?username=AysenurYldz&label=g%C3%B6r%C3%BCnt%C3%BClenme" width="1" height="1" alt="" />
@@ -45,14 +45,14 @@ Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-tr-dark.svg?v=20261105c" />
-  <img src="./assets/data-tr-light.svg?v=20261105c" width="100%" alt="Gerçek git verisi: diller, son bir yılda eklenen ve silinen satır, commit, çalışma saati ve haftanın günü" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-tr-dark.svg?v=20261105d" />
+  <img src="./assets/data-tr-light.svg?v=20261105d" width="100%" alt="Gerçek git verisi: diller, son bir yılda eklenen ve silinen satır, commit, çalışma saati ve haftanın günü" />
 </picture>
 
 ---
 
 <div align="center">
-  <img src="./assets/console-tr.svg?v=20261105c" alt="Kod düzenleyici, tarayıcı önizlemesi ve adımlarını işleyen bir belge okuma yapay zekâ ajanı" width="100%" />
+  <img src="./assets/console-tr.svg?v=20261105d" alt="Kod düzenleyici, tarayıcı önizlemesi ve adımlarını işleyen bir belge okuma yapay zekâ ajanı" width="100%" />
 </div>
 
 ---
@@ -78,7 +78,7 @@ Kamu ve özel sektör müşterileri için yazılım geliştirme süreçlerinde a
 ## 🔄 Veriden ürüne
 
 <div align="center">
-  <img src="./assets/pipeline-tr.svg?v=20261105c" alt="Veri → Model → Servis → Ürün" width="100%" />
+  <img src="./assets/pipeline-tr.svg?v=20261105d" alt="Veri → Model → Servis → Ürün" width="100%" />
 </div>
 
 Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarında kalıyor: ön işlemenin eğitimde ve çıkarımda birebir aynı olması, modelin gecikme bütçesine sığması, bir güven skorunun insanın karar verebileceği bir şeye dönüşmesi.
@@ -97,7 +97,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 ---
 
 <div align="center">
-  <img src="./assets/focus-tr.svg?v=20261105c" alt="Çalışma alanları: Uygulamalı Yapay Zekâ, Full Stack Geliştirme, Üretime Alma" width="100%" />
+  <img src="./assets/focus-tr.svg?v=20261105d" alt="Çalışma alanları: Uygulamalı Yapay Zekâ, Full Stack Geliştirme, Üretime Alma" width="100%" />
 </div>
 
 
@@ -138,7 +138,7 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otom
 
 ## 🧰 Teknolojiler
 
-<img src="./assets/stackband.svg?v=20261105c" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
+<img src="./assets/stackband.svg?v=20261105d" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
 
 **Diller**
 
@@ -266,14 +266,12 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 
 ## 📊 Aktivite
 
-<img src="./assets/contrib-tr.svg?v=20261105c" width="100%" alt="Katkı takvimi: son bir yıl, en uzun ve güncel seri, aktif gün" />
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-tr-dark.svg?v=20261105c" />
-  <img src="./assets/cat-tr-light.svg?v=20261105c" width="100%" alt="Siyah bir kedi katkı ızgarasındaki kareleri toplayıp sepetine atıyor" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-tr-dark.svg?v=20261105d" />
+  <img src="./assets/cat-tr-light.svg?v=20261105d" width="100%" alt="Katkı takvimi: son bir yıl, en uzun ve güncel seri, aktif gün; bir kedi kareleri sepetine toplayıp yuvasına dönüyor" />
 </picture>
 
-<img src="./assets/landscape-tr.svg?v=20261105c" width="100%" alt="" />
+<img src="./assets/landscape-tr.svg?v=20261105d" width="100%" alt="" />
 
 <div align="center">
 
@@ -322,6 +320,6 @@ Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve aç�
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-tr-dark.svg?v=20261105c" />
-  <img src="./assets/cozy-tr-light.svg?v=20261105c" width="100%" alt="Küçük bir kedi silüeti ve fincan" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-tr-dark.svg?v=20261105d" />
+  <img src="./assets/cozy-tr-light.svg?v=20261105d" width="100%" alt="Küçük bir kedi silüeti ve fincan" />
 </picture>
