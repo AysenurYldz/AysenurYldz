@@ -10,8 +10,9 @@
 
 // Gökyüzü paleti: sisten petrol yeşiline sıralı ölçek.
 const THEME = {
-  light: { lv: ["#EEF1F5", "#D8E2EB", "#B9C9D8", "#8897AA", "#5E9396"], cat: "#3A4657", eye: "#EEF1F5" },
-  dark: { lv: ["#1C2430", "#2C3A4C", "#46607A", "#7E9CB8", "#9ECFD3"], cat: "#C8D2DE", eye: "#1C2430" },
+  // Boş kareler soluk; toplanacak kareler belirgin petrol yeşili ölçeğinde.
+  light: { lv: ["#EEF1F5", "#A9CCD4", "#7DB1BA", "#5E9396", "#3E6F73"], cat: "#3A4657", eye: "#EEF1F5" },
+  dark: { lv: ["#1C2430", "#3C6670", "#5E9396", "#8CC2C7", "#C3E6E9"], cat: "#C8D2DE", eye: "#1C2430" },
 };
 const ALT = {
   tr: "Bir kedi katkı ızgarasındaki kareleri gezerek topluyor",
@@ -22,17 +23,22 @@ const r3 = (n) => Number(n.toFixed(3));
 const r5 = (n) => Number(n.toFixed(5));
 
 // Yandan, yürüyen kedi silüeti: (0,0) ayak hizasının ortası, sağa bakar.
-function walking(th) {
+// `g` (gövde büyümesi) verilirse kedi her yediği karede biraz şişmanlar.
+function walking(th, g) {
   const leg = (x, d) => `<line x1="${x}" y1="-5" x2="${x}" y2="0" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
       <animateTransform attributeName="transform" type="rotate" values="-16 ${x} -5;16 ${x} -5;-16 ${x} -5" dur="0.45s" begin="${d}s" repeatCount="indefinite"/></line>`;
+  const anim = (attr, vals) => `<animate attributeName="${attr}" values="${vals}" keyTimes="${g.keyTimes}" dur="${g.dur}s" repeatCount="indefinite"/>`;
+  const shift = (vals) => `<animateTransform attributeName="transform" type="translate" values="${vals}" keyTimes="${g.keyTimes}" dur="${g.dur}s" repeatCount="indefinite"/>`;
   return `<g class="yuru">
     ${leg(-6, 0)}${leg(-2.5, 0.22)}${leg(3, 0.22)}${leg(6.5, 0)}
-    <path d="M-9 -8 C-14 -9 -16 -14 -13 -18" fill="none" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" values="0 -9 -8;10 -9 -8;0 -9 -8" dur="1.1s" repeatCount="indefinite"/></path>
-    <ellipse cx="0" cy="-8.5" rx="9.5" ry="4.8" fill="${th.cat}"/>
-    <circle cx="10" cy="-12.5" r="4.8" fill="${th.cat}"/>
-    <path d="M6.8 -15.5 L7.6 -20.5 L10.2 -16.6 Z M11 -16.8 L13.6 -20.6 L14.4 -15.4 Z" fill="${th.cat}"/>
-    <circle cx="12" cy="-13" r="0.9" fill="${th.eye}"/>
+    <g>${shift(g.tail)}<path d="M-9 -8 C-14 -9 -16 -14 -13 -18" fill="none" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="0 -9 -8;10 -9 -8;0 -9 -8" dur="1.1s" repeatCount="indefinite"/></path></g>
+    <ellipse cx="0" cy="-8.5" rx="9.5" ry="4.8" fill="${th.cat}">${anim("rx", g.rx)}${anim("ry", g.ry)}${anim("cy", g.cy)}</ellipse>
+    <g>${shift(g.head)}
+      <circle cx="10" cy="-12.5" r="4.8" fill="${th.cat}"/>
+      <path d="M6.8 -15.5 L7.6 -20.5 L10.2 -16.6 Z M11 -16.8 L13.6 -20.6 L14.4 -15.4 Z" fill="${th.cat}"/>
+      <circle cx="12" cy="-13" r="0.9" fill="${th.eye}"/>
+    </g>
   </g>`;
 }
 
@@ -88,7 +94,20 @@ export function buildCat(weeks, total, mode = "light", lang = "tr") {
       }
     }
   });
-  o.push(`<g><animateTransform attributeName="transform" type="translate" values="${values}" keyTimes="${keyTimes}" dur="${DUR}s" calcMode="linear" repeatCount="indefinite"/>${walking(th)}</g>`);
+  // Şişmanlama: her yenen karede gövde biraz büyür; döngü başında yeniden incelir.
+  const eaten = visit.slice(0, stops.length).map((i) => tk[i]);
+  const n = Math.max(1, eaten.length);
+  const fs = [0, ...eaten.map((_, i) => (i + 1) / n), 1, 0];
+  const g = {
+    dur: DUR,
+    keyTimes: [0, ...eaten, 0.99, 1].join(";"),
+    rx: fs.map((f) => r3(9.5 + 10 * f)).join(";"),
+    ry: fs.map((f) => r3(4.8 + 5.5 * f)).join(";"),
+    cy: fs.map((f) => r3(-8.5 - 2.4 * f)).join(";"),
+    head: fs.map((f) => `${r3(10 * f * 0.8)} ${r3(-1.2 * f)}`).join(";"),
+    tail: fs.map((f) => `${r3(-10 * f * 0.8)} ${r3(-0.6 * f)}`).join(";"),
+  };
+  o.push(`<g><animateTransform attributeName="transform" type="translate" values="${values}" keyTimes="${keyTimes}" dur="${DUR}s" calcMode="linear" repeatCount="indefinite"/>${walking(th, g)}</g>`);
   o.push("</svg>");
   return o.join("\n");
 }

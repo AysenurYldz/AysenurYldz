@@ -5,31 +5,31 @@
 <text x="592" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="end">11 depo · son 365 gün</text>
 <text x="32" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">JavaScript</text>
 <rect x="152" y="70" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="70" width="231.4" height="10" rx="5" fill="#E8C93F"/>
+<rect x="152" y="70" width="231.4" height="10" rx="5" fill="#5E9396"/>
 <text x="592" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%62,5</text>
 <text x="32" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">PHP</text>
 <rect x="152" y="95" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="95" width="56.5" height="10" rx="5" fill="#4F5D95"/>
+<rect x="152" y="95" width="56.5" height="10" rx="5" fill="#8897AA"/>
 <text x="592" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%15,3</text>
 <text x="32" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">TypeScript</text>
 <rect x="152" y="120" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="120" width="50.3" height="10" rx="5" fill="#3178C6"/>
+<rect x="152" y="120" width="50.3" height="10" rx="5" fill="#9EC5CF"/>
 <text x="592" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%13,6</text>
 <text x="32" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">Python</text>
 <rect x="152" y="145" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="145" width="15.9" height="10" rx="5" fill="#3572A5"/>
+<rect x="152" y="145" width="15.9" height="10" rx="5" fill="#F2A897"/>
 <text x="592" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%4,3</text>
 <text x="32" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">SQL</text>
 <rect x="152" y="170" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="170" width="8.8" height="10" rx="5" fill="#336790"/>
+<rect x="152" y="170" width="8.8" height="10" rx="5" fill="#B4B2CC"/>
 <text x="592" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%2,4</text>
 <text x="32" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">HTML</text>
 <rect x="152" y="195" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="195" width="5.5" height="10" rx="5" fill="#E34C26"/>
+<rect x="152" y="195" width="5.5" height="10" rx="5" fill="#E8B866"/>
 <text x="592" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%1,5</text>
 <text x="32" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">CSS</text>
 <rect x="152" y="220" width="370" height="10" rx="5" fill="#EEF1F5"/>
-<rect x="152" y="220" width="4.0" height="10" rx="5" fill="#7E57C2"/>
+<rect x="152" y="220" width="4.0" height="10" rx="5" fill="#B9C9D8"/>
 <text x="592" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">%0,4</text>
 <line x1="616" y1="34" x2="616" y2="250" stroke="#E9EDF2" stroke-width="1.2"/>
 <text x="640" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="start">SON BİR YIL</text>

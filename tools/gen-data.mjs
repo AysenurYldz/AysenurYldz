@@ -75,10 +75,10 @@ const NOISE = /(^|\/)(node_modules|dist|build|\.next|out|coverage|vendor|venv|\.
 // Tek commit'te bundan büyük ekleme (toplu içe aktarma, kopyalanmış kütüphane) sayılmaz.
 const FILE_CAP = 5000;
 
-const COLORS = {
-  Python: "#3572A5", TypeScript: "#3178C6", JavaScript: "#E8C93F", Dart: "#00B4AB",
-  SQL: "#336790", HTML: "#E34C26", CSS: "#7E57C2", Shell: "#89C24A", "C++": "#F34B7D",
-  Kotlin: "#A97BFF", Swift: "#F05138", PHP: "#4F5D95",
+// Dil çubukları tema renklerinden: petrol, arduvaz, gökyüzü, mercan, lavanta, hardal, sis mavisi.
+const SERI = {
+  light: ["#5E9396", "#8897AA", "#9EC5CF", "#F2A897", "#B4B2CC", "#E8B866", "#B9C9D8", "#7FB0BB"],
+  dark: ["#9ECFD3", "#A9B8CC", "#7FB8C4", "#F2B5A4", "#C8C7D7", "#EBC77F", "#8EA3BA", "#6FA3AE"],
 };
 
 const MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";
@@ -86,11 +86,11 @@ const THEME = {
   // Gökyüzü / boho paleti: sis zemin, arduvaz mavisi vurgu, petrol yeşili tepe; koyu temada gece mavisi.
   light: {
     card: "#FFFFFF", edge: "#E3E7EE", ink: "#2F3A4A", faint: "#8E99A8", track: "#EEF1F5",
-    rule: "#E9EDF2", accent: "#8897AA", add: "#5E9396", del: "#E08E7E", peak: "#8897AA",
+    rule: "#E9EDF2", accent: "#8897AA", add: "#5E9396", del: "#E08E7E", peak: "#8897AA", seri: SERI.light,
   },
   dark: {
     card: "#121822", edge: "#2A3342", ink: "#E8EEF5", faint: "#93A0B2", track: "#222B38",
-    rule: "#242D3A", accent: "#A9C3D9", add: "#9ECFD3", del: "#F2B5A4", peak: "#A9C3D9",
+    rule: "#242D3A", accent: "#A9C3D9", add: "#9ECFD3", del: "#F2B5A4", peak: "#A9C3D9", seri: SERI.dark,
   },
 };
 
@@ -229,7 +229,7 @@ function build(t, th, d, stamp) {
     const w = Math.max(4, (barW * pct) / 100);
     o.push(`<text x="${LX}" y="${y + 4}" font-family="${MONO}" font-size="13" fill="${th.ink}">${esc(name)}</text>`);
     o.push(`<rect x="${barX}" y="${y - 6}" width="${barW}" height="10" rx="5" fill="${th.track}"/>`);
-    o.push(`<rect x="${barX}" y="${y - 6}" width="${w.toFixed(1)}" height="10" rx="5" fill="${COLORS[name] || th.accent}"/>`);
+    o.push(`<rect x="${barX}" y="${y - 6}" width="${w.toFixed(1)}" height="10" rx="5" fill="${th.seri[i % th.seri.length]}"/>`);
     o.push(`<text x="${LX + LW}" y="${y + 4}" font-family="${MONO}" font-size="12.5" fill="${th.faint}" text-anchor="end">${t.pct(pct.toFixed(1).replace(".", t.dec))}</text>`);
   });
 
