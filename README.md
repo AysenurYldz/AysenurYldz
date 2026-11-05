@@ -35,7 +35,7 @@
 
 I'm an **AI and Computer Engineer** specialising in image processing, natural language processing and deep learning. I take responsibility as a **team lead** across the whole product lifecycle — from the idea to the moment it reaches the end user — and I stay hands-on in development throughout.
 
-I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am **one of the company's two team leads**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
+I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am a **team lead**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
 
 On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. On the smart-municipality platform **Biryerden** I build modules such as Council Affairs, Municipal Council, Executive Committee, Archive and Legal, as well as public-opinion and social-listening screens. On the AI side I run real-time detection in the field, document analysis, chatbots and anomaly detection end to end.
 
@@ -87,7 +87,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 
 ## ⚡ Currently
 
-- 🧭 One of the two team leads at **Birsav Bilişim**. Project planning, task allocation, technical decisions and client presentations are processes I run directly
+- 🧭 Team lead at **Birsav Bilişim**. Project planning, task allocation, technical decisions and client presentations are processes I run directly
 - 🧠 Leading the AI side of our projects end to end: real-time detection in the field, OCR-based document analysis, citizen-facing chatbot systems, anomaly detection
 - 💻 Not only AI — I also do full stack development from start to finish on private- and public-sector projects
 - 🏛️ Among the platforms in production that I have worked on is **Biryerden**, a smart-municipality product

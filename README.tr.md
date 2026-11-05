@@ -35,7 +35,7 @@
 
 Görüntü işleme, doğal dil işleme ve derin öğrenme alanlarında uzmanlaşmış bir **Yapay Zekâ ve Bilgisayar Mühendisiyim**. Projelerin fikir aşamasından son kullanıcıya ulaştığı ana kadar olan ürün yaşam döngüsünde **ekip lideri** olarak sorumluluk alıyor, bizzat geliştirme süreçlerinde aktif rol oynuyorum.
 
-Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş zamanlı olarak **Birsav Bilişim**'de çalışmalarımı sürdürüyorum. Burada şirketteki **iki ekip liderinden biri** olarak görev yapıyorum; hem yapay zekâ tarafında hem de özel sektör tarafında liderlik üstlendiğim projelerim mevcut. Projelerin planlaması, iş bölümü, teknik kararları, müşteri sunumları ve yapay zekâ süreçlerini bizzat yürütüyorum.
+Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş zamanlı olarak **Birsav Bilişim**'de çalışmalarımı sürdürüyorum. Burada **ekip lideriyim**; hem yapay zekâ tarafında hem de özel sektör tarafında liderlik üstlendiğim projelerim mevcut. Projelerin planlaması, iş bölümü, teknik kararları, müşteri sunumları ve yapay zekâ süreçlerini bizzat yürütüyorum.
 
 Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Node.js, Next.js ve Flutter** ile belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri üzerine çalışmalarım bulunuyor. Akıllı belediyecilik platformu **Biryerden**'de Yazı İşleri, Meclis, Encümen, Arşiv ve Hukuk gibi modüllerin yanında kamuoyu ve sosyal dinleme ekranlarını geliştiriyorum. Yapay zekâ tarafında sahada çalışan gerçek zamanlı görüntü tespiti, belge analizi, chatbot ve anomali tespiti çözümlerini uçtan uca yönetiyorum.
 
@@ -87,7 +87,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 
 ## ⚡ Şu anda
 
-- 🧭 **Birsav Bilişim**'de şirketteki iki ekip liderinden biri olarak görev yapıyorum; proje planlaması, iş bölümü, teknik kararlar ve müşteri sunumları doğrudan benim yürüttüğüm süreçler
+- 🧭 **Birsav Bilişim**'de ekip lideriyim; proje planlaması, iş bölümü, teknik kararlar ve müşteri sunumları doğrudan benim yürüttüğüm süreçler
 - 🧠 Projelerimizin yapay zekâ tarafını yönetiyorum: sahada çalışan görüntü tespiti, OCR tabanlı belge analizi, vatandaşlara yönelik chatbot sistemleri, anomali tespiti — uçtan uca
 - 💻 Sadece yapay zekâ odaklı kalmıyorum; özel sektör ve kamu projelerinde full stack geliştirici olarak baştan sona geliştirmeler yapıyorum
 - 🏛️ Geliştirme süreçlerinde yer aldığım ve şu an üretimde olan platformlar arasında akıllı belediyecilik ürünü **Biryerden** de bulunuyor
