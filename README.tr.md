@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner-tr.svg?v=20261105d" alt="Ayşenur Yıldız — Yapay Zekâ Mühendisi & Full Stack Geliştirici" width="100%" />
+  <img src="./assets/banner-tr.svg?v=20261105e" alt="Ayşenur Yıldız — Yapay Zekâ Mühendisi & Full Stack Geliştirici" width="100%" />
 </div>
 
 <div align="justify">
@@ -13,11 +13,11 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-tr-dark.svg?v=20261105d" /><img src="./assets/badge-linkedin-tr-light.svg?v=20261105d" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
-<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-tr-dark.svg?v=20261105d" /><img src="./assets/badge-medium-tr-light.svg?v=20261105d" alt="Medium — @AysenurYldz" height="34" /></picture></a>
-<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-tr-dark.svg?v=20261105d" /><img src="./assets/badge-mail-tr-light.svg?v=20261105d" alt="E-posta" height="34" /></picture></a>
-<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-tr-dark.svg?v=20261105d" /><img src="./assets/badge-portfolio-tr-light.svg?v=20261105d" alt="Portfolyo" height="34" /></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-tr-dark.svg?v=20261105d" /><img src="./assets/badge-views-tr-light.svg?v=20261105d" alt="görüntülenme" height="34" /></picture>
+<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-tr-dark.svg?v=20261105e" /><img src="./assets/badge-linkedin-tr-light.svg?v=20261105e" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
+<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-tr-dark.svg?v=20261105e" /><img src="./assets/badge-medium-tr-light.svg?v=20261105e" alt="Medium — @AysenurYldz" height="34" /></picture></a>
+<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-tr-dark.svg?v=20261105e" /><img src="./assets/badge-mail-tr-light.svg?v=20261105e" alt="E-posta" height="34" /></picture></a>
+<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-tr-dark.svg?v=20261105e" /><img src="./assets/badge-portfolio-tr-light.svg?v=20261105e" alt="Portfolyo" height="34" /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-tr-dark.svg?v=20261105e" /><img src="./assets/badge-views-tr-light.svg?v=20261105e" alt="görüntülenme" height="34" /></picture>
 
 <!-- Sayaç ziyaretçi bu 1 px'lik görseli çektikçe artar; rozetteki sayı her gün iş akışıyla yenilenir. -->
 <img src="https://komarev.com/ghpvc/?username=AysenurYldz&label=g%C3%B6r%C3%BCnt%C3%BClenme" width="1" height="1" alt="" />
@@ -37,7 +37,7 @@ Görüntü işleme, doğal dil işleme ve derin öğrenme alanlarında uzmanlaş
 
 Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş zamanlı olarak **Birsav Bilişim**'de çalışmalarımı sürdürüyorum. Burada **ekip lideriyim**; hem yapay zekâ tarafında hem de özel sektör tarafında liderlik üstlendiğim projelerim mevcut. Projelerin planlaması, iş bölümü, teknik kararları, müşteri sunumları ve yapay zekâ süreçlerini bizzat yürütüyorum.
 
-Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Node.js, Next.js ve Flutter** ile belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri üzerine çalışmalarım bulunuyor. Akıllı belediyecilik platformu **Biryerden**'de Yazı İşleri, Meclis, Encümen, Arşiv ve Hukuk gibi modüllerin yanında kamuoyu ve sosyal dinleme ekranlarını geliştiriyorum. Yapay zekâ tarafında sahada çalışan gerçek zamanlı görüntü tespiti, belge analizi, chatbot ve anomali tespiti çözümlerini uçtan uca yönetiyorum.
+Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Next.js, React ve Node.js** ile belediye ERP modülleri, İK platformları, spor ve tesis sistemleri, topluluk ve girişim siteleri geliştiriyorum; akıllı belediyecilik platformu **Biryerden**'de Yazı İşleri, Meclis, Encümen, Arşiv ve Hukuk gibi modüller geliştiriyorum. Yapay zekâ tarafında bilgisayarlı görü, belge analizi, chatbot ve anomali tespiti çözümlerini uçtan uca yönetiyorum.
 
 </div>
 
@@ -45,14 +45,14 @@ Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-tr-dark.svg?v=20261105d" />
-  <img src="./assets/data-tr-light.svg?v=20261105d" width="100%" alt="Gerçek git verisi: diller, son bir yılda eklenen ve silinen satır, commit, çalışma saati ve haftanın günü" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-tr-dark.svg?v=20261105e" />
+  <img src="./assets/data-tr-light.svg?v=20261105e" width="100%" alt="Gerçek git verisi: diller, son bir yılda eklenen ve silinen satır, commit, çalışma saati ve haftanın günü" />
 </picture>
 
 ---
 
 <div align="center">
-  <img src="./assets/console-tr.svg?v=20261105d" alt="Kod düzenleyici, tarayıcı önizlemesi ve adımlarını işleyen bir belge okuma yapay zekâ ajanı" width="100%" />
+  <img src="./assets/console-tr.svg?v=20261105e" alt="Kod düzenleyici, tarayıcı önizlemesi ve adımlarını işleyen bir belge okuma yapay zekâ ajanı" width="100%" />
 </div>
 
 ---
@@ -67,18 +67,18 @@ Kamu ve özel sektör müşterileri için yazılım geliştirme süreçlerinde a
 
 | | |
 |---|---|
-| 📱 **Belediye mobil uygulamaları** | Şehir hizmetleri için Flutter ile iOS ve Android uygulamaları geliştiriyorum. Uygulamalar Node.js ile yazılmış API'ler üzerinden çalışıyor. |
 | 🏟️ **Belediye spor ve tesis sistemleri** | Kamu spor tesislerinin üyelik, rezervasyon ve günlük işleyiş süreçlerini yöneten sistemler geliştiriyorum. |
 | 👥 **Özel sektör İK sistemleri** | Şirketlerin insan kaynakları ekipleri için personel kayıtları, iç süreçler ve raporlama modülleri geliştiriyorum. |
 | 🏭 **BirStok — depo ve envanter yönetimi** | Endüstriyel plaka ve ürün takip süreçlerini dijitalleştiren gerçek zamanlı envanter ve depo takip platformu. Tüm depo süreçleri dijital ortamda anlık yönetiliyor. |
 | 🌍 **Topluluk ve girişim platformları** | Avrupa modeli kolektif girişim ve topluluk sitelerini Next.js ile geliştiriyorum. |
+| 📱 **Belediye mobil uygulamaları** | Şehir hizmetleri için Flutter ile iOS ve Android uygulamaları geliştiriyorum. Uygulamalar Node.js ile yazılmış API'ler üzerinden çalışıyor. |
 
 ---
 
 ## 🔄 Veriden ürüne
 
 <div align="center">
-  <img src="./assets/pipeline-tr.svg?v=20261105d" alt="Veri → Model → Servis → Ürün" width="100%" />
+  <img src="./assets/pipeline-tr.svg?v=20261105e" alt="Veri → Model → Servis → Ürün" width="100%" />
 </div>
 
 Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarında kalıyor: ön işlemenin eğitimde ve çıkarımda birebir aynı olması, modelin gecikme bütçesine sığması, bir güven skorunun insanın karar verebileceği bir şeye dönüşmesi.
@@ -88,7 +88,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 ## ⚡ Şu anda
 
 - 🧭 **Birsav Bilişim**'de ekip lideriyim; proje planlaması, iş bölümü, teknik kararlar ve müşteri sunumları doğrudan benim yürüttüğüm süreçler
-- 🧠 Projelerimizin yapay zekâ tarafını yönetiyorum: sahada çalışan görüntü tespiti, OCR tabanlı belge analizi, vatandaşlara yönelik chatbot sistemleri, anomali tespiti — uçtan uca
+- 🧠 Projelerimizin yapay zekâ tarafını yönetiyorum: bilgisayarlı görü, OCR tabanlı belge analizi, vatandaşlara yönelik chatbot sistemleri, anomali tespiti — uçtan uca
 - 💻 Sadece yapay zekâ odaklı kalmıyorum; özel sektör ve kamu projelerinde full stack geliştirici olarak baştan sona geliştirmeler yapıyorum
 - 🏛️ Geliştirme süreçlerinde yer aldığım ve şu an üretimde olan platformlar arasında akıllı belediyecilik ürünü **Biryerden** de bulunuyor
 - 🎓 **Bursa Teknik Üniversitesi**'ndeki yüksek lisans tezimde görüntü sahteciliğinin yerini tespit eden derin öğrenme modelleri üzerinde çalışıyorum
@@ -97,7 +97,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 ---
 
 <div align="center">
-  <img src="./assets/focus-tr.svg?v=20261105d" alt="Çalışma alanları: Uygulamalı Yapay Zekâ, Full Stack Geliştirme, Üretime Alma" width="100%" />
+  <img src="./assets/focus-tr.svg?v=20261105e" alt="Çalışma alanları: Uygulamalı Yapay Zekâ, Full Stack Geliştirme, Üretime Alma" width="100%" />
 </div>
 
 
@@ -138,7 +138,7 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otom
 
 ## 🧰 Teknolojiler
 
-<img src="./assets/stackband.svg?v=20261105d" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
+<img src="./assets/stackband.svg?v=20261105e" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
 
 **Diller**
 
@@ -159,12 +159,13 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otom
 ![Pandas](https://img.shields.io/badge/Pandas-F2B5A4?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-A9B6C6?style=for-the-badge&logo=numpy&logoColor=white)
 
-**Web ve Mobil**
+**Web**
 
 ![Next.js](https://img.shields.io/badge/Next.js-F2B5A4?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-9EC5CF?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-8897AA?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-9EC5CF?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-9EC5CF?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-B2D3DA?style=for-the-badge&logo=flutter&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-C6DFE5?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-D1E8EE?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -176,6 +177,10 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otom
 ![Azure](https://img.shields.io/badge/Azure-7FB0BB?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-8897AA?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-5E9396?style=for-the-badge&logo=git&logoColor=white)
+
+**Mobil**
+
+![Flutter](https://img.shields.io/badge/Flutter-B2D3DA?style=for-the-badge&logo=flutter&logoColor=white)
 
 ---
 
@@ -267,11 +272,11 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 ## 📊 Aktivite
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-tr-dark.svg?v=20261105d" />
-  <img src="./assets/cat-tr-light.svg?v=20261105d" width="100%" alt="Katkı takvimi: son bir yıl, en uzun ve güncel seri, aktif gün; bir kedi kareleri sepetine toplayıp yuvasına dönüyor" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-tr-dark.svg?v=20261105e" />
+  <img src="./assets/cat-tr-light.svg?v=20261105e" width="100%" alt="Katkı takvimi: son bir yıl, en uzun ve güncel seri, aktif gün; bir kedi kareleri sepetine toplayıp yuvasına dönüyor" />
 </picture>
 
-<img src="./assets/landscape-tr.svg?v=20261105d" width="100%" alt="" />
+<img src="./assets/landscape-tr.svg?v=20261105e" width="100%" alt="" />
 
 <div align="center">
 
@@ -320,6 +325,6 @@ Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve aç�
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-tr-dark.svg?v=20261105d" />
-  <img src="./assets/cozy-tr-light.svg?v=20261105d" width="100%" alt="Küçük bir kedi silüeti ve fincan" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-tr-dark.svg?v=20261105e" />
+  <img src="./assets/cozy-tr-light.svg?v=20261105e" width="100%" alt="Küçük bir kedi silüeti ve fincan" />
 </picture>

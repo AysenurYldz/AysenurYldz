@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg?v=20261105d" alt="Ayşenur Yıldız — AI Engineer & Full Stack Developer" width="100%" />
+  <img src="./assets/banner.svg?v=20261105e" alt="Ayşenur Yıldız — AI Engineer & Full Stack Developer" width="100%" />
 </div>
 
 <div align="justify">
@@ -13,11 +13,11 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-en-dark.svg?v=20261105d" /><img src="./assets/badge-linkedin-en-light.svg?v=20261105d" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
-<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-en-dark.svg?v=20261105d" /><img src="./assets/badge-medium-en-light.svg?v=20261105d" alt="Medium — @AysenurYldz" height="34" /></picture></a>
-<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-en-dark.svg?v=20261105d" /><img src="./assets/badge-mail-en-light.svg?v=20261105d" alt="Email" height="34" /></picture></a>
-<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-en-dark.svg?v=20261105d" /><img src="./assets/badge-portfolio-en-light.svg?v=20261105d" alt="Portfolio" height="34" /></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-en-dark.svg?v=20261105d" /><img src="./assets/badge-views-en-light.svg?v=20261105d" alt="profile views" height="34" /></picture>
+<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-en-dark.svg?v=20261105e" /><img src="./assets/badge-linkedin-en-light.svg?v=20261105e" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
+<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-en-dark.svg?v=20261105e" /><img src="./assets/badge-medium-en-light.svg?v=20261105e" alt="Medium — @AysenurYldz" height="34" /></picture></a>
+<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-en-dark.svg?v=20261105e" /><img src="./assets/badge-mail-en-light.svg?v=20261105e" alt="Email" height="34" /></picture></a>
+<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-en-dark.svg?v=20261105e" /><img src="./assets/badge-portfolio-en-light.svg?v=20261105e" alt="Portfolio" height="34" /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-en-dark.svg?v=20261105e" /><img src="./assets/badge-views-en-light.svg?v=20261105e" alt="profile views" height="34" /></picture>
 
 <!-- The counter increases when a visitor loads this 1 px image; the badge number is refreshed daily by the workflow. -->
 <img src="https://komarev.com/ghpvc/?username=AysenurYldz&label=views" width="1" height="1" alt="" />
@@ -37,7 +37,7 @@ I'm an **AI and Computer Engineer** specialising in image processing, natural la
 
 I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am a **team lead**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
 
-On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. On the smart-municipality platform **Biryerden** I build modules such as Council Affairs, Municipal Council, Executive Committee, Archive and Legal, as well as public-opinion and social-listening screens. On the AI side I run real-time detection in the field, document analysis, chatbots and anomaly detection end to end.
+On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Next.js, React and Node.js** I build municipal ERP modules, HR platforms, sports and facility systems, and community and entrepreneurship sites; on the smart-municipality platform **Biryerden** I build modules such as Council Affairs, Municipal Council, Executive Committee, Archive and Legal. On the AI side I run computer vision, document analysis, chatbots and anomaly detection end to end.
 
 </div>
 
@@ -45,14 +45,14 @@ On private- and public-sector projects I work as a **full stack developer**, bui
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-en-dark.svg?v=20261105d" />
-  <img src="./assets/data-en-light.svg?v=20261105d" width="100%" alt="Real git data: languages, lines added and removed in the last year, commits, hour of day and day of week" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-en-dark.svg?v=20261105e" />
+  <img src="./assets/data-en-light.svg?v=20261105e" width="100%" alt="Real git data: languages, lines added and removed in the last year, commits, hour of day and day of week" />
 </picture>
 
 ---
 
 <div align="center">
-  <img src="./assets/console.svg?v=20261105d" alt="Code editor, browser preview and a document-reading AI agent running its steps" width="100%" />
+  <img src="./assets/console.svg?v=20261105e" alt="Code editor, browser preview and a document-reading AI agent running its steps" width="100%" />
 </div>
 
 ---
@@ -67,18 +67,18 @@ I take an active role in software development for public- and private-sector cli
 
 | | |
 |---|---|
-| 📱 **Municipal mobile applications** | iOS and Android applications for city services, built with Flutter. They run on APIs written in Node.js. |
 | 🏟️ **Municipal sports & facility systems** | Systems that manage membership, booking and day-to-day operations for public sports facilities. |
 | 👥 **HR systems for the private sector** | Personnel records, internal process and reporting modules for company HR teams. |
 | 🏭 **BirStok — warehouse & inventory** | A real-time digital inventory and warehouse platform that digitises industrial plate and product tracking. Every warehouse process is managed live. |
 | 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built with Next.js. |
+| 📱 **Municipal mobile applications** | iOS and Android applications for city services, built with Flutter. They run on APIs written in Node.js. |
 
 ---
 
 ## 🔄 From data to product
 
 <div align="center">
-  <img src="./assets/pipeline.svg?v=20261105d" alt="Data → Model → Service → Product" width="100%" />
+  <img src="./assets/pipeline.svg?v=20261105e" alt="Data → Model → Service → Product" width="100%" />
 </div>
 
 I work across all four stages. In practice most of the difficulty sits between them: keeping preprocessing identical at training and inference time, fitting the model into a latency budget, and turning a confidence score into something a person can actually act on.
@@ -88,7 +88,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 ## ⚡ Currently
 
 - 🧭 Team lead at **Birsav Bilişim**. Project planning, task allocation, technical decisions and client presentations are processes I run directly
-- 🧠 Leading the AI side of our projects end to end: real-time detection in the field, OCR-based document analysis, citizen-facing chatbot systems, anomaly detection
+- 🧠 Leading the AI side of our projects end to end: computer vision, OCR-based document analysis, citizen-facing chatbot systems, anomaly detection
 - 💻 Not only AI — I also do full stack development from start to finish on private- and public-sector projects
 - 🏛️ Among the platforms in production that I have worked on is **Biryerden**, a smart-municipality product
 - 🎓 Working on deep learning models that localize image forgeries for my M.Sc. thesis at **Bursa Technical University**
@@ -97,7 +97,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 ---
 
 <div align="center">
-  <img src="./assets/focus.svg?v=20261105d" alt="Focus areas: Applied AI, Full Stack Engineering, Ship to Production" width="100%" />
+  <img src="./assets/focus.svg?v=20261105e" alt="Focus areas: Applied AI, Full Stack Engineering, Ship to Production" width="100%" />
 </div>
 
 
@@ -138,7 +138,7 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 
 ## 🧰 Tech Stack
 
-<img src="./assets/stackband.svg?v=20261105d" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
+<img src="./assets/stackband.svg?v=20261105e" width="100%" alt="Python, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, Pandas, NumPy, JavaScript, Next.js, Node.js, Flask, HTML5, CSS, SQL, Flutter, Dart, Docker, NVIDIA Triton, ONNX, RabbitMQ, Git" />
 
 **Languages**
 
@@ -159,12 +159,13 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 ![Pandas](https://img.shields.io/badge/Pandas-F2B5A4?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-A9B6C6?style=for-the-badge&logo=numpy&logoColor=white)
 
-**Web & Mobile**
+**Web**
 
 ![Next.js](https://img.shields.io/badge/Next.js-F2B5A4?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-9EC5CF?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-8897AA?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-9EC5CF?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-9EC5CF?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-B2D3DA?style=for-the-badge&logo=flutter&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-C6DFE5?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-D1E8EE?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -176,6 +177,10 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 ![Azure](https://img.shields.io/badge/Azure-7FB0BB?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-8897AA?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-5E9396?style=for-the-badge&logo=git&logoColor=white)
+
+**Mobile**
+
+![Flutter](https://img.shields.io/badge/Flutter-B2D3DA?style=for-the-badge&logo=flutter&logoColor=white)
 
 ---
 
@@ -267,11 +272,11 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 ## 📊 Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-en-dark.svg?v=20261105d" />
-  <img src="./assets/cat-en-light.svg?v=20261105d" width="100%" alt="Contribution calendar: last year, longest and current streak, active days; a cat collects the squares into its basket and heads home" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-en-dark.svg?v=20261105e" />
+  <img src="./assets/cat-en-light.svg?v=20261105e" width="100%" alt="Contribution calendar: last year, longest and current streak, active days; a cat collects the squares into its basket and heads home" />
 </picture>
 
-<img src="./assets/landscape-en.svg?v=20261105d" width="100%" alt="" />
+<img src="./assets/landscape-en.svg?v=20261105e" width="100%" alt="" />
 
 <div align="center">
 
@@ -320,6 +325,6 @@ I'm open to AI engineering roles, research collaboration and open source work.
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg?v=20261105d" />
-  <img src="./assets/cozy-en-light.svg?v=20261105d" width="100%" alt="A small cat silhouette and a cup" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg?v=20261105e" />
+  <img src="./assets/cozy-en-light.svg?v=20261105e" width="100%" alt="A small cat silhouette and a cup" />
 </picture>
