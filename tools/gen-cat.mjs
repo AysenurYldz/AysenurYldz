@@ -3,7 +3,8 @@
  *
  * Kedi katkı olan kareleri hafta sırasıyla gezer; ızgara çizgileri üzerinde
  * yürür (önce yatay, sonra dikey), uğradığı kare kalkar. Sonunda ızgaranın
- * ucunda oturur, kareler yerine döner ve döngü baştan başlar.
+ * ucunda durur, kareler yerine döner ve döngü baştan başlar. Kedi iki ayağı
+ * üstünde yürür, önündeki sepet topladıkça dolar.
  * Veriyi gen-contrib.mjs çeker; bu modül yalnız çizer:
  *     buildCat(weeks, total, "light" | "dark", "tr" | "en")
  */
@@ -11,8 +12,8 @@
 // Gökyüzü paleti: sisten petrol yeşiline sıralı ölçek.
 const THEME = {
   // Boş kareler soluk; toplanacak kareler belirgin petrol yeşili ölçeğinde.
-  light: { lv: ["#EEF1F5", "#A9CCD4", "#7DB1BA", "#5E9396", "#3E6F73"], cat: "#3A4657", eye: "#EEF1F5" },
-  dark: { lv: ["#1C2430", "#3C6670", "#5E9396", "#8CC2C7", "#C3E6E9"], cat: "#C8D2DE", eye: "#1C2430" },
+  light: { id: "l", lv: ["#EEF1F5", "#A9CCD4", "#7DB1BA", "#5E9396", "#3E6F73"], cat: "#3A4657", eye: "#EEF1F5", wick: "#C99A3E", basketIn: "#FBF3E2" },
+  dark: { id: "d", lv: ["#1C2430", "#3C6670", "#5E9396", "#8CC2C7", "#C3E6E9"], cat: "#C8D2DE", eye: "#1C2430", wick: "#E8B866", basketIn: "#2A2A2E" },
 };
 const ALT = {
   tr: "Bir kedi katkı ızgarasındaki kareleri gezerek topluyor",
@@ -22,23 +23,33 @@ const ALT = {
 const r3 = (n) => Number(n.toFixed(3));
 const r5 = (n) => Number(n.toFixed(5));
 
-// Yandan, yürüyen kedi silüeti: (0,0) ayak hizasının ortası, sağa bakar.
-// `g` (gövde büyümesi) verilirse kedi her yediği karede biraz şişmanlar.
+// İki ayağı üstünde yürüyen kedi, önünde sepet: (0,0) ayak hizasının ortası, sağa bakar.
+// `g` verilirse sepet her toplanan karede biraz dolar.
 function walking(th, g) {
-  const leg = (x, d) => `<line x1="${x}" y1="-5" x2="${x}" y2="0" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" values="-16 ${x} -5;16 ${x} -5;-16 ${x} -5" dur="0.45s" begin="${d}s" repeatCount="indefinite"/></line>`;
-  const anim = (attr, vals) => `<animate attributeName="${attr}" values="${vals}" keyTimes="${g.keyTimes}" dur="${g.dur}s" repeatCount="indefinite"/>`;
-  const shift = (vals) => `<animateTransform attributeName="transform" type="translate" values="${vals}" keyTimes="${g.keyTimes}" dur="${g.dur}s" repeatCount="indefinite"/>`;
+  const leg = (x, d) => `<line x1="${x}" y1="-8" x2="${x}" y2="0" stroke="${th.cat}" stroke-width="2.6" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="-18 ${x} -8;18 ${x} -8;-18 ${x} -8" dur="0.5s" begin="${d}s" repeatCount="indefinite"/></line>`;
   return `<g class="yuru">
-    ${leg(-6, 0)}${leg(-2.5, 0.22)}${leg(3, 0.22)}${leg(6.5, 0)}
-    <g>${shift(g.tail)}<path d="M-9 -8 C-14 -9 -16 -14 -13 -18" fill="none" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" values="0 -9 -8;10 -9 -8;0 -9 -8" dur="1.1s" repeatCount="indefinite"/></path></g>
-    <ellipse cx="0" cy="-8.5" rx="9.5" ry="4.8" fill="${th.cat}">${anim("rx", g.rx)}${anim("ry", g.ry)}${anim("cy", g.cy)}</ellipse>
-    <g>${shift(g.head)}
-      <circle cx="10" cy="-12.5" r="4.8" fill="${th.cat}"/>
-      <path d="M6.8 -15.5 L7.6 -20.5 L10.2 -16.6 Z M11 -16.8 L13.6 -20.6 L14.4 -15.4 Z" fill="${th.cat}"/>
-      <circle cx="12" cy="-13" r="0.9" fill="${th.eye}"/>
+    ${leg(-1.6, 0)}${leg(1.6, 0.25)}
+    <path d="M-4 -10 C-10 -10 -12 -16 -9 -21" fill="none" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="0 -4 -10;12 -4 -10;0 -4 -10" dur="1.2s" repeatCount="indefinite"/></path>
+    <ellipse cx="0" cy="-14" rx="5.4" ry="7.2" fill="${th.cat}"/>
+    <circle cx="1" cy="-25" r="5.2" fill="${th.cat}"/>
+    <path d="M-3.4 -27.8 L-2.8 -33.5 L0.4 -29.6 Z M1.8 -29.8 L4.6 -33.4 L5.6 -27.6 Z" fill="${th.cat}"/>
+    <circle cx="3.4" cy="-25.6" r="0.95" fill="${th.eye}"/>
+    <!-- sepet: iki ön pati önde tutar -->
+    <g transform="translate(9.5 -15)">
+      <path d="M-4.5 0 C-4.5 -7 4.5 -7 4.5 0" fill="none" stroke="${th.wick}" stroke-width="1.4" stroke-linecap="round"/>
+      <clipPath id="sepet-ic-${th.id}"><path d="M-6 0 H6 L4.6 8 H-4.6 Z"/></clipPath>
+      <path d="M-6 0 H6 L4.6 8 H-4.6 Z" fill="${th.basketIn}"/>
+      <g clip-path="url(#sepet-ic-${th.id})">
+        <rect x="-6" y="8" width="12" height="8" fill="${th.lv[3]}">
+          <animate attributeName="y" values="${g.fill}" keyTimes="${g.keyTimes}" dur="${g.dur}s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <path d="M-6 0 H6 L4.6 8 H-4.6 Z" fill="none" stroke="${th.wick}" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M-5.5 3 H5.5 M-5 5.6 H5" stroke="${th.wick}" stroke-width="0.7" opacity="0.7"/>
     </g>
+    <line x1="3" y1="-17" x2="6" y2="-14.5" stroke="${th.cat}" stroke-width="2.2" stroke-linecap="round"/>
   </g>`;
 }
 
@@ -94,18 +105,14 @@ export function buildCat(weeks, total, mode = "light", lang = "tr") {
       }
     }
   });
-  // Şişmanlama: her yenen karede gövde biraz büyür; döngü başında yeniden incelir.
+  // Sepet dolar: her toplanan karede doluluk biraz yükselir; döngü başında boşalır.
   const eaten = visit.slice(0, stops.length).map((i) => tk[i]);
   const n = Math.max(1, eaten.length);
   const fs = [0, ...eaten.map((_, i) => (i + 1) / n), 1, 0];
   const g = {
     dur: DUR,
     keyTimes: [0, ...eaten, 0.99, 1].join(";"),
-    rx: fs.map((f) => r3(9.5 + 10 * f)).join(";"),
-    ry: fs.map((f) => r3(4.8 + 5.5 * f)).join(";"),
-    cy: fs.map((f) => r3(-8.5 - 2.4 * f)).join(";"),
-    head: fs.map((f) => `${r3(10 * f * 0.8)} ${r3(-1.2 * f)}`).join(";"),
-    tail: fs.map((f) => `${r3(-10 * f * 0.8)} ${r3(-0.6 * f)}`).join(";"),
+    fill: fs.map((f) => r3(8 - 8 * f)).join(";"),
   };
   o.push(`<g><animateTransform attributeName="transform" type="translate" values="${values}" keyTimes="${keyTimes}" dur="${DUR}s" calcMode="linear" repeatCount="indefinite"/>${walking(th, g)}</g>`);
   o.push("</svg>");
