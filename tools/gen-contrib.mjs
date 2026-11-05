@@ -15,6 +15,7 @@
  *     assets/landscape-{en,tr}.svg  katkılardan türetilmiş kayan manzara
  */
 import { mkdir, writeFile } from "node:fs/promises";
+import { buildCat } from "./gen-cat.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -29,8 +30,8 @@ const UA =
 // sıralı bir ölçek olarak okunsun — beyaz zeminde ters yön işe yaramaz.
 const P = {
   card: "#FFFFFF", edge: "#ECE3DA", ink: "#2B211C", faint: "#97897F",
-  accent: "#A9785A", sheen: "#2B211C", sheenA: 0.035, rim: "#F5EEE7", rimA: 1,
-  lv: ["#F3EEE8", "#E2CDB8", "#CFA984", "#A9785A", "#7A5240"],
+  accent: "#C29B76", sheen: "#2B211C", sheenA: 0.035, rim: "#F5EEE7", rimA: 1,
+  lv: ["#F3EEE8", "#EBDCCA", "#DEC3A5", "#C29B76", "#8B6A55"],
 };
 
 const L = {
@@ -158,7 +159,7 @@ const svg = (w, h, label, body, uid, extraDefs = "") =>
 /** Panellerin ortak üst şeridi: dört büyük sayı + altlarında küçük etiket.
  *  veri panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
  *  okunsun diye tipografi, sütun konumları ve renk sırası paylaşılıyor. */
-const STAT_COL = ["#7A5240", "#2B211C", "#C98B6F", "#7E9C7A"];
+const STAT_COL = ["#8B6A55", "#2B211C", "#E0A88E", "#A3BC9D"];
 const STAT_X = [26, 268, 510, 736];
 
 function statRow(vals, labels, W) {
@@ -344,6 +345,10 @@ for (const [lang, t] of Object.entries(L)) {
   await writeFile(join(out, `contrib-${lang}.svg`), buildCalendar(t, weeks, total, longest, now, days), "utf8");
   await writeFile(join(out, `iso-${lang}.svg`), buildIso(t, weeks, days), "utf8");
   await writeFile(join(out, `landscape-${lang}.svg`), buildLandscape(t, days), "utf8");
+  // Yılanın yerine: kareleri sepetine toplayan siyah kedi (açık / koyu).
+  for (const mode of ["light", "dark"]) {
+    await writeFile(join(out, `cat-${lang}-${mode}.svg`), buildCat(weeks, total, mode, lang), "utf8");
+  }
 }
 
 console.log(`yazıldı: toplam=${total} en_uzun=${longest} güncel=${now} hafta=${weeks.length}`);

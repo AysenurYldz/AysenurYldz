@@ -24,18 +24,18 @@
     </radialGradient>
 
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7A5240"/>
-      <stop offset="55%" stop-color="#7E9C7A"/>
-      <stop offset="100%" stop-color="#C5D6BF"/>
+      <stop offset="0%" stop-color="#8B6A55"/>
+      <stop offset="55%" stop-color="#A3BC9D"/>
+      <stop offset="100%" stop-color="#D5E2D1"/>
     </linearGradient>
 
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7A5240" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#C5D6BF" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#8B6A55" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D5E2D1" stop-opacity="0.85"/>
     </linearGradient>
 
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0 L0 0 0 34" fill="none" stroke="#A9785A" stroke-opacity="0.10" stroke-width="1"/>
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#C29B76" stroke-opacity="0.10" stroke-width="1"/>
     </pattern>
 
     <clipPath id="card">
@@ -79,7 +79,7 @@
 
     <!-- neural graph -->
     <g stroke-width="1.15" fill="none">
-      <g stroke="#CFA984" stroke-opacity="0.55">
+      <g stroke="#DEC3A5" stroke-opacity="0.55">
         <path d="M900 115 L1000 88"/>  <path d="M900 115 L1000 143"/> <path d="M900 115 L1000 198"/> <path d="M900 115 L1000 253"/>
         <path d="M900 170 L1000 88"/>  <path d="M900 170 L1000 143"/> <path d="M900 170 L1000 198"/> <path d="M900 170 L1000 253"/>
         <path d="M900 225 L1000 88"/>  <path d="M900 225 L1000 143"/> <path d="M900 225 L1000 198"/> <path d="M900 225 L1000 253"/>
@@ -96,23 +96,23 @@
     </g>
 
     <g>
-      <g fill="#A9785A">
+      <g fill="#C29B76">
         <circle class="n"    cx="900"  cy="115" r="7"/>
         <circle class="n n2" cx="900"  cy="170" r="7"/>
         <circle class="n n3" cx="900"  cy="225" r="7"/>
       </g>
-      <g fill="#E8C2AE">
+      <g fill="#F0D2C2">
         <circle class="n n4" cx="1000" cy="88"  r="6.5"/>
         <circle class="n n5" cx="1000" cy="143" r="6.5"/>
         <circle class="n n2" cx="1000" cy="198" r="6.5"/>
         <circle class="n n6" cx="1000" cy="253" r="6.5"/>
       </g>
-      <g fill="#C5D6BF">
+      <g fill="#D5E2D1">
         <circle class="n n3" cx="1100" cy="115" r="7"/>
         <circle class="n n7" cx="1100" cy="170" r="7"/>
         <circle class="n n5" cx="1100" cy="225" r="7"/>
       </g>
-      <g fill="none" stroke="#A9785A" stroke-opacity="0.35" stroke-width="1">
+      <g fill="none" stroke="#C29B76" stroke-opacity="0.35" stroke-width="1">
         <circle cx="900" cy="170" r="13"/>
         <circle cx="1100" cy="170" r="13"/>
       </g>
@@ -131,7 +131,7 @@
       <rect x="64" y="168" width="124" height="4.5" rx="2.25" fill="url(#accent)"/>
 
       <text x="64" y="212" font-size="21.5" font-weight="600" letter-spacing="1.6">
-        <tspan fill="#7A5240">AI ENGINEER</tspan><tspan fill="#C9BDB2">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#7E9C7A">FULL STACK DEVELOPER</tspan>
+        <tspan fill="#8B6A55">AI ENGINEER</tspan><tspan fill="#C9BDB2">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#7D9878">FULL STACK DEVELOPER</tspan>
       </text>
 
       <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#6B5D53">
@@ -139,17 +139,17 @@
       </text>
 
       <g>
-        <rect x="64" y="272" width="318" height="33" rx="16.5" fill="#A9785A" fill-opacity="0.13" stroke="#A9785A" stroke-opacity="0.45"/>
-        <circle cx="83" cy="288.5" r="3.5" fill="#A9785A"/>
-        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#7A5240">
+        <rect x="64" y="272" width="318" height="33" rx="16.5" fill="#C29B76" fill-opacity="0.13" stroke="#C29B76" stroke-opacity="0.45"/>
+        <circle cx="83" cy="288.5" r="3.5" fill="#C29B76"/>
+        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#8B6A55">
           TEKNOFEST 2023 &#160;·&#160; 3rd PLACE IN TÜRKİYE
         </text>
       </g>
 
       <g>
-        <rect x="396" y="272" width="262" height="33" rx="16.5" fill="#7E9C7A" fill-opacity="0.13" stroke="#7E9C7A" stroke-opacity="0.45"/>
-        <circle cx="415" cy="288.5" r="3.5" fill="#7E9C7A"/>
-        <text x="427" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#5A7456">
+        <rect x="396" y="272" width="262" height="33" rx="16.5" fill="#A3BC9D" fill-opacity="0.13" stroke="#A3BC9D" stroke-opacity="0.45"/>
+        <circle cx="415" cy="288.5" r="3.5" fill="#A3BC9D"/>
+        <text x="427" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#718C6C">
           TÜBİTAK 2209-A RESEARCHER
         </text>
       </g>

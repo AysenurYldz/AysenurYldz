@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![English](https://img.shields.io/badge/🇬🇧_English-7A5240?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
+[![English](https://img.shields.io/badge/🇬🇧_English-8B6A55?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
 [![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-ECE3DA?style=for-the-badge&labelColor=ECE3DA)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
 
 </div>
@@ -39,8 +39,6 @@ I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav B
 
 On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. On the smart-municipality platform **Biryerden** I build modules such as Council Affairs, Municipal Council, Executive Committee, Archive and Legal, as well as public-opinion and social-listening screens. On the AI side I run real-time detection in the field, document analysis, chatbots and anomaly detection end to end.
 
-Off the clock: a cup of coffee and, ideally, a black cat nearby. ☕🐈‍⬛
-
 </div>
 
 ```yaml
@@ -51,7 +49,6 @@ studying:  M.Sc. Computer Engineering, Bursa Technical University
 ai_work:   real-time detection · image forgery localization · super-resolution · OCR · chatbots · anomaly
 product:   municipal ERP modules · social listening · mobile apps · HR · BirStok · community sites
 tools:     Next.js · Node.js · Flutter · Docker · Triton · ONNX
-likes:     coffee · cats (black ones especially) · autumn
 open_to:   AI engineering roles, research collaboration, open source
 ```
 
@@ -130,7 +127,7 @@ I work across all four stages. In practice most of the difficulty sits between t
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg" />
-  <img src="./assets/cozy-en-light.svg" width="100%" alt="A black cat, a latte and falling autumn leaves — coffee, cats, code" />
+  <img src="./assets/cozy-en-light.svg" width="100%" alt="A black cat, a latte and falling autumn leaves" />
 </picture>
 
 ---
@@ -174,40 +171,40 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-7A5240?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-8B5E45?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C/C++-A0704F?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-A9785A?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-6F4A36?style=for-the-badge&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-8B6A55?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-A98266?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C/C++-BC9472?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-C29B76?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-8B6A55?style=for-the-badge&logo=javascript&logoColor=white)
 
 **AI / Machine Learning**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-8B5E45?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-7A5240?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-A0704F?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-A9785A?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-7A5240?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-B07A5E?style=for-the-badge&logo=yolo&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-C98B6F?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-A86F55?style=for-the-badge&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-A98266?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-8B6A55?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-BC9472?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-C29B76?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-8B6A55?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-CDA287?style=for-the-badge&logo=yolo&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-E0A88E?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-C99A80?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Web & Mobile**
 
-![Next.js](https://img.shields.io/badge/Next.js-C98B6F?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-8AA084?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-7E9C7A?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-9CB495?style=for-the-badge&logo=flutter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-AFC4A8?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-B6C8AF?style=for-the-badge&logo=css3&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-E0A88E?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-A9BEA3?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-A3BC9D?style=for-the-badge&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-B4C8AE?style=for-the-badge&logo=flutter&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-C4D3BF?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-C9D6C4?style=for-the-badge&logo=css3&logoColor=white)
 
 **Infrastructure & MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-7E9C7A?style=for-the-badge&logo=docker&logoColor=2B211C)
-![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-9CB495?style=for-the-badge&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-7E9C7A?style=for-the-badge&logo=onnx&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-6F8C6A?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-A9785A?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Git](https://img.shields.io/badge/Git-7A5240?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-A3BC9D?style=for-the-badge&logo=docker&logoColor=2B211C)
+![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-B4C8AE?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-A3BC9D?style=for-the-badge&logo=onnx&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-8CA587?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-C29B76?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Git](https://img.shields.io/badge/Git-8B6A55?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -301,17 +298,17 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 <img src="./assets/contrib-en.svg" width="100%" alt="Contribution calendar: last year, longest and current streak, active days" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="A snake eating its way across the contribution grid" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-en-dark.svg" />
+  <img src="./assets/cat-en-light.svg" width="100%" alt="A black cat collects the squares of the contribution grid into its basket" />
 </picture>
 
 <img src="./assets/landscape-en.svg" width="100%" alt="" />
 
 <div align="center">
 
-![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7A5240&labelColor=FFFFFF&logo=github&logoColor=white)
-![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-C98B6F?style=for-the-badge&labelColor=FFFFFF)
-![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-7E9C7A?style=for-the-badge&labelColor=FFFFFF)
+![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=8B6A55&labelColor=FFFFFF&logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-E0A88E?style=for-the-badge&labelColor=FFFFFF)
+![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-A3BC9D?style=for-the-badge&labelColor=FFFFFF)
 
 </div>
 
@@ -343,9 +340,9 @@ Earlier in my career I worked as an SEO Engineer at **Gini Talent**, developing 
 
 I'm open to AI engineering roles, research collaboration and open source work.
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-7A5240?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![Email](https://img.shields.io/badge/Send_an_email-C98B6F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Portfolio](https://img.shields.io/badge/See_the_portfolio-7E9C7A?style=for-the-badge&logo=googlechrome&logoColor=2B211C)](https://aysenuryldz.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-8B6A55?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
+[![Email](https://img.shields.io/badge/Send_an_email-E0A88E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
+[![Portfolio](https://img.shields.io/badge/See_the_portfolio-A3BC9D?style=for-the-badge&logo=googlechrome&logoColor=2B211C)](https://aysenuryldz.github.io/portfolio/)
 
 <br>
 

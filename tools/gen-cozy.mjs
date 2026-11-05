@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Sonbahar köşesi: siyah kedi, latte, düşen yapraklar — profilin ara bölmesi.
- * Veri yok, yalnız çizim; açık ve koyu tema, iki dilde altyazı.
+ * Veri yok, yalnız çizim; açık ve koyu tema (yazı yok; dil dosyaları aynı çizimi taşır).
  *     node tools/gen-cozy.mjs   →  assets/cozy-{tr,en}-{light,dark}.svg
  */
 import { mkdir, writeFile } from "node:fs/promises";
@@ -22,7 +22,7 @@ const T = {
     bg1: "#1B1612", bg2: "#231C17", edge: "#33291F", ink: "#F2EAE2", faint: "#A3968A",
     cat: "#0F0C0A", catHi: "#2A231E", rim: "#5A4A3E", eye: "#E9C77E", nose: "#E4A79E", desk: "#3A2F27",
     mug: "#EADCC9", mugEdge: "#B79C80", coffee: "#9E714F", foam: "#E8D3B8", steam: "#7D6E62",
-    leaves: ["#D9967A", "#D9B46A", "#B98A62", "#93AE8F", "#C98B6F"], book1: "#7F9A7B", book2: "#B97F66", book3: "#C9A462",
+    leaves: ["#D9967A", "#D9B46A", "#B98A62", "#93AE8F", "#E0A88E"], book1: "#7F9A7B", book2: "#B97F66", book3: "#C9A462",
   },
 };
 const CAP = {
@@ -128,15 +128,6 @@ function build(th, cap) {
       </g>
     </g>
 
-    <!-- altyazı -->
-    <g font-family="${MONO}" font-size="13" letter-spacing="3" fill="${th.faint}">
-      <text x="48" y="92">${cap[0]}</text>
-      <text x="48" y="118">${cap[1]}</text>
-      <text x="48" y="144">${cap[2]}</text>
-    </g>
-    <circle cx="36" cy="88" r="3.5" fill="${th.leaves[2]}"/>
-    <circle cx="36" cy="114" r="3.5" fill="${th.leaves[0]}"/>
-    <circle cx="36" cy="140" r="3.5" fill="${th.leaves[3]}"/>
   </g>
   <rect x="0.75" y="0.75" width="${W - 1.5}" height="${H - 1.5}" rx="18" fill="none" stroke="${th.edge}" stroke-width="1.5"/>
 </svg>`;

@@ -126,15 +126,6 @@
       </g>
     </g>
 
-    <!-- altyazı -->
-    <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#97897F">
-      <text x="48" y="92">kahve</text>
-      <text x="48" y="118">kedi</text>
-      <text x="48" y="144">kod</text>
-    </g>
-    <circle cx="36" cy="88" r="3.5" fill="#B98A62"/>
-    <circle cx="36" cy="114" r="3.5" fill="#E3A68B"/>
-    <circle cx="36" cy="140" r="3.5" fill="#A9BFA0"/>
   </g>
   <rect x="0.75" y="0.75" width="998.5" height="228.5" rx="18" fill="none" stroke="#ECE3DA" stroke-width="1.5"/>
 </svg>

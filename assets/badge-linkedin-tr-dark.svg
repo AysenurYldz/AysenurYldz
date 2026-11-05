@@ -2,7 +2,7 @@
   <rect x="0.75" y="0.75" width="192.5" height="32.5" rx="9" fill="#15110E" stroke="#3A2F26" stroke-width="1.5"/>
   <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#26301F"/>
   <line x1="44" y1="1" x2="44" y2="33" stroke="#3A2F26" stroke-width="1.2"/>
-  <g transform="translate(12 7)"><rect x="2" y="2" width="16" height="16" rx="3" fill="#9CB495"/><rect x="5" y="8" width="2.6" height="7" fill="#fff"/><circle cx="6.3" cy="5.6" r="1.5" fill="#fff"/><path d="M9.5 8h2.4v1.1c.4-.7 1.2-1.3 2.4-1.3 1.9 0 2.7 1.2 2.7 3.3V15h-2.6v-3.4c0-.9-.3-1.6-1.2-1.6s-1.3.7-1.3 1.6V15H9.5z" fill="#fff"/></g>
+  <g transform="translate(12 7)"><rect x="2" y="2" width="16" height="16" rx="3" fill="#B4C8AE"/><rect x="5" y="8" width="2.6" height="7" fill="#fff"/><circle cx="6.3" cy="5.6" r="1.5" fill="#fff"/><path d="M9.5 8h2.4v1.1c.4-.7 1.2-1.3 2.4-1.3 1.9 0 2.7 1.2 2.7 3.3V15h-2.6v-3.4c0-.9-.3-1.6-1.2-1.6s-1.3.7-1.3 1.6V15H9.5z" fill="#fff"/></g>
   <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#F2EAE2">Ayşenur Yıldız</text>
   
 </svg>

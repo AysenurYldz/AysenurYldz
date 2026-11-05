@@ -2,28 +2,28 @@
   <title>Çalışma alanları</title>
   <defs>
     <linearGradient id="u-c1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#A9785A" stop-opacity="0.16"/><stop offset="100%" stop-color="#A9785A" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#C29B76" stop-opacity="0.16"/><stop offset="100%" stop-color="#C29B76" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="u-c2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E8C2AE" stop-opacity="0.16"/><stop offset="100%" stop-color="#7E9C7A" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#F0D2C2" stop-opacity="0.16"/><stop offset="100%" stop-color="#A3BC9D" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="u-c3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#C5D6BF" stop-opacity="0.16"/><stop offset="100%" stop-color="#7E9C7A" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#D5E2D1" stop-opacity="0.16"/><stop offset="100%" stop-color="#A3BC9D" stop-opacity="0.03"/>
     </linearGradient>
-    <linearGradient id="u-bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7A5240"/><stop offset="100%" stop-color="#A8705A"/></linearGradient>
-    <linearGradient id="u-bar2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E8C2AE"/><stop offset="100%" stop-color="#7E9C7A"/></linearGradient>
-    <linearGradient id="u-bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C5D6BF"/><stop offset="100%" stop-color="#C5D6BF"/></linearGradient>
+    <linearGradient id="u-bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8B6A55"/><stop offset="100%" stop-color="#A8705A"/></linearGradient>
+    <linearGradient id="u-bar2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F0D2C2"/><stop offset="100%" stop-color="#A3BC9D"/></linearGradient>
+    <linearGradient id="u-bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D5E2D1"/><stop offset="100%" stop-color="#D5E2D1"/></linearGradient>
   </defs>
 
   <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
 
     <g>
-      <rect x="6" y="14" width="378" height="240" rx="20" fill="url(#u-c1)" stroke="#A9785A" stroke-opacity="0.55"/>
+      <rect x="6" y="14" width="378" height="240" rx="20" fill="url(#u-c1)" stroke="#C29B76" stroke-opacity="0.55"/>
       <rect x="30" y="42" width="46" height="4" rx="2" fill="url(#u-bar1)"/>
-      <g transform="translate(30,66)" stroke="#A9785A" fill="none" stroke-width="1.7" stroke-linecap="round">
-        <circle cx="9" cy="9" r="3.2" fill="#A9785A" stroke="none"/>
-        <circle cx="31" cy="1" r="2.6" fill="#7A5240" stroke="none"/>
-        <circle cx="31" cy="17" r="2.6" fill="#7A5240" stroke="none"/>
+      <g transform="translate(30,66)" stroke="#C29B76" fill="none" stroke-width="1.7" stroke-linecap="round">
+        <circle cx="9" cy="9" r="3.2" fill="#C29B76" stroke="none"/>
+        <circle cx="31" cy="1" r="2.6" fill="#8B6A55" stroke="none"/>
+        <circle cx="31" cy="17" r="2.6" fill="#8B6A55" stroke="none"/>
         <path d="M12 7.5 L28.5 1.8 M12 10.5 L28.5 16.2"/>
       </g>
       <text x="76" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Uygulamalı Yapay Zekâ</text>
@@ -37,9 +37,9 @@
     </g>
 
     <g>
-      <rect x="411" y="14" width="378" height="240" rx="20" fill="url(#u-c2)" stroke="#E8C2AE" stroke-opacity="0.55"/>
+      <rect x="411" y="14" width="378" height="240" rx="20" fill="url(#u-c2)" stroke="#F0D2C2" stroke-opacity="0.55"/>
       <rect x="435" y="42" width="46" height="4" rx="2" fill="url(#u-bar2)"/>
-      <g transform="translate(435,64)" stroke="#7E9C7A" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(435,64)" stroke="#A3BC9D" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
         <path d="M13 3 L4 11 L13 19"/><path d="M27 3 L36 11 L27 19"/>
       </g>
       <text x="481" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Full Stack Geliştirme</text>
@@ -53,9 +53,9 @@
     </g>
 
     <g>
-      <rect x="816" y="14" width="378" height="240" rx="20" fill="url(#u-c3)" stroke="#C5D6BF" stroke-opacity="0.55"/>
+      <rect x="816" y="14" width="378" height="240" rx="20" fill="url(#u-c3)" stroke="#D5E2D1" stroke-opacity="0.55"/>
       <rect x="840" y="42" width="46" height="4" rx="2" fill="url(#u-bar3)"/>
-      <g transform="translate(840,64)" stroke="#C5D6BF" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(840,64)" stroke="#D5E2D1" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
         <rect x="3" y="1" width="22" height="20" rx="3"/><path d="M8 26 L20 26"/><path d="M31 5 L37 11 L31 17"/>
       </g>
       <text x="886" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Üretime Alma</text>

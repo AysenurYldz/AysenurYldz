@@ -86,7 +86,7 @@ const THEME = {
   // Kahve paleti: krema zemin, espresso yazı, karamel vurgu; koyu temada kavrulmuş çekirdek.
   light: {
     card: "#FFFFFF", edge: "#ECE3DA", ink: "#2B211C", faint: "#97897F", track: "#F2ECE6",
-    rule: "#EFE7DF", accent: "#A9785A", add: "#4F9A6E", del: "#C9584D", peak: "#7A5240",
+    rule: "#EFE7DF", accent: "#C29B76", add: "#4F9A6E", del: "#C9584D", peak: "#C9A27C",
   },
   dark: {
     card: "#15110E", edge: "#33291F", ink: "#F2EAE2", faint: "#A3968A", track: "#2A221C",

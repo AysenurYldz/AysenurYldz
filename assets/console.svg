@@ -14,15 +14,15 @@
     </linearGradient>
 
     <linearGradient id="cs-shimmer" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A9785A" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#A9785A" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#A9785A" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C29B76" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C29B76" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#C29B76" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="cs-bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E8C2AE"/>
-      <stop offset="60%" stop-color="#A9785A"/>
-      <stop offset="100%" stop-color="#C5D6BF"/>
+      <stop offset="0%" stop-color="#F0D2C2"/>
+      <stop offset="60%" stop-color="#C29B76"/>
+      <stop offset="100%" stop-color="#D5E2D1"/>
     </linearGradient>
 
     <style>
@@ -84,8 +84,8 @@
       <rect x="44" y="36" width="420" height="180" rx="8" fill="#FFFFFF" stroke="#ECE3DA" stroke-width="1.4"/>
       <path d="M44 62 H464" stroke="#ECE3DA" stroke-width="1.2"/>
       <circle cx="62" cy="49" r="3.6" fill="#E8A0B4"/>
-      <circle cx="75" cy="49" r="3.6" fill="#E8C2AE"/>
-      <circle cx="88" cy="49" r="3.6" fill="#C5D6BF"/>
+      <circle cx="75" cy="49" r="3.6" fill="#F0D2C2"/>
+      <circle cx="88" cy="49" r="3.6" fill="#D5E2D1"/>
       <text x="104" y="52.5" font-size="8.5" letter-spacing=".6" fill="#97897F">src/pipeline/extract.py</text>
       <text x="448" y="52.5" font-size="8" letter-spacing="1.4" text-anchor="end" fill="#BFB2A8">IDE</text>
 
@@ -93,7 +93,7 @@
       <path d="M126 62 V216" stroke="#F2EBE4" stroke-width="1.2"/>
       <g font-size="7.6" fill="#97897F">
         <text x="58" y="80">pipeline</text>
-        <text x="64" y="95" fill="#A9785A">extract.py</text>
+        <text x="64" y="95" fill="#C29B76">extract.py</text>
         <text x="64" y="110">detect.py</text>
         <text x="58" y="125">models</text>
         <text x="64" y="140">yolo.pt</text>
@@ -107,21 +107,21 @@
           <text x="140" y="127">34</text><text x="140" y="142">35</text><text x="140" y="157">36</text>
           <text x="140" y="172">37</text><text x="140" y="187">38</text>
         </g>
-        <text x="162" y="82"><tspan fill="#7A5240">from</tspan><tspan fill="#2B211C"> vision </tspan><tspan fill="#7A5240">import</tspan><tspan fill="#2B211C"> detect</tspan></text>
-        <text x="162" y="97"><tspan fill="#7A5240">from</tspan><tspan fill="#2B211C"> ocr </tspan><tspan fill="#7A5240">import</tspan><tspan fill="#2B211C"> read_fields</tspan></text>
-        <text x="162" y="127"><tspan fill="#C98B6F">def</tspan><tspan fill="#2B211C"> extract(</tspan><tspan fill="#7E9C7A">page</tspan><tspan fill="#2B211C">):</tspan></text>
-        <text x="162" y="142"><tspan fill="#2B211C">    boxes = detect(page, </tspan><tspan fill="#7E9C7A">0.35</tspan><tspan fill="#2B211C">)</tspan></text>
+        <text x="162" y="82"><tspan fill="#8B6A55">from</tspan><tspan fill="#2B211C"> vision </tspan><tspan fill="#8B6A55">import</tspan><tspan fill="#2B211C"> detect</tspan></text>
+        <text x="162" y="97"><tspan fill="#8B6A55">from</tspan><tspan fill="#2B211C"> ocr </tspan><tspan fill="#8B6A55">import</tspan><tspan fill="#2B211C"> read_fields</tspan></text>
+        <text x="162" y="127"><tspan fill="#E0A88E">def</tspan><tspan fill="#2B211C"> extract(</tspan><tspan fill="#A3BC9D">page</tspan><tspan fill="#2B211C">):</tspan></text>
+        <text x="162" y="142"><tspan fill="#2B211C">    boxes = detect(page, </tspan><tspan fill="#A3BC9D">0.35</tspan><tspan fill="#2B211C">)</tspan></text>
         <text x="162" y="157"><tspan fill="#2B211C">    fields = read_fields(boxes)</tspan></text>
         <text x="162" y="172"><tspan fill="#97897F">    # low-confidence fields to the agent</tspan></text>
-        <text x="162" y="187"><tspan fill="#C98B6F">    return</tspan><tspan fill="#2B211C"> fields.review()</tspan></text>
-        <rect class="caret" x="330" y="180.5" width="1.4" height="9" fill="#A9785A"/>
+        <text x="162" y="187"><tspan fill="#E0A88E">    return</tspan><tspan fill="#2B211C"> fields.review()</tspan></text>
+        <rect class="caret" x="330" y="180.5" width="1.4" height="9" fill="#C29B76"/>
       </g>
 
       <path d="M44 200 H464" stroke="#F2EBE4" stroke-width="1.2"/>
       <g font-size="7.2" fill="#97897F">
         <text x="58" y="211">main</text>
-        <text x="104" y="211" fill="#7E9C7A">0 errors</text>
-        <text x="148" y="211" fill="#A9785A">2 warnings</text>
+        <text x="104" y="211" fill="#A3BC9D">0 errors</text>
+        <text x="148" y="211" fill="#C29B76">2 warnings</text>
         <text x="448" y="211" text-anchor="end">Python · UTF-8</text>
       </g>
     </g>
@@ -131,8 +131,8 @@
       <rect x="44" y="230" width="420" height="118" rx="8" fill="#FFFFFF" stroke="#ECE3DA" stroke-width="1.4"/>
       <path d="M44 252 H464" stroke="#ECE3DA" stroke-width="1.2"/>
       <circle cx="60" cy="241" r="3" fill="#E8A0B4"/>
-      <circle cx="71" cy="241" r="3" fill="#E8C2AE"/>
-      <circle cx="82" cy="241" r="3" fill="#C5D6BF"/>
+      <circle cx="71" cy="241" r="3" fill="#F0D2C2"/>
+      <circle cx="82" cy="241" r="3" fill="#D5E2D1"/>
       <rect x="96" y="235.5" width="150" height="11" rx="5.5" fill="#FCF8F4"/>
       <text x="104" y="243.5" font-size="7" fill="#97897F">localhost:3000/document</text>
 
@@ -145,10 +145,10 @@
         <!-- çıkarılan alan kartları -->
         <rect x="300" y="262" width="140" height="26" rx="4" fill="#FCF8F4" stroke="#ECE3DA"/>
         <text x="308" y="272" font-size="6.4" fill="#97897F">TOTAL</text>
-        <text x="308" y="283" font-size="8.6" font-weight="700" fill="#7A5240">14.280,00</text>
+        <text x="308" y="283" font-size="8.6" font-weight="700" fill="#8B6A55">14.280,00</text>
         <rect x="300" y="296" width="140" height="26" rx="4" fill="#FCF8F4" stroke="#ECE3DA"/>
         <text x="308" y="306" font-size="6.4" fill="#97897F">DATE</text>
-        <text x="308" y="317" font-size="8.6" font-weight="700" fill="#7E9C7A">21.08.2026</text>
+        <text x="308" y="317" font-size="8.6" font-weight="700" fill="#A3BC9D">21.08.2026</text>
         <rect class="shim" x="0" y="256" width="120" height="80" fill="url(#cs-shimmer)"/>
       </g>
     </g>
@@ -158,11 +158,11 @@
       <rect x="490" y="36" width="466" height="312" rx="8" fill="#FFFFFF" stroke="#ECE3DA" stroke-width="1.4"/>
       <path d="M490 62 H956" stroke="#ECE3DA" stroke-width="1.2"/>
       <circle cx="508" cy="49" r="3.6" fill="#E8A0B4"/>
-      <circle cx="521" cy="49" r="3.6" fill="#E8C2AE"/>
-      <circle cx="534" cy="49" r="3.6" fill="#C5D6BF"/>
+      <circle cx="521" cy="49" r="3.6" fill="#F0D2C2"/>
+      <circle cx="534" cy="49" r="3.6" fill="#D5E2D1"/>
       <text x="550" y="52.5" font-size="8.5" letter-spacing=".6" fill="#97897F">agent · document-intake</text>
       <g>
-        <circle cx="930" cy="49" r="3.2" class="dot" fill="#A9785A"/>
+        <circle cx="930" cy="49" r="3.2" class="dot" fill="#C29B76"/>
         <text x="922" y="52.5" font-size="7.4" text-anchor="end" fill="#BFB2A8">running</text>
       </g>
 
@@ -171,12 +171,12 @@
         <g stroke="#E2D2C4" stroke-width="1.1" fill="none">
           <path d="M6 6 L22 2 M6 6 L22 12 M6 18 L22 12 M6 18 L22 22 M22 2 L38 12 M22 12 L38 12 M22 22 L38 12"/>
         </g>
-        <circle class="node" cx="6" cy="6" r="2.8" fill="#A9785A"/>
-        <circle class="node nb" cx="6" cy="18" r="2.8" fill="#A9785A"/>
-        <circle class="node nc" cx="22" cy="2" r="2.4" fill="#E8C2AE"/>
-        <circle class="node" cx="22" cy="12" r="2.4" fill="#E8C2AE"/>
-        <circle class="node nd" cx="22" cy="22" r="2.4" fill="#E8C2AE"/>
-        <circle class="node nb" cx="38" cy="12" r="3.2" fill="#7E9C7A"/>
+        <circle class="node" cx="6" cy="6" r="2.8" fill="#C29B76"/>
+        <circle class="node nb" cx="6" cy="18" r="2.8" fill="#C29B76"/>
+        <circle class="node nc" cx="22" cy="2" r="2.4" fill="#F0D2C2"/>
+        <circle class="node" cx="22" cy="12" r="2.4" fill="#F0D2C2"/>
+        <circle class="node nd" cx="22" cy="22" r="2.4" fill="#F0D2C2"/>
+        <circle class="node nb" cx="38" cy="12" r="3.2" fill="#A3BC9D"/>
       </g>
       <text x="566" y="93" font-size="8" letter-spacing="1.2" fill="#BFB2A8">YOLO + OCR + LLM</text>
 
@@ -185,40 +185,40 @@
       <!-- adım adım çalışma -->
       <g font-size="8.6">
         <g class="step s1">
-          <text x="516" y="130"><tspan fill="#A9785A">▸</tspan><tspan fill="#2B211C">  parse invoice_2481.pdf</tspan></text>
+          <text x="516" y="130"><tspan fill="#C29B76">▸</tspan><tspan fill="#2B211C">  parse invoice_2481.pdf</tspan></text>
         </g>
 
         <g class="step s2">
           <text x="516" y="154" fill="#97897F">planning</text>
-          <circle class="dot" cx="592" cy="151" r="1.9" fill="#E8C2AE"/>
-          <circle class="dot dot2" cx="600" cy="151" r="1.9" fill="#E8C2AE"/>
-          <circle class="dot dot3" cx="608" cy="151" r="1.9" fill="#E8C2AE"/>
+          <circle class="dot" cx="592" cy="151" r="1.9" fill="#F0D2C2"/>
+          <circle class="dot dot2" cx="600" cy="151" r="1.9" fill="#F0D2C2"/>
+          <circle class="dot dot3" cx="608" cy="151" r="1.9" fill="#F0D2C2"/>
         </g>
 
         <g class="step s3">
           <rect x="516" y="166" width="146" height="20" rx="10" fill="#FCF8F4" stroke="#ECE3DA"/>
-          <circle cx="529" cy="176" r="2.6" fill="#A9785A"/>
+          <circle cx="529" cy="176" r="2.6" fill="#C29B76"/>
           <text x="539" y="179" font-size="7.8" fill="#6B5D53">layout.detect()</text>
           <text x="672" y="179" font-size="7.4" fill="#BFB2A8">8 blocks</text>
         </g>
 
         <g class="step s4">
           <rect x="516" y="192" width="146" height="20" rx="10" fill="#FCF8F4" stroke="#ECE3DA"/>
-          <circle cx="529" cy="202" r="2.6" fill="#E8C2AE"/>
+          <circle cx="529" cy="202" r="2.6" fill="#F0D2C2"/>
           <text x="539" y="205" font-size="7.8" fill="#6B5D53">ocr.read()</text>
           <text x="672" y="205" font-size="7.4" fill="#BFB2A8">tr + en</text>
         </g>
 
         <g class="step s5">
           <rect x="516" y="218" width="146" height="20" rx="10" fill="#FCF8F4" stroke="#ECE3DA"/>
-          <circle cx="529" cy="228" r="2.6" fill="#C5D6BF"/>
+          <circle cx="529" cy="228" r="2.6" fill="#D5E2D1"/>
           <text x="539" y="231" font-size="7.8" fill="#6B5D53">fields.validate()</text>
           <text x="672" y="231" font-size="7.4" fill="#BFB2A8">schema ok</text>
         </g>
 
         <g class="step s6">
-          <text x="516" y="262"><tspan fill="#7E9C7A">✓</tspan><tspan fill="#2B211C">  14 fields extracted</tspan></text>
-          <text x="930" y="262" font-size="9" font-weight="700" text-anchor="end" fill="#7A5240">0.97</text>
+          <text x="516" y="262"><tspan fill="#A3BC9D">✓</tspan><tspan fill="#2B211C">  14 fields extracted</tspan></text>
+          <text x="930" y="262" font-size="9" font-weight="700" text-anchor="end" fill="#8B6A55">0.97</text>
         </g>
 
         <g class="step s7">
@@ -240,7 +240,7 @@
         <text x="516" y="330">triton · onnx</text>
         <text x="640" y="330">gpu 38%</text>
         <text x="740" y="330">queue 0</text>
-        <text x="930" y="330" text-anchor="end" fill="#7E9C7A">healthy</text>
+        <text x="930" y="330" text-anchor="end" fill="#A3BC9D">healthy</text>
       </g>
     </g>
 

@@ -32,11 +32,11 @@ const ICON = {
 
 // Simge kutularının pastel zeminleri (sonbahar üçlüsü) ve simge renkleri.
 const TINT = {
-  linkedin: ["#E3ECDF", "#5A7456"], medium: ["#EFE4D6", "#2B211C"], mail: ["#F6E3D8", "#B4684C"],
-  web: ["#F3EAD4", "#9A7A3C"], eye: ["#EDE3DA", "#7A5240"],
+  linkedin: ["#E3ECDF", "#718C6C"], medium: ["#EFE4D6", "#2B211C"], mail: ["#F6E3D8", "#C98A70"],
+  web: ["#F3EAD4", "#9A7A3C"], eye: ["#EDE3DA", "#8B6A55"],
 };
 const TINT_DARK = {
-  linkedin: ["#26301F", "#9CB495"], medium: ["#2E251E", "#E8D9C6"], mail: ["#33231C", "#E3A68B"],
+  linkedin: ["#26301F", "#B4C8AE"], medium: ["#2E251E", "#E8D9C6"], mail: ["#33231C", "#E3A68B"],
   web: ["#302818", "#E6C27A"], eye: ["#2B231D", "#C9A27C"],
 };
 

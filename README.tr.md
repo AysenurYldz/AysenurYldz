@@ -7,7 +7,7 @@
 <div align="center">
 
 [![English](https://img.shields.io/badge/🇬🇧_English-ECE3DA?style=for-the-badge&labelColor=ECE3DA)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
-[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-7A5240?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
+[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-8B6A55?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
 
 </div>
 
@@ -39,8 +39,6 @@ Bursa Teknik Üniversitesi'nde yüksek lisans eğitimime devam etmekte olup, eş
 
 Özel sektör ve kamu projelerinde **full stack geliştirici** olarak baştan sona geliştirmeler yapıyorum. **Node.js, Next.js ve Flutter** ile belediye mobil uygulamaları, spor ve tesis sistemleri, İK platformları, topluluk ve girişim siteleri üzerine çalışmalarım bulunuyor. Akıllı belediyecilik platformu **Biryerden**'de Yazı İşleri, Meclis, Encümen, Arşiv ve Hukuk gibi modüllerin yanında kamuoyu ve sosyal dinleme ekranlarını geliştiriyorum. Yapay zekâ tarafında sahada çalışan gerçek zamanlı görüntü tespiti, belge analizi, chatbot ve anomali tespiti çözümlerini uçtan uca yönetiyorum.
 
-İşin dışında bir fincan kahve, yanımda da mümkünse bir siyah kedi. ☕🐈‍⬛
-
 </div>
 
 ```yaml
@@ -51,7 +49,6 @@ eğitim:    Bilgisayar Mühendisliği Yüksek Lisans, Bursa Teknik Üniversitesi
 yz_işi:    gerçek zamanlı tespit · görüntü sahteciliği · süper çözünürlük · OCR · chatbot · anomali
 ürün_işi:  belediye ERP modülleri · sosyal dinleme · mobil uygulamalar · İK · BirStok · topluluk siteleri
 yayınla:   Next.js · Node.js · Flutter · Docker · Triton · ONNX
-sever:     kahve · kediler (özellikle siyah olanlar) · sonbahar
 açığım:    Yapay zekâ mühendisliği pozisyonları, araştırma iş birlikleri, açık kaynak
 ```
 
@@ -130,7 +127,7 @@ Dört aşamanın hepsinde çalışıyorum. İşin zor kısmı genelde aralarınd
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-tr-dark.svg" />
-  <img src="./assets/cozy-tr-light.svg" width="100%" alt="Siyah kedi, latte ve düşen sonbahar yaprakları — kahve, kedi, kod" />
+  <img src="./assets/cozy-tr-light.svg" width="100%" alt="Siyah kedi, latte ve düşen sonbahar yaprakları" />
 </picture>
 
 ---
@@ -174,40 +171,40 @@ Abdomen görüntülerinden altı farklı hastalığı ve sağlıklı durumu otom
 
 **Diller**
 
-![Python](https://img.shields.io/badge/Python-7A5240?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-8B5E45?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C/C++-A0704F?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-A9785A?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-6F4A36?style=for-the-badge&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-8B6A55?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-A98266?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C/C++-BC9472?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-C29B76?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-8B6A55?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Yapay Zekâ / Makine Öğrenmesi**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-8B5E45?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-7A5240?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-A0704F?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-A9785A?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-7A5240?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-B07A5E?style=for-the-badge&logo=yolo&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-C98B6F?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-A86F55?style=for-the-badge&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-A98266?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-8B6A55?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-BC9472?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-C29B76?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-8B6A55?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-CDA287?style=for-the-badge&logo=yolo&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-E0A88E?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-C99A80?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Web ve Mobil**
 
-![Next.js](https://img.shields.io/badge/Next.js-C98B6F?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-8AA084?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-7E9C7A?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-9CB495?style=for-the-badge&logo=flutter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-AFC4A8?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-B6C8AF?style=for-the-badge&logo=css3&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-E0A88E?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-A9BEA3?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-A3BC9D?style=for-the-badge&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-B4C8AE?style=for-the-badge&logo=flutter&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-C4D3BF?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-C9D6C4?style=for-the-badge&logo=css3&logoColor=white)
 
 **Altyapı ve MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-7E9C7A?style=for-the-badge&logo=docker&logoColor=2B211C)
-![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-9CB495?style=for-the-badge&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-7E9C7A?style=for-the-badge&logo=onnx&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-6F8C6A?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-A9785A?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Git](https://img.shields.io/badge/Git-7A5240?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-A3BC9D?style=for-the-badge&logo=docker&logoColor=2B211C)
+![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-B4C8AE?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-A3BC9D?style=for-the-badge&logo=onnx&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-8CA587?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-C29B76?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Git](https://img.shields.io/badge/Git-8B6A55?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -301,17 +298,17 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 <img src="./assets/contrib-tr.svg" width="100%" alt="Katkı takvimi: son bir yıl, en uzun ve güncel seri, aktif gün" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-light.svg" width="100%" alt="Katkı ızgarasında dolaşan yılan" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cat-tr-dark.svg" />
+  <img src="./assets/cat-tr-light.svg" width="100%" alt="Siyah bir kedi katkı ızgarasındaki kareleri toplayıp sepetine atıyor" />
 </picture>
 
 <img src="./assets/landscape-tr.svg" width="100%" alt="" />
 
 <div align="center">
 
-![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7A5240&labelColor=FFFFFF&logo=github&logoColor=white&label=takip%C3%A7i)
-![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-C98B6F?style=for-the-badge&labelColor=FFFFFF)
-![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-7E9C7A?style=for-the-badge&labelColor=FFFFFF)
+![Takipçi](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=8B6A55&labelColor=FFFFFF&logo=github&logoColor=white&label=takip%C3%A7i)
+![Odak](https://img.shields.io/badge/odak-bilgisayarlı_görü_&_full_stack-E0A88E?style=for-the-badge&labelColor=FFFFFF)
+![Konum](https://img.shields.io/badge/konum-Bursa,_Türkiye-A3BC9D?style=for-the-badge&labelColor=FFFFFF)
 
 </div>
 
@@ -343,9 +340,9 @@ Python ile publisher/consumer mesajlaşma; servislerin birbiriyle asenkron konu�
 
 Yapay zekâ mühendisliği pozisyonlarına, araştırma iş birliklerine ve açık kaynak projelere açığım.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn'de_bağlan-7A5240?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![E-posta](https://img.shields.io/badge/E--posta_gönder-C98B6F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Portfolyo](https://img.shields.io/badge/Portfolyoyu_gör-7E9C7A?style=for-the-badge&logo=googlechrome&logoColor=2B211C)](https://aysenuryldz.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn'de_bağlan-8B6A55?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
+[![E-posta](https://img.shields.io/badge/E--posta_gönder-E0A88E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
+[![Portfolyo](https://img.shields.io/badge/Portfolyoyu_gör-A3BC9D?style=for-the-badge&logo=googlechrome&logoColor=2B211C)](https://aysenuryldz.github.io/portfolio/)
 
 <br>
 

@@ -39,7 +39,7 @@
     <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="14s" begin="1.5s" repeatCount="indefinite"/>
     <g transform="rotate(-10) scale(1.2)">
       <animateTransform attributeName="transform" type="rotate" values="-10;30;-30;20" dur="14s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
-      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#C98B6F" opacity="0.9"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#E0A88E" opacity="0.9"/>
       <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
     </g>
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="14s" begin="1.5s" repeatCount="indefinite"/>
@@ -126,15 +126,6 @@
       </g>
     </g>
 
-    <!-- altyazı -->
-    <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#A3968A">
-      <text x="48" y="92">coffee</text>
-      <text x="48" y="118">cats</text>
-      <text x="48" y="144">code</text>
-    </g>
-    <circle cx="36" cy="88" r="3.5" fill="#B98A62"/>
-    <circle cx="36" cy="114" r="3.5" fill="#D9967A"/>
-    <circle cx="36" cy="140" r="3.5" fill="#93AE8F"/>
   </g>
   <rect x="0.75" y="0.75" width="998.5" height="228.5" rx="18" fill="none" stroke="#33291F" stroke-width="1.5"/>
 </svg>
