@@ -1,92 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="Real git data: languages, lines, hour of day and day of week">
 <title>Real git data: languages, lines, hour of day and day of week</title>
-<rect x="0.75" y="0.75" width="998.5" height="438.5" rx="18" fill="#FFFFFF" stroke="#ECE3DA" stroke-width="1.5"/>
-<text x="32" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#97897F" text-anchor="start">LANGUAGES</text>
-<text x="592" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#97897F" text-anchor="end">11 repos · last 365 days</text>
-<text x="32" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">JavaScript</text>
-<rect x="152" y="70" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<rect x="0.75" y="0.75" width="998.5" height="438.5" rx="18" fill="#FFFFFF" stroke="#E3E7EE" stroke-width="1.5"/>
+<text x="32" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="start">LANGUAGES</text>
+<text x="592" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="end">11 repos · last 365 days</text>
+<text x="32" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">JavaScript</text>
+<rect x="152" y="70" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="70" width="231.4" height="10" rx="5" fill="#E8C93F"/>
-<text x="592" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">62.5%</text>
-<text x="32" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">PHP</text>
-<rect x="152" y="95" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="80" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">62.5%</text>
+<text x="32" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">PHP</text>
+<rect x="152" y="95" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="95" width="56.5" height="10" rx="5" fill="#4F5D95"/>
-<text x="592" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">15.3%</text>
-<text x="32" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">TypeScript</text>
-<rect x="152" y="120" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="105" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">15.3%</text>
+<text x="32" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">TypeScript</text>
+<rect x="152" y="120" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="120" width="50.3" height="10" rx="5" fill="#3178C6"/>
-<text x="592" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">13.6%</text>
-<text x="32" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">Python</text>
-<rect x="152" y="145" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">13.6%</text>
+<text x="32" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">Python</text>
+<rect x="152" y="145" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="145" width="15.9" height="10" rx="5" fill="#3572A5"/>
-<text x="592" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">4.3%</text>
-<text x="32" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">SQL</text>
-<rect x="152" y="170" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="155" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">4.3%</text>
+<text x="32" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">SQL</text>
+<rect x="152" y="170" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="170" width="8.8" height="10" rx="5" fill="#336790"/>
-<text x="592" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">2.4%</text>
-<text x="32" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">HTML</text>
-<rect x="152" y="195" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">2.4%</text>
+<text x="32" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">HTML</text>
+<rect x="152" y="195" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="195" width="5.5" height="10" rx="5" fill="#E34C26"/>
-<text x="592" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">1.5%</text>
-<text x="32" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">CSS</text>
-<rect x="152" y="220" width="370" height="10" rx="5" fill="#F2ECE6"/>
+<text x="592" y="205" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">1.5%</text>
+<text x="32" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">CSS</text>
+<rect x="152" y="220" width="370" height="10" rx="5" fill="#EEF1F5"/>
 <rect x="152" y="220" width="4.0" height="10" rx="5" fill="#7E57C2"/>
-<text x="592" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#97897F" text-anchor="end">0.4%</text>
-<line x1="616" y1="34" x2="616" y2="250" stroke="#EFE7DF" stroke-width="1.2"/>
-<text x="640" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#97897F" text-anchor="start">LAST 12 MONTHS</text>
-<text x="640" y="98" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#4F9A6E">+706K</text>
-<text x="640" y="118" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#97897F">lines added</text>
-<text x="640" y="160" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#C9584D">−62K</text>
-<text x="640" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#97897F">lines removed</text>
-<text x="640" y="222" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#2B211C">3,297</text>
-<text x="640" y="242" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#97897F">commits</text>
-<line x1="32" y1="270" x2="968" y2="270" stroke="#EFE7DF" stroke-width="1.2"/>
-<text x="32" y="296" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#97897F" text-anchor="start">HOUR OF DAY</text>
-<rect x="34.0" y="352.5" width="19.3" height="39.5" rx="2.5" fill="#F2ECE6"/>
-<text x="43.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">00</text>
-<rect x="57.3" y="350.8" width="19.3" height="41.2" rx="2.5" fill="#F2ECE6"/>
-<rect x="80.7" y="361.4" width="19.3" height="30.6" rx="2.5" fill="#F2ECE6"/>
-<rect x="104.0" y="355.7" width="19.3" height="36.3" rx="2.5" fill="#F2ECE6"/>
-<text x="113.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">03</text>
-<rect x="127.3" y="362.5" width="19.3" height="29.5" rx="2.5" fill="#F2ECE6"/>
-<rect x="150.7" y="384.5" width="19.3" height="7.5" rx="2.5" fill="#F2ECE6"/>
-<rect x="174.0" y="388.7" width="19.3" height="3.3" rx="2.5" fill="#F2ECE6"/>
-<text x="183.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">06</text>
-<rect x="197.3" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<rect x="220.7" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<rect x="244.0" y="374.5" width="19.3" height="17.5" rx="2.5" fill="#F2ECE6"/>
-<text x="253.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">09</text>
-<rect x="267.3" y="322.8" width="19.3" height="69.2" rx="2.5" fill="#F2ECE6"/>
-<rect x="290.7" y="320.9" width="19.3" height="71.1" rx="2.5" fill="#F2ECE6"/>
-<rect x="314.0" y="329.3" width="19.3" height="62.7" rx="2.5" fill="#F2ECE6"/>
-<text x="323.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">12</text>
-<rect x="337.3" y="327.7" width="19.3" height="64.3" rx="2.5" fill="#F2ECE6"/>
-<rect x="360.7" y="339.6" width="19.3" height="52.4" rx="2.5" fill="#F2ECE6"/>
-<rect x="384.0" y="312.0" width="19.3" height="80.0" rx="2.5" fill="#C9A27C"/>
-<text x="393.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">15</text>
-<rect x="407.3" y="321.6" width="19.3" height="70.4" rx="2.5" fill="#F2ECE6"/>
-<rect x="430.7" y="346.6" width="19.3" height="45.4" rx="2.5" fill="#F2ECE6"/>
-<rect x="454.0" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<text x="463.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">18</text>
-<rect x="477.3" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<rect x="500.7" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<rect x="524.0" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#F2ECE6"/>
-<text x="533.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">21</text>
-<rect x="547.3" y="377.7" width="19.3" height="14.3" rx="2.5" fill="#F2ECE6"/>
-<rect x="570.7" y="360.2" width="19.3" height="31.8" rx="2.5" fill="#F2ECE6"/>
-<text x="640" y="296" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#97897F" text-anchor="start">DAY OF WEEK</text>
-<rect x="645.0" y="378.2" width="36.9" height="13.8" rx="3" fill="#F2ECE6"/>
-<text x="663.4" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Mon</text>
-<rect x="691.9" y="359.5" width="36.9" height="32.5" rx="3" fill="#F2ECE6"/>
-<text x="710.3" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Tue</text>
-<rect x="738.7" y="312.0" width="36.9" height="80.0" rx="3" fill="#C9A27C"/>
-<text x="757.1" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Wed</text>
-<rect x="785.6" y="370.4" width="36.9" height="21.6" rx="3" fill="#F2ECE6"/>
-<text x="804.0" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Thu</text>
-<rect x="832.4" y="382.9" width="36.9" height="9.1" rx="3" fill="#F2ECE6"/>
-<text x="850.9" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Fri</text>
-<rect x="879.3" y="390.0" width="36.9" height="2.0" rx="3" fill="#F2ECE6"/>
-<text x="897.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Sat</text>
-<rect x="926.1" y="390.0" width="36.9" height="2.0" rx="3" fill="#F2ECE6"/>
-<text x="944.6" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#97897F" text-anchor="middle">Sun</text>
-<text x="32" y="428" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#97897F">local git history — includes work repositories that never reached GitHub · measured 05.11.2026</text>
+<text x="592" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" fill="#8E99A8" text-anchor="end">0.4%</text>
+<line x1="616" y1="34" x2="616" y2="250" stroke="#E9EDF2" stroke-width="1.2"/>
+<text x="640" y="46" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="start">LAST 12 MONTHS</text>
+<text x="640" y="98" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#5E9396">+706K</text>
+<text x="640" y="118" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#8E99A8">lines added</text>
+<text x="640" y="160" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#E08E7E">−62K</text>
+<text x="640" y="180" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#8E99A8">lines removed</text>
+<text x="640" y="222" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#2F3A4A">3,297</text>
+<text x="640" y="242" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" letter-spacing="1.2" fill="#8E99A8">commits</text>
+<line x1="32" y1="270" x2="968" y2="270" stroke="#E9EDF2" stroke-width="1.2"/>
+<text x="32" y="296" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="start">HOUR OF DAY</text>
+<rect x="34.0" y="352.5" width="19.3" height="39.5" rx="2.5" fill="#EEF1F5"/>
+<text x="43.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">00</text>
+<rect x="57.3" y="350.8" width="19.3" height="41.2" rx="2.5" fill="#EEF1F5"/>
+<rect x="80.7" y="361.4" width="19.3" height="30.6" rx="2.5" fill="#EEF1F5"/>
+<rect x="104.0" y="355.7" width="19.3" height="36.3" rx="2.5" fill="#EEF1F5"/>
+<text x="113.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">03</text>
+<rect x="127.3" y="362.5" width="19.3" height="29.5" rx="2.5" fill="#EEF1F5"/>
+<rect x="150.7" y="384.5" width="19.3" height="7.5" rx="2.5" fill="#EEF1F5"/>
+<rect x="174.0" y="388.7" width="19.3" height="3.3" rx="2.5" fill="#EEF1F5"/>
+<text x="183.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">06</text>
+<rect x="197.3" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<rect x="220.7" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<rect x="244.0" y="374.5" width="19.3" height="17.5" rx="2.5" fill="#EEF1F5"/>
+<text x="253.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">09</text>
+<rect x="267.3" y="322.8" width="19.3" height="69.2" rx="2.5" fill="#EEF1F5"/>
+<rect x="290.7" y="320.9" width="19.3" height="71.1" rx="2.5" fill="#EEF1F5"/>
+<rect x="314.0" y="329.3" width="19.3" height="62.7" rx="2.5" fill="#EEF1F5"/>
+<text x="323.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">12</text>
+<rect x="337.3" y="327.7" width="19.3" height="64.3" rx="2.5" fill="#EEF1F5"/>
+<rect x="360.7" y="339.6" width="19.3" height="52.4" rx="2.5" fill="#EEF1F5"/>
+<rect x="384.0" y="312.0" width="19.3" height="80.0" rx="2.5" fill="#8897AA"/>
+<text x="393.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">15</text>
+<rect x="407.3" y="321.6" width="19.3" height="70.4" rx="2.5" fill="#EEF1F5"/>
+<rect x="430.7" y="346.6" width="19.3" height="45.4" rx="2.5" fill="#EEF1F5"/>
+<rect x="454.0" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<text x="463.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">18</text>
+<rect x="477.3" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<rect x="500.7" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<rect x="524.0" y="390.0" width="19.3" height="2.0" rx="2.5" fill="#EEF1F5"/>
+<text x="533.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">21</text>
+<rect x="547.3" y="377.7" width="19.3" height="14.3" rx="2.5" fill="#EEF1F5"/>
+<rect x="570.7" y="360.2" width="19.3" height="31.8" rx="2.5" fill="#EEF1F5"/>
+<text x="640" y="296" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="2.2" fill="#8E99A8" text-anchor="start">DAY OF WEEK</text>
+<rect x="645.0" y="378.2" width="36.9" height="13.8" rx="3" fill="#EEF1F5"/>
+<text x="663.4" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Mon</text>
+<rect x="691.9" y="359.5" width="36.9" height="32.5" rx="3" fill="#EEF1F5"/>
+<text x="710.3" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Tue</text>
+<rect x="738.7" y="312.0" width="36.9" height="80.0" rx="3" fill="#8897AA"/>
+<text x="757.1" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Wed</text>
+<rect x="785.6" y="370.4" width="36.9" height="21.6" rx="3" fill="#EEF1F5"/>
+<text x="804.0" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Thu</text>
+<rect x="832.4" y="382.9" width="36.9" height="9.1" rx="3" fill="#EEF1F5"/>
+<text x="850.9" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Fri</text>
+<rect x="879.3" y="390.0" width="36.9" height="2.0" rx="3" fill="#EEF1F5"/>
+<text x="897.7" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Sat</text>
+<rect x="926.1" y="390.0" width="36.9" height="2.0" rx="3" fill="#EEF1F5"/>
+<text x="944.6" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#8E99A8" text-anchor="middle">Sun</text>
+<text x="32" y="428" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#8E99A8">local git history — includes work repositories that never reached GitHub · measured 05.11.2026</text>
 </svg>

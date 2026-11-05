@@ -17,8 +17,8 @@ const MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo
 const CH = 8.4;
 
 const THEME = {
-  light: { card: "#FFFFFF", edge: "#E6DACD", ink: "#2B211C", faint: "#97897F" },
-  dark: { card: "#15110E", edge: "#3A2F26", ink: "#F2EAE2", faint: "#A3968A" },
+  light: { card: "#FFFFFF", edge: "#DCE3EC", ink: "#2F3A4A", faint: "#8E99A8" },
+  dark: { card: "#121822", edge: "#2C3646", ink: "#E8EEF5", faint: "#93A0B2" },
 };
 
 // Simgeler 20×20 kutuda çizilir; yazı tipine bağlı değildir.
@@ -32,12 +32,12 @@ const ICON = {
 
 // Simge kutularının pastel zeminleri (sonbahar üçlüsü) ve simge renkleri.
 const TINT = {
-  linkedin: ["#E3ECDF", "#718C6C"], medium: ["#EFE4D6", "#2B211C"], mail: ["#F6E3D8", "#C98A70"],
-  web: ["#F3EAD4", "#9A7A3C"], eye: ["#EDE3DA", "#8B6A55"],
+  linkedin: ["#D8E2EB", "#4F6F8F"], medium: ["#EDECF2", "#2F3A4A"], mail: ["#F7E3DD", "#D9796A"],
+  web: ["#D1E8EE", "#5E9396"], eye: ["#E6E5EF", "#7A78A0"],
 };
 const TINT_DARK = {
-  linkedin: ["#26301F", "#B4C8AE"], medium: ["#2E251E", "#E8D9C6"], mail: ["#33231C", "#E3A68B"],
-  web: ["#302818", "#E6C27A"], eye: ["#2B231D", "#C9A27C"],
+  linkedin: ["#1F2A38", "#A9C3D9"], medium: ["#232A36", "#E8EEF5"], mail: ["#33262A", "#F2B5A4"],
+  web: ["#1C2E33", "#9ECFD3"], eye: ["#262637", "#C8C7D7"],
 };
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");

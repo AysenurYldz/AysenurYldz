@@ -83,14 +83,14 @@ const COLORS = {
 
 const MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace";
 const THEME = {
-  // Kahve paleti: krema zemin, espresso yazı, karamel vurgu; koyu temada kavrulmuş çekirdek.
+  // Gökyüzü / boho paleti: sis zemin, arduvaz mavisi vurgu, petrol yeşili tepe; koyu temada gece mavisi.
   light: {
-    card: "#FFFFFF", edge: "#ECE3DA", ink: "#2B211C", faint: "#97897F", track: "#F2ECE6",
-    rule: "#EFE7DF", accent: "#C29B76", add: "#4F9A6E", del: "#C9584D", peak: "#C9A27C",
+    card: "#FFFFFF", edge: "#E3E7EE", ink: "#2F3A4A", faint: "#8E99A8", track: "#EEF1F5",
+    rule: "#E9EDF2", accent: "#8897AA", add: "#5E9396", del: "#E08E7E", peak: "#8897AA",
   },
   dark: {
-    card: "#15110E", edge: "#33291F", ink: "#F2EAE2", faint: "#A3968A", track: "#2A221C",
-    rule: "#2B231D", accent: "#C9A27C", add: "#6FC08F", del: "#E9796C", peak: "#C9A27C",
+    card: "#121822", edge: "#2A3342", ink: "#E8EEF5", faint: "#93A0B2", track: "#222B38",
+    rule: "#242D3A", accent: "#A9C3D9", add: "#9ECFD3", del: "#F2B5A4", peak: "#A9C3D9",
   },
 };
 

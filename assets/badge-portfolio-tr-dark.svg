@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="152" height="34" viewBox="0 0 152 34" role="img" aria-label="portfolyo">
-  <rect x="0.75" y="0.75" width="150.5" height="32.5" rx="9" fill="#15110E" stroke="#3A2F26" stroke-width="1.5"/>
-  <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#302818"/>
-  <line x1="44" y1="1" x2="44" y2="33" stroke="#3A2F26" stroke-width="1.2"/>
-  <g transform="translate(12 7)"><circle cx="10" cy="10" r="7.2" fill="none" stroke="#E6C27A" stroke-width="1.7"/><ellipse cx="10" cy="10" rx="3.2" ry="7.2" fill="none" stroke="#E6C27A" stroke-width="1.5"/><path d="M3 10h14" stroke="#E6C27A" stroke-width="1.5"/></g>
-  <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#F2EAE2">portfolyo</text>
+  <rect x="0.75" y="0.75" width="150.5" height="32.5" rx="9" fill="#121822" stroke="#2C3646" stroke-width="1.5"/>
+  <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#1C2E33"/>
+  <line x1="44" y1="1" x2="44" y2="33" stroke="#2C3646" stroke-width="1.2"/>
+  <g transform="translate(12 7)"><circle cx="10" cy="10" r="7.2" fill="none" stroke="#9ECFD3" stroke-width="1.7"/><ellipse cx="10" cy="10" rx="3.2" ry="7.2" fill="none" stroke="#9ECFD3" stroke-width="1.5"/><path d="M3 10h14" stroke="#9ECFD3" stroke-width="1.5"/></g>
+  <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#E8EEF5">portfolyo</text>
   
 </svg>

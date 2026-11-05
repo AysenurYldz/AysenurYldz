@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="34" viewBox="0 0 320 34" role="img" aria-label="aysenur.yildiz.2905@gmail.com">
-  <rect x="0.75" y="0.75" width="318.5" height="32.5" rx="9" fill="#FFFFFF" stroke="#E6DACD" stroke-width="1.5"/>
-  <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#F6E3D8"/>
-  <line x1="44" y1="1" x2="44" y2="33" stroke="#E6DACD" stroke-width="1.2"/>
-  <g transform="translate(12 7)"><rect x="2" y="4.5" width="16" height="11" rx="2.2" fill="none" stroke="#C98A70" stroke-width="1.8"/><path d="M3 6l7 5 7-5" fill="none" stroke="#C98A70" stroke-width="1.8" stroke-linejoin="round"/></g>
-  <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">aysenur.yildiz.2905@gmail.com</text>
+  <rect x="0.75" y="0.75" width="318.5" height="32.5" rx="9" fill="#FFFFFF" stroke="#DCE3EC" stroke-width="1.5"/>
+  <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#F7E3DD"/>
+  <line x1="44" y1="1" x2="44" y2="33" stroke="#DCE3EC" stroke-width="1.2"/>
+  <g transform="translate(12 7)"><rect x="2" y="4.5" width="16" height="11" rx="2.2" fill="none" stroke="#D9796A" stroke-width="1.8"/><path d="M3 6l7 5 7-5" fill="none" stroke="#D9796A" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2F3A4A">aysenur.yildiz.2905@gmail.com</text>
   
 </svg>

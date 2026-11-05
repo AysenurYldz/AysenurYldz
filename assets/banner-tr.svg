@@ -5,31 +5,31 @@
     <linearGradient id="t-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="52%" stop-color="#FCF7F1"/>
-      <stop offset="100%" stop-color="#FBF7F2"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
     </linearGradient>
     <radialGradient id="t-glowA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#EBD6C4" stop-opacity="0.85"/><stop offset="100%" stop-color="#EBD6C4" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DCE3EC" stop-opacity="0.85"/><stop offset="100%" stop-color="#DCE3EC" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="t-glowB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E3ECDF" stop-opacity="0.9"/><stop offset="100%" stop-color="#E3ECDF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E2EEF1" stop-opacity="0.9"/><stop offset="100%" stop-color="#E2EEF1" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="t-glowC" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#F6E3D8" stop-opacity="0.8"/><stop offset="100%" stop-color="#F6E3D8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#F7E3DD" stop-opacity="0.8"/><stop offset="100%" stop-color="#F7E3DD" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="t-accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B6A55"/><stop offset="55%" stop-color="#A3BC9D"/><stop offset="100%" stop-color="#D5E2D1"/>
+      <stop offset="0%" stop-color="#5E9396"/><stop offset="55%" stop-color="#9EC5CF"/><stop offset="100%" stop-color="#D1E8EE"/>
     </linearGradient>
     <linearGradient id="t-edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B6A55" stop-opacity="0.85"/><stop offset="100%" stop-color="#D5E2D1" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#5E9396" stop-opacity="0.85"/><stop offset="100%" stop-color="#D1E8EE" stop-opacity="0.85"/>
     </linearGradient>
     <pattern id="t-grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0 L0 0 0 34" fill="none" stroke="#C29B76" stroke-opacity="0.10" stroke-width="1"/>
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#8897AA" stroke-opacity="0.10" stroke-width="1"/>
     </pattern>
     <clipPath id="t-card"><rect x="0" y="0" width="1200" height="340" rx="26"/></clipPath>
     <linearGradient id="t-sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#2B211C" stop-opacity="0.035"/>
-      <stop offset="55%" stop-color="#2B211C" stop-opacity="0.035"/>
+      <stop offset="45%" stop-color="#2F3A4A" stop-opacity="0.035"/>
+      <stop offset="55%" stop-color="#2F3A4A" stop-opacity="0.035"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
@@ -61,7 +61,7 @@
     <ellipse cx="640"  cy="20"  rx="300" ry="170" fill="url(#t-glowC)"/>
 
     <g stroke-width="1.15" fill="none">
-      <g stroke="#DEC3A5" stroke-opacity="0.55">
+      <g stroke="#B9C9D8" stroke-opacity="0.55">
         <path d="M900 115 L1000 88"/>  <path d="M900 115 L1000 143"/> <path d="M900 115 L1000 198"/> <path d="M900 115 L1000 253"/>
         <path d="M900 170 L1000 88"/>  <path d="M900 170 L1000 143"/> <path d="M900 170 L1000 198"/> <path d="M900 170 L1000 253"/>
         <path d="M900 225 L1000 88"/>  <path d="M900 225 L1000 143"/> <path d="M900 225 L1000 198"/> <path d="M900 225 L1000 253"/>
@@ -78,90 +78,75 @@
     </g>
 
     <g>
-      <g fill="#C29B76">
+      <g fill="#8897AA">
         <circle class="tn"     cx="900" cy="115" r="7"/>
         <circle class="tn tn2" cx="900" cy="170" r="7"/>
         <circle class="tn tn3" cx="900" cy="225" r="7"/>
       </g>
-      <g fill="#F0D2C2">
+      <g fill="#F6D5CB">
         <circle class="tn tn4" cx="1000" cy="88"  r="6.5"/>
         <circle class="tn tn5" cx="1000" cy="143" r="6.5"/>
         <circle class="tn tn2" cx="1000" cy="198" r="6.5"/>
         <circle class="tn tn6" cx="1000" cy="253" r="6.5"/>
       </g>
-      <g fill="#D5E2D1">
+      <g fill="#D1E8EE">
         <circle class="tn tn3" cx="1100" cy="115" r="7"/>
         <circle class="tn tn7" cx="1100" cy="170" r="7"/>
         <circle class="tn tn5" cx="1100" cy="225" r="7"/>
       </g>
-      <g fill="none" stroke="#C29B76" stroke-opacity="0.35" stroke-width="1">
+      <g fill="none" stroke="#8897AA" stroke-opacity="0.35" stroke-width="1">
         <circle cx="900" cy="170" r="13"/><circle cx="1100" cy="170" r="13"/>
       </g>
     </g>
 
     <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-      <text x="64" y="86" font-size="13" font-weight="600" letter-spacing="3.4" fill="#97897F">
+      <text x="64" y="86" font-size="13" font-weight="600" letter-spacing="3.4" fill="#8E99A8">
         BURSA, TÜRKİYE &#160;·&#160; BİLGİSAYAR MÜHENDİSLİĞİ YÜKSEK LİSANS
       </text>
 
-      <text x="64" y="150" font-size="55" font-weight="700" letter-spacing="0.5" fill="#2B211C">
+      <text x="64" y="150" font-size="55" font-weight="700" letter-spacing="0.5" fill="#2F3A4A">
         AYŞENUR YILDIZ
       </text>
 
       <rect x="64" y="168" width="124" height="4.5" rx="2.25" fill="url(#t-accent)"/>
 
       <text x="64" y="212" font-size="21.5" font-weight="600" letter-spacing="1.6">
-        <tspan fill="#8B6A55">YAPAY ZEKÂ MÜHENDİSİ</tspan><tspan fill="#C9BDB2">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#7D9878">FULL STACK GELİŞTİRİCİ</tspan>
+        <tspan fill="#5E9396">YAPAY ZEKÂ MÜHENDİSİ</tspan><tspan fill="#BCC4CF">&#160;&#160;/&#160;&#160;</tspan><tspan fill="#7487A0">FULL STACK GELİŞTİRİCİ</tspan>
       </text>
 
-      <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#6B5D53">
+      <text x="64" y="246" font-size="14" letter-spacing="0.6" fill="#66738A">
         Bilgisayarlı Görü &#160;·&#160; NLP &#160;·&#160; Derin Öğrenme &#160;·&#160; YOLO &#160;·&#160; Next.js &#160;·&#160; Flutter &#160;·&#160; Docker
       </text>
 
       <g>
-        <rect x="64" y="272" width="272" height="33" rx="16.5" fill="#C29B76" fill-opacity="0.13" stroke="#C29B76" stroke-opacity="0.45"/>
-        <circle cx="83" cy="288.5" r="3.5" fill="#C29B76"/>
-        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#8B6A55">
+        <rect x="64" y="272" width="272" height="33" rx="16.5" fill="#8897AA" fill-opacity="0.13" stroke="#8897AA" stroke-opacity="0.45"/>
+        <circle cx="83" cy="288.5" r="3.5" fill="#8897AA"/>
+        <text x="95" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#5E9396">
           TEKNOFEST 2023 &#160;·&#160; TÜRKİYE 3.'SÜ
         </text>
       </g>
 
       <g>
-        <rect x="348" y="272" width="274" height="33" rx="16.5" fill="#A3BC9D" fill-opacity="0.13" stroke="#A3BC9D" stroke-opacity="0.45"/>
-        <circle cx="367" cy="288.5" r="3.5" fill="#A3BC9D"/>
-        <text x="379" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#718C6C">
+        <rect x="348" y="272" width="274" height="33" rx="16.5" fill="#9EC5CF" fill-opacity="0.13" stroke="#9EC5CF" stroke-opacity="0.45"/>
+        <circle cx="367" cy="288.5" r="3.5" fill="#9EC5CF"/>
+        <text x="379" y="293" font-size="12" font-weight="600" letter-spacing="1.1" fill="#5E9396">
           TÜBİTAK 2209-A ARAŞTIRMACISI
         </text>
       </g>
     </g>
 
 
-    <!-- siyah kedi + latte: kahve ve kedi sevgisine küçük bir selam -->
-    <g transform="translate(968 214) scale(0.6)">
-      <g transform="translate(118 118)"><path d="M0 0 C40 4 58 -20 46 -48 C40 -62 52 -70 60 -62" fill="none" stroke="#2A2420" stroke-width="15" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0;-9;0;7;0" dur="4.5s" repeatCount="indefinite"/></path></g>
-      <ellipse cx="80" cy="102" rx="62" ry="36" fill="#2A2420"/>
-      <ellipse cx="40" cy="132" rx="15" ry="8" fill="#2A2420"/><ellipse cx="74" cy="134" rx="15" ry="8" fill="#2A2420"/>
-      <g transform="translate(28 50)">
-        <path d="M-30 -14 L-22 -48 L-4 -26 Z" fill="#2A2420" stroke="#2A2420" stroke-width="6" stroke-linejoin="round"/>
-        <path d="M30 -14 L22 -48 L4 -26 Z" fill="#2A2420" stroke="#2A2420" stroke-width="6" stroke-linejoin="round"/>
-        <circle r="38" fill="#2A2420"/>
-        <g><ellipse cx="-14" cy="-2" rx="7" ry="8.5" fill="#E6C27A"/><ellipse cx="14" cy="-2" rx="7" ry="8.5" fill="#E6C27A"/>
-          <ellipse cx="-14" cy="-1" rx="2.6" ry="6" fill="#2A2420"/><ellipse cx="14" cy="-1" rx="2.6" ry="6" fill="#2A2420"/>
-          <circle cx="-12" cy="-5" r="1.6" fill="#FFFFFF"/><circle cx="16" cy="-5" r="1.6" fill="#FFFFFF"/>
-          <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.08;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1" dur="5s" repeatCount="indefinite"/></g>
-        <path d="M-3 10 L3 10 L0 13.5 Z" fill="#E8A9A0"/>
-        <circle cx="-22" cy="10" r="4.5" fill="#E8A9A0" opacity="0.75"/><circle cx="22" cy="10" r="4.5" fill="#E8A9A0" opacity="0.75"/>
-      </g>
-    </g>
-    <g transform="translate(1092 252)">
-      <path d="M44 22 C58 22 58 44 42 44" fill="none" stroke="#D9C3A8" stroke-width="4" stroke-linecap="round"/>
-      <path d="M2 12 L48 12 L44 50 C43 54 40 55 36 55 L14 55 C10 55 7 54 6 50 Z" fill="#F7EFE4" stroke="#D9C3A8" stroke-width="1.5"/>
-      <ellipse cx="25" cy="13" rx="23" ry="5" fill="#B98A62"/>
-      <path d="M25 16 C21 12 17 14 19 17 C20 18.5 23 19.5 25 21 C27 19.5 30 18.5 31 17 C33 14 29 12 25 16 Z" fill="#F3E2CC"/>
-      <path d="M18 6 C14 0 22 -4 18 -10 M30 6 C26 0 34 -4 30 -10" fill="none" stroke="#C9B7A4" stroke-width="2" stroke-linecap="round" opacity="0.8"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.4s" repeatCount="indefinite"/></path>
+    <!-- küçük kedi silüeti -->
+    <g transform="translate(1112 262)" fill="#3A4657" opacity="0.88">
+      <path d="M30 44 C40 44 42 34 36 30" fill="none" stroke="#3A4657" stroke-width="3.2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="0 30 44;-8 30 44;0 30 44" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <ellipse cx="18" cy="32" rx="12" ry="13"/>
+      <circle cx="18" cy="13" r="8.5"/>
+      <path d="M10.5 9 L11.5 0.5 L16.5 6 Z M25.5 9 L24.5 0.5 L19.5 6 Z"/>
     </g>
     <rect class="tsweep" x="0" y="-340" width="300" height="1020" fill="url(#t-sheen)"/>
 
-    <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#ECE3DA" stroke-opacity="1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="1200" height="340" rx="26" fill="none" stroke="#E3E7EE" stroke-opacity="1" stroke-width="1.5"/>
   </g>
 </svg>

@@ -2,68 +2,68 @@
   <title>Çalışma alanları</title>
   <defs>
     <linearGradient id="u-c1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#C29B76" stop-opacity="0.16"/><stop offset="100%" stop-color="#C29B76" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#8897AA" stop-opacity="0.16"/><stop offset="100%" stop-color="#8897AA" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="u-c2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F0D2C2" stop-opacity="0.16"/><stop offset="100%" stop-color="#A3BC9D" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#F6D5CB" stop-opacity="0.16"/><stop offset="100%" stop-color="#9EC5CF" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="u-c3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#D5E2D1" stop-opacity="0.16"/><stop offset="100%" stop-color="#A3BC9D" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#D1E8EE" stop-opacity="0.16"/><stop offset="100%" stop-color="#9EC5CF" stop-opacity="0.03"/>
     </linearGradient>
-    <linearGradient id="u-bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8B6A55"/><stop offset="100%" stop-color="#A8705A"/></linearGradient>
-    <linearGradient id="u-bar2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F0D2C2"/><stop offset="100%" stop-color="#A3BC9D"/></linearGradient>
-    <linearGradient id="u-bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D5E2D1"/><stop offset="100%" stop-color="#D5E2D1"/></linearGradient>
+    <linearGradient id="u-bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#5E9396"/><stop offset="100%" stop-color="#7487A0"/></linearGradient>
+    <linearGradient id="u-bar2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F6D5CB"/><stop offset="100%" stop-color="#9EC5CF"/></linearGradient>
+    <linearGradient id="u-bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D1E8EE"/><stop offset="100%" stop-color="#D1E8EE"/></linearGradient>
   </defs>
 
   <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
 
     <g>
-      <rect x="6" y="14" width="378" height="240" rx="20" fill="url(#u-c1)" stroke="#C29B76" stroke-opacity="0.55"/>
+      <rect x="6" y="14" width="378" height="240" rx="20" fill="url(#u-c1)" stroke="#8897AA" stroke-opacity="0.55"/>
       <rect x="30" y="42" width="46" height="4" rx="2" fill="url(#u-bar1)"/>
-      <g transform="translate(30,66)" stroke="#C29B76" fill="none" stroke-width="1.7" stroke-linecap="round">
-        <circle cx="9" cy="9" r="3.2" fill="#C29B76" stroke="none"/>
-        <circle cx="31" cy="1" r="2.6" fill="#8B6A55" stroke="none"/>
-        <circle cx="31" cy="17" r="2.6" fill="#8B6A55" stroke="none"/>
+      <g transform="translate(30,66)" stroke="#8897AA" fill="none" stroke-width="1.7" stroke-linecap="round">
+        <circle cx="9" cy="9" r="3.2" fill="#8897AA" stroke="none"/>
+        <circle cx="31" cy="1" r="2.6" fill="#5E9396" stroke="none"/>
+        <circle cx="31" cy="17" r="2.6" fill="#5E9396" stroke="none"/>
         <path d="M12 7.5 L28.5 1.8 M12 10.5 L28.5 16.2"/>
       </g>
-      <text x="76" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Uygulamalı Yapay Zekâ</text>
-      <text x="30" y="118" font-size="13.4" fill="#6B5D53">Belge ve görüntü analizi için bilgisayarlı</text>
-      <text x="30" y="139" font-size="13.4" fill="#6B5D53">görü ve OCR hatları. YOLO ile gerçek</text>
-      <text x="30" y="160" font-size="13.4" fill="#6B5D53">zamanlı nesne tespiti. NLP, chatbot ve</text>
-      <text x="30" y="181" font-size="13.4" fill="#6B5D53">anomali tespiti çözümleri.</text>
+      <text x="76" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2F3A4A">Uygulamalı Yapay Zekâ</text>
+      <text x="30" y="118" font-size="13.4" fill="#66738A">Belge ve görüntü analizi için bilgisayarlı</text>
+      <text x="30" y="139" font-size="13.4" fill="#66738A">görü ve OCR hatları. YOLO ile gerçek</text>
+      <text x="30" y="160" font-size="13.4" fill="#66738A">zamanlı nesne tespiti. NLP, chatbot ve</text>
+      <text x="30" y="181" font-size="13.4" fill="#66738A">anomali tespiti çözümleri.</text>
       <text x="30" y="222" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#8A7A86">
         PYTORCH · TENSORFLOW · OPENCV · YOLO
       </text>
     </g>
 
     <g>
-      <rect x="411" y="14" width="378" height="240" rx="20" fill="url(#u-c2)" stroke="#F0D2C2" stroke-opacity="0.55"/>
+      <rect x="411" y="14" width="378" height="240" rx="20" fill="url(#u-c2)" stroke="#F6D5CB" stroke-opacity="0.55"/>
       <rect x="435" y="42" width="46" height="4" rx="2" fill="url(#u-bar2)"/>
-      <g transform="translate(435,64)" stroke="#A3BC9D" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(435,64)" stroke="#9EC5CF" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
         <path d="M13 3 L4 11 L13 19"/><path d="M27 3 L36 11 L27 19"/>
       </g>
-      <text x="481" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Full Stack Geliştirme</text>
-      <text x="435" y="118" font-size="13.4" fill="#6B5D53">Node.js ve Next.js ile uçtan uca kurulan</text>
-      <text x="435" y="139" font-size="13.4" fill="#6B5D53">belediye, spor ve İK platformları — ön</text>
-      <text x="435" y="160" font-size="13.4" fill="#6B5D53">yüz, arka uç ve API'ler; işin içinde</text>
-      <text x="435" y="181" font-size="13.4" fill="#6B5D53">model olsun ya da olmasın.</text>
-      <text x="435" y="222" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#97897F">
+      <text x="481" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2F3A4A">Full Stack Geliştirme</text>
+      <text x="435" y="118" font-size="13.4" fill="#66738A">Node.js ve Next.js ile uçtan uca kurulan</text>
+      <text x="435" y="139" font-size="13.4" fill="#66738A">belediye, spor ve İK platformları — ön</text>
+      <text x="435" y="160" font-size="13.4" fill="#66738A">yüz, arka uç ve API'ler; işin içinde</text>
+      <text x="435" y="181" font-size="13.4" fill="#66738A">model olsun ya da olmasın.</text>
+      <text x="435" y="222" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#8E99A8">
         NEXT.JS · NODE.JS · FLASK · REST · SQL
       </text>
     </g>
 
     <g>
-      <rect x="816" y="14" width="378" height="240" rx="20" fill="url(#u-c3)" stroke="#D5E2D1" stroke-opacity="0.55"/>
+      <rect x="816" y="14" width="378" height="240" rx="20" fill="url(#u-c3)" stroke="#D1E8EE" stroke-opacity="0.55"/>
       <rect x="840" y="42" width="46" height="4" rx="2" fill="url(#u-bar3)"/>
-      <g transform="translate(840,64)" stroke="#D5E2D1" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(840,64)" stroke="#D1E8EE" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
         <rect x="3" y="1" width="22" height="20" rx="3"/><path d="M8 26 L20 26"/><path d="M31 5 L37 11 L31 17"/>
       </g>
-      <text x="886" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2B211C">Üretime Alma</text>
-      <text x="840" y="118" font-size="13.4" fill="#6B5D53">Modeller not defterinde kalmaz:</text>
-      <text x="840" y="139" font-size="13.4" fill="#6B5D53">konteynerleştirilmiş servisler,</text>
-      <text x="840" y="160" font-size="13.4" fill="#6B5D53">Triton/ONNX çıkarımı ve onları iOS ile</text>
-      <text x="840" y="181" font-size="13.4" fill="#6B5D53">Android'e taşıyan Flutter uygulamaları.</text>
-      <text x="840" y="222" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#97897F">
+      <text x="886" y="82" font-size="17.5" font-weight="700" letter-spacing="0.4" fill="#2F3A4A">Üretime Alma</text>
+      <text x="840" y="118" font-size="13.4" fill="#66738A">Modeller not defterinde kalmaz:</text>
+      <text x="840" y="139" font-size="13.4" fill="#66738A">konteynerleştirilmiş servisler,</text>
+      <text x="840" y="160" font-size="13.4" fill="#66738A">Triton/ONNX çıkarımı ve onları iOS ile</text>
+      <text x="840" y="181" font-size="13.4" fill="#66738A">Android'e taşıyan Flutter uygulamaları.</text>
+      <text x="840" y="222" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="#8E99A8">
         DOCKER · TRITON · ONNX · AZURE · FLUTTER
       </text>
     </g>
