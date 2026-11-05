@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "tools/gen-contrib.mjs"
+      - "tools/gen-badges.mjs"
       - ".github/workflows/contrib.yml"
 
 concurrency:
@@ -30,11 +31,15 @@ jobs:
       - name: Generate calendar, density and landscape panels
         run: node tools/gen-contrib.mjs
 
+      # Görüntülenme sayısı komarev'den okunup rozetlere yazılır; ağ yoksa eski sayı kalır.
+      - name: Refresh link and view badges
+        run: node tools/gen-badges.mjs
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contrib-*.svg assets/iso-*.svg assets/landscape-*.svg
+          git add assets/contrib-*.svg assets/iso-*.svg assets/landscape-*.svg assets/badge-*.svg
           git diff --staged --quiet && echo "no change" && exit 0
           git commit -m "chore: refresh contribution panels"
           git push

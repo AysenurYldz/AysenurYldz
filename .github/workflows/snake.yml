@@ -19,7 +19,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Lilac / dusty-pink ramp matching the rest of the profile.
+      # Kahve / bej sonbahar rampası — profilin geri kalanıyla aynı.
       # Light and dark variants; the README picks one with <picture>.
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -27,8 +27,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg?color_snake=%23A85A76&color_dots=%23F5EDF1,%23EBC9D8,%23DDA3BC,%23C97B94,%23A85A76
-            dist/snake-dark.svg?color_snake=%23E4A8BC&color_dots=%232A1F26,%236B4152,%23A85A76,%23C97B94,%23EBC9D8
+            dist/snake-light.svg?color_snake=%237A5240&color_dots=%23F3EEE8,%23E2CDB8,%23CFA984,%23A9785A,%237A5240
+            dist/snake-dark.svg?color_snake=%23E6C27A&color_dots=%232A221C,%234A3A2E,%237A5240,%23A9785A,%23E2CDB8
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

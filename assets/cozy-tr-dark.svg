@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Siyah kedi, latte ve sonbahar yaprakları">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B1612"/><stop offset="1" stop-color="#231C17"/></linearGradient>
+    <clipPath id="kart"><rect width="1000" height="230" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#kart)">
+    <rect width="1000" height="230" fill="url(#bg)"/>
+    <circle cx="880" cy="40" r="120" fill="#D9B46A" opacity="0.10"/>
+    <circle cx="120" cy="230" r="140" fill="#93AE8F" opacity="0.10"/>
+
+    <g transform="translate(90 0)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="11s" begin="0s" repeatCount="indefinite"/>
+    <g transform="rotate(20) scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" values="20;60;0;50" dur="11s" begin="0s" repeatCount="indefinite" additive="sum"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#D9967A" opacity="0.9"/>
+      <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+    </g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="11s" begin="0s" repeatCount="indefinite"/>
+  </g></g>
+    <g transform="translate(260 0)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="13s" begin="3s" repeatCount="indefinite"/>
+    <g transform="rotate(-30) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" values="-30;10;-50;0" dur="13s" begin="3s" repeatCount="indefinite" additive="sum"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#D9B46A" opacity="0.9"/>
+      <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+    </g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="13s" begin="3s" repeatCount="indefinite"/>
+  </g></g>
+    <g transform="translate(470 0)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="12s" begin="6s" repeatCount="indefinite"/>
+    <g transform="rotate(50) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" values="50;90;30;80" dur="12s" begin="6s" repeatCount="indefinite" additive="sum"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#93AE8F" opacity="0.9"/>
+      <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+    </g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="12s" begin="6s" repeatCount="indefinite"/>
+  </g></g>
+    <g transform="translate(780 0)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="14s" begin="1.5s" repeatCount="indefinite"/>
+    <g transform="rotate(-10) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" values="-10;30;-30;20" dur="14s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#C98B6F" opacity="0.9"/>
+      <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+    </g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="14s" begin="1.5s" repeatCount="indefinite"/>
+  </g></g>
+    <g transform="translate(930 0)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 -30; 18 60; -10 150; 12 230" dur="10s" begin="4.5s" repeatCount="indefinite"/>
+    <g transform="rotate(70) scale(0.85)">
+      <animateTransform attributeName="transform" type="rotate" values="70;110;50;100" dur="10s" begin="4.5s" repeatCount="indefinite" additive="sum"/>
+      <path d="M0 -10 C8 -6 9 4 0 10 C-9 4 -8 -6 0 -10 Z" fill="#B98A62" opacity="0.9"/>
+      <path d="M0 -9 L0 9" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+    </g>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="10s" begin="4.5s" repeatCount="indefinite"/>
+  </g></g>
+
+    <!-- masa -->
+    <rect x="0" y="196" width="1000" height="34" fill="#3A2F27"/>
+    <rect x="0" y="196" width="1000" height="2" fill="#B79C80" opacity="0.5"/>
+
+    <!-- kitaplar -->
+    <g transform="translate(560 150)">
+      <rect x="0" y="30" width="120" height="16" rx="3" fill="#7F9A7B"/>
+      <rect x="10" y="14" width="104" height="16" rx="3" fill="#B97F66"/>
+      <rect x="4" y="0" width="112" height="14" rx="3" fill="#C9A462"/>
+      <rect x="18" y="5" width="40" height="3" rx="1.5" fill="#FFFFFF" opacity="0.5"/>
+      <rect x="24" y="20" width="52" height="3" rx="1.5" fill="#FFFFFF" opacity="0.5"/>
+      <rect x="14" y="36" width="36" height="3" rx="1.5" fill="#FFFFFF" opacity="0.5"/>
+    </g>
+
+    <!-- latte -->
+    <g transform="translate(720 0)">
+      <path d="M52 118 C44 106 60 96 52 84 C44 72 58 64 52 54" fill="none" stroke="#7D6E62" stroke-width="3" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 6; 0 -10" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+    </path><path d="M68 118 C60 106 76 96 68 84 C60 72 74 64 68 54" fill="none" stroke="#7D6E62" stroke-width="3" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" dur="3.6s" begin="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 6; 0 -10" dur="3.6s" begin="1.2s" repeatCount="indefinite"/>
+    </path><path d="M84 118 C76 106 92 96 84 84 C76 72 90 64 84 54" fill="none" stroke="#7D6E62" stroke-width="3" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" dur="3.6s" begin="2.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 6; 0 -10" dur="3.6s" begin="2.4s" repeatCount="indefinite"/>
+    </path>
+      <path d="M118 140 C142 140 142 176 116 176" fill="none" stroke="#B79C80" stroke-width="7" stroke-linecap="round"/>
+      <path d="M26 126 L122 126 L114 192 C112 198 106 200 100 200 L48 200 C42 200 36 198 34 192 Z" fill="#EADCC9" stroke="#B79C80" stroke-width="2"/>
+      <ellipse cx="74" cy="127" rx="47" ry="9" fill="#9E714F"/>
+      <path d="M74 132 C66 124 58 128 62 133 C64 136 70 138 74 141 C78 138 84 136 86 133 C90 128 82 124 74 132 Z" fill="#E8D3B8"/>
+      <rect x="44" y="160" width="60" height="4" rx="2" fill="#B79C80" opacity="0.6"/>
+    </g>
+
+    <!-- siyah kedi -->
+    <g transform="translate(330 64)">
+      <!-- kuyruk: tabanından salınır -->
+      <g transform="translate(118 118)">
+        <g><path d="M0 0 C40 4 58 -20 46 -48 C40 -62 52 -70 60 -62" fill="none" stroke="#5A4A3E" stroke-width="19" stroke-linecap="round"/><path d="M0 0 C40 4 58 -20 46 -48 C40 -62 52 -70 60 -62" fill="none" stroke="#0F0C0A" stroke-width="14" stroke-linecap="round"/>
+          <animateTransform attributeName="transform" type="rotate" values="0;-9;0;7;0" dur="4.5s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <!-- gövde -->
+      <ellipse cx="80" cy="102" rx="62" ry="36" fill="#0F0C0A" stroke="#5A4A3E" stroke-width="2.5"/>
+      <path d="M40 82 C56 72 84 70 104 76" fill="none" stroke="#2A231E" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      <!-- patiler -->
+      <ellipse cx="40" cy="132" rx="15" ry="8" fill="#0F0C0A"/>
+      <ellipse cx="74" cy="134" rx="15" ry="8" fill="#0F0C0A"/>
+      <!-- baş -->
+      <g transform="translate(28 50)">
+        <path d="M-30 -14 L-22 -48 L-4 -26 Z" fill="#0F0C0A" stroke="#5A4A3E" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M30 -14 L22 -48 L4 -26 Z" fill="#0F0C0A" stroke="#5A4A3E" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M-22 -36 L-12 -26 L-20 -22 Z" fill="#E4A79E" opacity="0.55"/>
+        <path d="M22 -36 L12 -26 L20 -22 Z" fill="#E4A79E" opacity="0.55"/>
+        <circle cx="0" cy="0" r="38" fill="#0F0C0A" stroke="#5A4A3E" stroke-width="2.5"/>
+        <!-- gözler: ara ara kırpılır -->
+        <g>
+          <ellipse cx="-14" cy="-2" rx="7" ry="8.5" fill="#E9C77E"/>
+          <ellipse cx="14" cy="-2" rx="7" ry="8.5" fill="#E9C77E"/>
+          <ellipse cx="-14" cy="-1" rx="2.6" ry="6" fill="#0F0C0A"/>
+          <ellipse cx="14" cy="-1" rx="2.6" ry="6" fill="#0F0C0A"/>
+          <circle cx="-12" cy="-5" r="1.6" fill="#FFFFFF"/>
+          <circle cx="16" cy="-5" r="1.6" fill="#FFFFFF"/>
+          <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.08;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1" dur="5s" repeatCount="indefinite" additive="sum"/>
+        </g>
+        <path d="M-3 10 L3 10 L0 13.5 Z" fill="#E4A79E"/>
+        <path d="M0 13.5 C-2 17 -6 17 -8 15 M0 13.5 C2 17 6 17 8 15" fill="none" stroke="#A3968A" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="-22" cy="10" r="4.5" fill="#E4A79E" opacity="0.75"/>
+        <circle cx="22" cy="10" r="4.5" fill="#E4A79E" opacity="0.75"/>
+        <path d="M-26 6 L-46 2 M-26 11 L-46 13 M26 6 L46 2 M26 11 L46 13" stroke="#A3968A" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- altyazı -->
+    <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#A3968A">
+      <text x="48" y="92">kahve</text>
+      <text x="48" y="118">kedi</text>
+      <text x="48" y="144">kod</text>
+    </g>
+    <circle cx="36" cy="88" r="3.5" fill="#B98A62"/>
+    <circle cx="36" cy="114" r="3.5" fill="#D9967A"/>
+    <circle cx="36" cy="140" r="3.5" fill="#93AE8F"/>
+  </g>
+  <rect x="0.75" y="0.75" width="998.5" height="228.5" rx="18" fill="none" stroke="#33291F" stroke-width="1.5"/>
+</svg>

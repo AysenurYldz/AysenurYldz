@@ -28,9 +28,9 @@ const UA =
 // Beyaz kart, toz pembe ana renk. Rampa açıktan koyuya gider ki yoğunluk
 // sıralı bir ölçek olarak okunsun — beyaz zeminde ters yön işe yaramaz.
 const P = {
-  card: "#FFFFFF", edge: "#EFE2E8", ink: "#2E2430", faint: "#9C8C96",
-  accent: "#C97B94", sheen: "#2E2430", sheenA: 0.035, rim: "#F7EBF0", rimA: 1,
-  lv: ["#F5EDF1", "#EBC9D8", "#DDA3BC", "#C97B94", "#A85A76"],
+  card: "#FFFFFF", edge: "#ECE3DA", ink: "#2B211C", faint: "#97897F",
+  accent: "#A9785A", sheen: "#2B211C", sheenA: 0.035, rim: "#F5EEE7", rimA: 1,
+  lv: ["#F3EEE8", "#E2CDB8", "#CFA984", "#A9785A", "#7A5240"],
 };
 
 const L = {
@@ -156,9 +156,9 @@ const svg = (w, h, label, body, uid, extraDefs = "") =>
   `<defs>${defs(uid, w, h)}${extraDefs}</defs>${body.join("")}</svg>\n`;
 
 /** Panellerin ortak üst şeridi: dört büyük sayı + altlarında küçük etiket.
- *  rhythm panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
+ *  veri panelindeki dille birebir aynı — dört panel yan yana tek bir set gibi
  *  okunsun diye tipografi, sütun konumları ve renk sırası paylaşılıyor. */
-const STAT_COL = ["#A85A76", "#2E2430", "#9B72C4", "#5B93C4"];
+const STAT_COL = ["#7A5240", "#2B211C", "#C98B6F", "#7E9C7A"];
 const STAT_X = [26, 268, 510, 736];
 
 function statRow(vals, labels, W) {

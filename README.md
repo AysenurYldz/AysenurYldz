@@ -6,17 +6,21 @@
 
 <div align="center">
 
-[![English](https://img.shields.io/badge/🇬🇧_English-A85A76?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
-[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-EFE2E8?style=for-the-badge&labelColor=EFE2E8)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
+[![English](https://img.shields.io/badge/🇬🇧_English-7A5240?style=for-the-badge)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.md)
+[![Türkçe](https://img.shields.io/badge/🇹🇷_Türkçe-ECE3DA?style=for-the-badge&labelColor=ECE3DA)](https://github.com/AysenurYldz/AysenurYldz/blob/main/README.tr.md)
 
 </div>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-A85A76?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![Medium](https://img.shields.io/badge/Medium-C97B94?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@AysenurYldz)
-[![Portfolio](https://img.shields.io/badge/Portfolio-9B72C4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aysenuryldz.github.io/portfolio/)
-[![Email](https://img.shields.io/badge/Email-5B93C4?style=for-the-badge&logo=gmail&logoColor=2E2430)](mailto:aysenur.yildiz.2905@gmail.com)
+<a href="https://linkedin.com/in/aysenuryildizz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-linkedin-en-dark.svg" /><img src="./assets/badge-linkedin-en-light.svg" alt="LinkedIn — Ayşenur Yıldız" height="34" /></picture></a>
+<a href="https://medium.com/@AysenurYldz"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-medium-en-dark.svg" /><img src="./assets/badge-medium-en-light.svg" alt="Medium — @AysenurYldz" height="34" /></picture></a>
+<a href="mailto:aysenur.yildiz.2905@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-mail-en-dark.svg" /><img src="./assets/badge-mail-en-light.svg" alt="Email" height="34" /></picture></a>
+<a href="https://aysenuryldz.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-portfolio-en-dark.svg" /><img src="./assets/badge-portfolio-en-light.svg" alt="Portfolio" height="34" /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/badge-views-en-dark.svg" /><img src="./assets/badge-views-en-light.svg" alt="profile views" height="34" /></picture>
+
+<!-- The counter increases when a visitor loads this 1 px image; the badge number is refreshed daily by the workflow. -->
+<img src="https://komarev.com/ghpvc/?username=AysenurYldz&label=views" width="1" height="1" alt="" />
 
 </div>
 
@@ -33,7 +37,9 @@ I'm an **AI and Computer Engineer** specialising in image processing, natural la
 
 I'm doing my M.Sc. at **Bursa Technical University** while working at **Birsav Bilişim**, where I am **one of the company's two team leads**. I lead projects on both the AI side and the private-sector side: project planning, task allocation, technical decisions, client presentations and the AI work itself are all mine to run.
 
-On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. In smart-municipality systems I have parts I actively work on, particularly the **Biryerden** platform. Alongside this I run AI solutions end to end — OCR-based document analysis, anomaly detection and chatbot systems.
+On private- and public-sector projects I work as a **full stack developer**, building them from start to finish. With **Node.js, Next.js and Flutter** I work on municipal mobile applications, sports and facility systems, HR platforms, and community and entrepreneurship sites. On the smart-municipality platform **Biryerden** I build modules such as Council Affairs, Municipal Council, Executive Committee, Archive and Legal, as well as public-opinion and social-listening screens. On the AI side I run real-time detection in the field, document analysis, chatbots and anomaly detection end to end.
+
+Off the clock: a cup of coffee and, ideally, a black cat nearby. ☕🐈‍⬛
 
 </div>
 
@@ -42,11 +48,19 @@ role:      AI & Computer Engineer  ·  Full Stack Developer
 team:      one of two team leads @ Birsav Bilişim
 scope:     AI on every company project · private-sector projects end to end
 studying:  M.Sc. Computer Engineering, Bursa Technical University
-ai_work:   OCR document analysis · real-time detection · chatbots · anomaly detection
-product:   municipal mobile apps · sports systems · HR platforms · BirStok · community sites
+ai_work:   real-time detection · image forgery localization · super-resolution · OCR · chatbots · anomaly
+product:   municipal ERP modules · social listening · mobile apps · HR · BirStok · community sites
 tools:     Next.js · Node.js · Flutter · Docker · Triton · ONNX
+likes:     coffee · cats (black ones especially) · autumn
 open_to:   AI engineering roles, research collaboration, open source
 ```
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/data-en-dark.svg" />
+  <img src="./assets/data-en-light.svg" width="100%" alt="Real git data: languages, lines added and removed in the last year, commits, hour of day and day of week" />
+</picture>
 
 ---
 
@@ -72,12 +86,20 @@ I take an active role in software development for public- and private-sector cli
 | 🏭 **BirStok — warehouse & inventory** | A real-time digital inventory and warehouse platform that digitises industrial plate and product tracking. Every warehouse process is managed live. |
 | 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built with Next.js. |
 
----|---|
-| 📱 **Municipal mobile applications** | Cross-platform iOS and Android apps for city services, built with Flutter and backed by Node.js APIs |
-| 🏟️ **Municipal sports & facility systems** | Membership, booking and day-to-day operations for public sports facilities |
-| 👥 **HR systems for the private sector** | Employee records, internal processes and reporting for company human-resources teams |
-| 🌍 **Community & entrepreneurship platforms** | European-model collective venture and community sites, built on Next.js |
+---
 
+## 🍂 What I've been working on lately
+
+| | |
+|---|---|
+| 🗑️ **Littering detection in the field** | A YOLO11-based system that catches the moment of littering from a camera in real time: a six-class litter model, per-class thresholds, a live monitoring panel. New model versions are measured on real field footage; a version that loses the measurement never ships. |
+| 📚 **Smart library** | An image-processing pipeline that reads desk occupancy (occupied · away · free) from camera footage, plus the e-library screens built on it. |
+| 🛰️ **Super-resolution for map imagery** | ×4–×16 upscaling experiments on low-resolution map mosaics: classical methods, Real-ESRGAN / RealESRNet and back-projection refinement, compared side by side in a georeferenced viewer. |
+| 📰 **Public opinion & social listening** | A management dashboard that collects news and social media, classifies topic and sentiment and raises crisis alerts, with a separate report screen for local election results and published polls. |
+| 🏛️ **Municipal ERP modules** | Council Affairs, Municipal Council, Executive Committee, Archive, Legal and Private Office modules on Biryerden, with clause-by-clause feature parity against the relevant legislation and the previous system. |
+| ⚖️ **Corpus architecture for legal AI** | Planning a "card first, full text later" architecture for a legal assistant over millions of decisions and statutes: sources split by branch and topic, with a summary-and-keyword card for every document. |
+| 🎓 **M.Sc. thesis** | Deep learning models that localize image forgeries, with ablation studies and comparison against the literature. |
+| 📝 **R&D and funding applications** | Project applications, budgets and usage plans for AI-driven products, and product presentations. |
 
 ---
 
@@ -94,10 +116,10 @@ I work across all four stages. In practice most of the difficulty sits between t
 ## ⚡ Currently
 
 - 🧭 One of the two team leads at **Birsav Bilişim**. Project planning, task allocation, technical decisions and client presentations are processes I run directly
-- 🧠 Leading the AI side of our projects end to end: OCR-based document analysis, citizen-facing chatbot systems, anomaly detection and tracking
+- 🧠 Leading the AI side of our projects end to end: real-time detection in the field, OCR-based document analysis, citizen-facing chatbot systems, anomaly detection
 - 💻 Not only AI — I also do full stack development from start to finish on private- and public-sector projects
 - 🏛️ Among the platforms in production that I have worked on is **Biryerden**, a smart-municipality product
-- 🎓 Researching deep learning and computer vision in my M.Sc. at **Bursa Technical University**
+- 🎓 Working on deep learning models that localize image forgeries for my M.Sc. thesis at **Bursa Technical University**
 - ✍️ Publishing articles about AI on [Medium](https://medium.com/@AysenurYldz), to share what I run into in practice and in research
 
 ---
@@ -105,6 +127,11 @@ I work across all four stages. In practice most of the difficulty sits between t
 <div align="center">
   <img src="./assets/focus.svg" alt="Focus areas: Applied AI, Full Stack Engineering, Ship to Production" width="100%" />
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cozy-en-dark.svg" />
+  <img src="./assets/cozy-en-light.svg" width="100%" alt="A black cat, a latte and falling autumn leaves — coffee, cats, code" />
+</picture>
 
 ---
 
@@ -147,40 +174,40 @@ I was the AI developer on a YOLO-based model that automatically detects six diff
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-A85A76?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-B3607C?style=for-the-badge&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C/C++-BE6E88?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-C97B94?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-9E5170?style=for-the-badge&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-7A5240?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-8B5E45?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C/C++-A0704F?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-A9785A?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-6F4A36?style=for-the-badge&logo=javascript&logoColor=white)
 
 **AI / Machine Learning**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-B3607C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-A85A76?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-BE6E88?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-C97B94?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-A85A76?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-8C5F9E?style=for-the-badge&logo=yolo&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-9B72C4?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-7E5C96?style=for-the-badge&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-8B5E45?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-7A5240?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-A0704F?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-A9785A?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-7A5240?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-B07A5E?style=for-the-badge&logo=yolo&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-C98B6F?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-A86F55?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Web & Mobile**
 
-![Next.js](https://img.shields.io/badge/Next.js-9B72C4?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-6E7FA8?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-5B93C4?style=for-the-badge&logo=flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-6E9FC4?style=for-the-badge&logo=flutter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-7FAAD0?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-88A6C8?style=for-the-badge&logo=css3&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-C98B6F?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-8AA084?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-7E9C7A?style=for-the-badge&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-9CB495?style=for-the-badge&logo=flutter&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-AFC4A8?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-B6C8AF?style=for-the-badge&logo=css3&logoColor=white)
 
 **Infrastructure & MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-5B93C4?style=for-the-badge&logo=docker&logoColor=2E2430)
-![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-6E9FC4?style=for-the-badge&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-5B93C4?style=for-the-badge&logo=onnx&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-4F82AE?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-C97B94?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Git](https://img.shields.io/badge/Git-A85A76?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-7E9C7A?style=for-the-badge&logo=docker&logoColor=2B211C)
+![NVIDIA Triton](https://img.shields.io/badge/NVIDIA_Triton-9CB495?style=for-the-badge&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-7E9C7A?style=for-the-badge&logo=onnx&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-6F8C6A?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-A9785A?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Git](https://img.shields.io/badge/Git-7A5240?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -271,7 +298,7 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 
 ## 📊 Activity
 
-<img src="./assets/rhythm-en.svg" width="100%" alt="Working rhythm: commits by hour of day and day of week" />
+<img src="./assets/contrib-en.svg" width="100%" alt="Contribution calendar: last year, longest and current streak, active days" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AysenurYldz/AysenurYldz/output/snake-dark.svg" />
@@ -282,9 +309,9 @@ Publisher and consumer messaging in Python, the pattern I use when services need
 
 <div align="center">
 
-![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=A85A76&labelColor=FFFFFF&logo=github&logoColor=white)
-![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-9B72C4?style=for-the-badge&labelColor=FFFFFF)
-![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-5B93C4?style=for-the-badge&labelColor=FFFFFF)
+![Followers](https://img.shields.io/github/followers/AysenurYldz?style=for-the-badge&color=7A5240&labelColor=FFFFFF&logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/focus-computer_vision_&_full_stack-C98B6F?style=for-the-badge&labelColor=FFFFFF)
+![Location](https://img.shields.io/badge/based_in-Bursa,_Türkiye-7E9C7A?style=for-the-badge&labelColor=FFFFFF)
 
 </div>
 
@@ -316,9 +343,9 @@ Earlier in my career I worked as an SEO Engineer at **Gini Talent**, developing 
 
 I'm open to AI engineering roles, research collaboration and open source work.
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-A85A76?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
-[![Email](https://img.shields.io/badge/Send_an_email-9B72C4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
-[![Portfolio](https://img.shields.io/badge/See_the_portfolio-5B93C4?style=for-the-badge&logo=googlechrome&logoColor=2E2430)](https://aysenuryldz.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-7A5240?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aysenuryildizz)
+[![Email](https://img.shields.io/badge/Send_an_email-C98B6F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aysenur.yildiz.2905@gmail.com)
+[![Portfolio](https://img.shields.io/badge/See_the_portfolio-7E9C7A?style=for-the-badge&logo=googlechrome&logoColor=2B211C)](https://aysenuryldz.github.io/portfolio/)
 
 <br>
 

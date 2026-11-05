@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177" height="34" viewBox="0 0 177 34" role="img" aria-label="@AysenurYldz">
+  <rect x="0.75" y="0.75" width="175.5" height="32.5" rx="9" fill="#FFFFFF" stroke="#E6DACD" stroke-width="1.5"/>
+  <path d="M9.75 0.75 H44 V33.25 H9.75 A9 9 0 0 1 0.75 24.25 V9.75 A9 9 0 0 1 9.75 0.75 Z" fill="#EFE4D6"/>
+  <line x1="44" y1="1" x2="44" y2="33" stroke="#E6DACD" stroke-width="1.2"/>
+  <g transform="translate(12 7)"><circle cx="6.5" cy="10" r="4.5" fill="#2B211C"/><ellipse cx="13.6" cy="10" rx="2.3" ry="4.3" fill="#2B211C"/><ellipse cx="17.6" cy="10" rx="0.9" ry="3.9" fill="#2B211C"/></g>
+  <text x="58" y="22" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#2B211C">@AysenurYldz</text>
+  
+</svg>

@@ -29,8 +29,8 @@
 </linearGradient>
 <mask id="sb-mask"><rect width="1000" height="72" fill="url(#sb-fade)"/></mask>
 <linearGradient id="sb-sheen" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#2E2430" stop-opacity="0"/><stop offset="45%" stop-color="#2E2430" stop-opacity="0.045"/>
-<stop offset="55%" stop-color="#2E2430" stop-opacity="0.045"/><stop offset="100%" stop-color="#2E2430" stop-opacity="0"/>
+<stop offset="0%" stop-color="#2B211C" stop-opacity="0"/><stop offset="45%" stop-color="#2B211C" stop-opacity="0.045"/>
+<stop offset="55%" stop-color="#2B211C" stop-opacity="0.045"/><stop offset="100%" stop-color="#2B211C" stop-opacity="0"/>
 </linearGradient>
 <style>
 .sb-run{animation:sb-slide 44s linear infinite}
@@ -45,5 +45,5 @@
 </g>
 <g clip-path="url(#sb-clip)"><rect x="-420" y="-72" width="300" height="216" fill="url(#sb-sheen)" transform="skewX(-16)">
 <animate attributeName="x" values="-420;-420;1260;1260" keyTimes="0;0.25;0.72;1" dur="19s" repeatCount="indefinite"/></rect></g>
-<rect x="0.7" y="0.7" width="998.6" height="70.6" rx="10" fill="none" stroke="#EFE2E8" stroke-width="1.4"/>
+<rect x="0.7" y="0.7" width="998.6" height="70.6" rx="10" fill="none" stroke="#ECE3DA" stroke-width="1.4"/>
 </svg>
