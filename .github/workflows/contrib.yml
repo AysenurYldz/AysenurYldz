@@ -44,4 +44,6 @@ jobs:
           git add assets/contrib-*.svg assets/iso-*.svg assets/landscape-*.svg assets/cat-*.svg assets/badge-*.svg
           git diff --staged --quiet && echo "no change" && exit 0
           git commit -m "chore: refresh contribution panels"
+          # Aynı anda başka bir gönderim olduysa önce onu al; çakışmada yeni üretilen paneller esas.
+          git pull --rebase -X theirs origin main
           git push
