@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="329" viewBox="0 0 1000 329" role="img" aria-label="3,884 contributions in the last year, longest streak 7 days, current streak 0 days">
-<title>3,884 contributions in the last year, longest streak 7 days, current streak 0 days</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="329" viewBox="0 0 1000 329" role="img" aria-label="4,374 contributions in the last year, longest streak 10 days, current streak 10 days">
+<title>4,374 contributions in the last year, longest streak 10 days, current streak 10 days</title>
 <rect x="0.75" y="0.75" width="998.5" height="327.5" rx="16" fill="#FFFFFF" stroke="#E3E7EE" stroke-width="1.5"/>
 <text x="32" y="36" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" letter-spacing="2.2" fill="#8E99A8">CONTRIBUTION CALENDAR</text>
-<text x="32" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#5E9396">3,884</text>
+<text x="32" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#5E9396">4,374</text>
 <text x="33" y="106" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="1.4" fill="#8E99A8">in the last year</text>
-<text x="272" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#2F3A4A">7 d</text>
+<text x="272" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#2F3A4A">10 d</text>
 <text x="273" y="106" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="1.4" fill="#8E99A8">longest streak</text>
-<text x="512" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#F2A897">0 d</text>
+<text x="512" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#F2A897">10 d</text>
 <text x="513" y="106" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="1.4" fill="#8E99A8">current streak</text>
-<text x="752" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#9EC5CF">51</text>
+<text x="752" y="86" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="30" font-weight="700" fill="#9EC5CF">54</text>
 <text x="753" y="106" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" letter-spacing="1.4" fill="#8E99A8">active days</text>
 <line x1="32" y1="124" x2="968" y2="124" stroke="#E9EDF2" stroke-width="1.2"/>
 <text x="154" y="156" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#8E99A8">Dec</text>
@@ -485,15 +485,21 @@
 <rect x="874" y="211" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-11: 299</title></rect>
 <rect x="874" y="211" width="12" height="12" rx="3" fill="#3E6F73"><title>2026-11-11: 299</title>
   <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.80704;0.81004;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
-<rect x="874" y="226" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-12: 105</title></rect>
-<rect x="874" y="226" width="12" height="12" rx="3" fill="#7DB1BA"><title>2026-11-12: 105</title>
+<rect x="874" y="226" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-12: 164</title></rect>
+<rect x="874" y="226" width="12" height="12" rx="3" fill="#5E9396"><title>2026-11-12: 164</title>
   <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.7995;0.8025;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
-<rect x="874" y="241" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-13: 94</title></rect>
-<rect x="874" y="241" width="12" height="12" rx="3" fill="#7DB1BA"><title>2026-11-13: 94</title>
+<rect x="874" y="241" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-13: 98</title></rect>
+<rect x="874" y="241" width="12" height="12" rx="3" fill="#7DB1BA"><title>2026-11-13: 98</title>
   <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.79196;0.79496;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
-<rect x="874" y="256" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-14: 0</title></rect>
-<rect x="889" y="166" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-15: 0</title></rect>
-<rect x="889" y="181" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-16: 0</title></rect>
+<rect x="874" y="256" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-14: 59</title></rect>
+<rect x="874" y="256" width="12" height="12" rx="3" fill="#A9CCD4"><title>2026-11-14: 59</title>
+  <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.78442;0.78742;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
+<rect x="889" y="166" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-15: 86</title></rect>
+<rect x="889" y="166" width="12" height="12" rx="3" fill="#7DB1BA"><title>2026-11-15: 86</title>
+  <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.83719;0.84019;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
+<rect x="889" y="181" width="12" height="12" rx="3" fill="#EEF1F5"><title>2026-11-16: 282</title></rect>
+<rect x="889" y="181" width="12" height="12" rx="3" fill="#3E6F73"><title>2026-11-16: 282</title>
+  <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.84472;0.84772;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/></rect>
 <text x="109" y="297" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#8E99A8">less</text>
 <rect x="137" y="287" width="12" height="12" rx="3" fill="#EEF1F5"/>
 <rect x="153" y="287" width="12" height="12" rx="3" fill="#A9CCD4"/>
@@ -507,7 +513,7 @@
     <path d="M925 266 V257 A7 7 0 0 1 939 257 V266 Z" fill="#2F3A4A"/>
     <line x1="910" y1="266.5" x2="954" y2="266.5" stroke="#8897AA" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
   </g>
-<g><animateTransform attributeName="transform" type="translate" values="99 176;415 176;415 221;640 221;640 206;640 191;700 191;700 251;700 236;700 221;700 206;700 191;745 191;745 206;745 221;745 236;745 251;760 251;760 236;760 221;760 206;760 191;775 191;775 206;775 221;775 236;775 251;790 251;790 236;790 191;805 191;820 191;820 251;820 236;820 221;820 206;835 206;835 191;835 206;835 221;835 236;835 251;850 251;850 221;850 206;850 191;865 191;865 176;865 191;865 206;865 221;865 236;865 266;880 266;880 251;880 236;880 221;880 206;880 191;880 176;930 176;930 266;930 266;99 176" keyTimes="0;0.15879;0.18141;0.29447;0.30201;0.30955;0.3397;0.36985;0.37739;0.38492;0.39246;0.4;0.42261;0.43015;0.43769;0.44523;0.45276;0.4603;0.46784;0.47538;0.48291;0.49045;0.49799;0.50553;0.51307;0.5206;0.52814;0.53568;0.54322;0.56583;0.57337;0.5809;0.61106;0.61859;0.62613;0.63367;0.64121;0.64874;0.65628;0.66382;0.67136;0.67889;0.68643;0.70151;0.70905;0.71658;0.72412;0.73166;0.7392;0.74673;0.75427;0.76181;0.77688;0.78442;0.79196;0.7995;0.80704;0.81457;0.82211;0.82965;0.85477;0.9;0.99;1" dur="25.585714285714285s" calcMode="linear" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" values="99 176;415 176;415 221;640 221;640 206;640 191;700 191;700 251;700 236;700 221;700 206;700 191;745 191;745 206;745 221;745 236;745 251;760 251;760 236;760 221;760 206;760 191;775 191;775 206;775 221;775 236;775 251;790 251;790 236;790 191;805 191;820 191;820 251;820 236;820 221;820 206;835 206;835 191;835 206;835 221;835 236;835 251;850 251;850 221;850 206;850 191;865 191;865 176;865 191;865 206;865 221;865 236;865 266;880 266;880 251;880 236;880 221;880 206;880 191;880 176;895 176;895 191;930 191;930 266;930 266;99 176" keyTimes="0;0.15879;0.18141;0.29447;0.30201;0.30955;0.3397;0.36985;0.37739;0.38492;0.39246;0.4;0.42261;0.43015;0.43769;0.44523;0.45276;0.4603;0.46784;0.47538;0.48291;0.49045;0.49799;0.50553;0.51307;0.5206;0.52814;0.53568;0.54322;0.56583;0.57337;0.5809;0.61106;0.61859;0.62613;0.63367;0.64121;0.64874;0.65628;0.66382;0.67136;0.67889;0.68643;0.70151;0.70905;0.71658;0.72412;0.73166;0.7392;0.74673;0.75427;0.76181;0.77688;0.78442;0.79196;0.7995;0.80704;0.81457;0.82211;0.82965;0.83719;0.84472;0.86231;0.9;0.99;1" dur="25.585714285714285s" calcMode="linear" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.9;0.92;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/><g class="yuru">
     <line x1="-1.6" y1="-8" x2="-1.6" y2="0" stroke="#3A4657" stroke-width="2.6" stroke-linecap="round">
       <animateTransform attributeName="transform" type="rotate" values="-18 -1.6 -8;18 -1.6 -8;-18 -1.6 -8" dur="0.5s" begin="0s" repeatCount="indefinite"/></line><line x1="1.6" y1="-8" x2="1.6" y2="0" stroke="#3A4657" stroke-width="2.6" stroke-linecap="round">
@@ -525,7 +531,7 @@
       <path d="M-6 0 H6 L4.6 8 H-4.6 Z" fill="#FBF3E2"/>
       <g clip-path="url(#sepet-ic-l)">
         <rect x="-6" y="8" width="12" height="8" fill="#5E9396">
-          <animate attributeName="y" values="8;7.843;7.686;7.529;7.373;7.216;7.059;6.902;6.745;6.588;6.431;6.275;6.118;5.961;5.804;5.647;5.49;5.333;5.176;5.02;4.863;4.706;4.549;4.392;4.235;4.078;3.922;3.765;3.608;3.451;3.294;3.137;2.98;2.824;2.667;2.51;2.353;2.196;2.039;1.882;1.725;1.569;1.412;1.255;1.098;0.941;0.784;0.627;0.471;0.314;0.157;0;0;8" keyTimes="0;0.18141;0.30201;0.30955;0.36985;0.37739;0.38492;0.39246;0.4;0.42261;0.43015;0.43769;0.44523;0.45276;0.4603;0.46784;0.47538;0.48291;0.49045;0.50553;0.51307;0.5206;0.52814;0.53568;0.54322;0.56583;0.57337;0.61106;0.61859;0.62613;0.63367;0.64874;0.65628;0.66382;0.67136;0.67889;0.68643;0.70151;0.70905;0.71658;0.73166;0.7392;0.74673;0.75427;0.76181;0.77688;0.79196;0.7995;0.80704;0.81457;0.82211;0.82965;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="8;7.852;7.704;7.556;7.407;7.259;7.111;6.963;6.815;6.667;6.519;6.37;6.222;6.074;5.926;5.778;5.63;5.481;5.333;5.185;5.037;4.889;4.741;4.593;4.444;4.296;4.148;4;3.852;3.704;3.556;3.407;3.259;3.111;2.963;2.815;2.667;2.519;2.37;2.222;2.074;1.926;1.778;1.63;1.481;1.333;1.185;1.037;0.889;0.741;0.593;0.444;0.296;0.148;0;0;8" keyTimes="0;0.18141;0.30201;0.30955;0.36985;0.37739;0.38492;0.39246;0.4;0.42261;0.43015;0.43769;0.44523;0.45276;0.4603;0.46784;0.47538;0.48291;0.49045;0.50553;0.51307;0.5206;0.52814;0.53568;0.54322;0.56583;0.57337;0.61106;0.61859;0.62613;0.63367;0.64874;0.65628;0.66382;0.67136;0.67889;0.68643;0.70151;0.70905;0.71658;0.73166;0.7392;0.74673;0.75427;0.76181;0.77688;0.78442;0.79196;0.7995;0.80704;0.81457;0.82211;0.82965;0.83719;0.84472;0.99;1" dur="25.585714285714285s" repeatCount="indefinite"/>
         </rect>
       </g>
       <path d="M-6 0 H6 L4.6 8 H-4.6 Z" fill="none" stroke="#C99A3E" stroke-width="1.2" stroke-linejoin="round"/>
